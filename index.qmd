@@ -1,0 +1,8 @@
+---
+listing:
+  sort: "date desc"
+  categories: true
+  type: grid
+  exclude:
+    title: "About"
+---
