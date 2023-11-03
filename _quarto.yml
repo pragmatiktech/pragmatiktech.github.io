@@ -43,7 +43,7 @@ format:
       \usepackage{fancyhdr}
       \pagestyle{fancy}
       \fancyhf{}
-      \renewcommand{\footrulewidth}{1pt}
+      \renewcommand{\footrulewidth}{0.2mm}
       \fancyfoot[L]{\copyright\ 2023, PFactor.io}
       \fancyfoot[R]{\thepage}
       \fancyfoot[C]{\href{http://creativecommons.org/licenses/by-nc-sa/4.0/}{CC BY-NC-SA 4.0}}
