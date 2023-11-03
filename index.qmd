@@ -6,4 +6,6 @@ listing:
   max-items: 10
   exclude:
     title: "About"
+format:
+  html: default
 ---

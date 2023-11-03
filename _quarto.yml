@@ -36,6 +36,16 @@ format:
     theme: zephyr
     css: styles.css
     toc: true
-
+  pdf: 
+    number-sections: false
+    shift-heading-level-by: -1
+    header-includes: |
+      \usepackage{fancyhdr}
+      \pagestyle{fancy}
+      \fancyhf{}
+      \renewcommand{\footrulewidth}{1pt}
+      \fancyfoot[L]{\copyright\ 2023, PFactor.io}
+      \fancyfoot[R]{\thepage}
+      \fancyfoot[C]{\href{http://creativecommons.org/licenses/by-nc-sa/4.0/}{CC BY-NC-SA 4.0}}
 
 
