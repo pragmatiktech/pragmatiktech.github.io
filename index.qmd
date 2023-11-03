@@ -2,7 +2,8 @@
 listing:
   sort: "date desc"
   categories: true
-  type: grid
+  type: default
+  max-items: 10
   exclude:
     title: "About"
 ---

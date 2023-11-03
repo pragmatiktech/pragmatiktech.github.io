@@ -5,6 +5,7 @@ project:
 
 website:
   title: "PFactor.io"
+  back-to-top-navigation: true
   navbar:
     logo-href: /
     left:
@@ -23,6 +24,12 @@ website:
           - auto: "private-pilot/lesson-plans"
     background: light
     collapse-level: 2
+  page-footer: 
+    left: "Copyright &copy; 2023, PFactor.io"
+    center: "Shared under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/) License"
+    right:
+      - icon: facebook
+        href: https://facebook.com/pfactor.io
 
 format:
   html:

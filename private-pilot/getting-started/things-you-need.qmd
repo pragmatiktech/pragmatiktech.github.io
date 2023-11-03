@@ -1,7 +1,7 @@
 ---
 title: Things you Need
 author: Charath Ranganathan
-date: 2020-03-07
+date: 2023-11-03
 categories:
   - Getting Started
   - Private Pilot
@@ -16,13 +16,21 @@ Here is a list of items that I recommend for students working on their private p
 
 ### Pilot Log Book
 
-This is where you will maintain details of your flights, endorsements that you earn during the course of your study, and ongoing endorsements after you get your private pilot. There are a number of log books available on the market, but I recommend the [Gleim Pilot Log Book](https://www.mypilotstore.com/MyPilotStore/sep/12415). It contains columns for most entries that you will need well past your private pilot's license as well as the newer endorsements for TSA, etc. At under $10, it's a good buy and will serve as a reminder of the wonderful memories that you create in your aviation career.
+This is where you will maintain details of your flights, endorsements that you earn during the course of your study, and ongoing endorsements after you get your private pilot. There are a number of log books available on the market. 
+
+I recommend the [Gleim Pilot Log Book](https://www.mypilotstore.com/MyPilotStore/sep/12415). 
+
+It contains columns for most entries that you will need well past your private pilot's license as well as the newer endorsements for TSA, etc. At under $10, it's a good buy and will serve as a reminder of the wonderful memories that you create in your aviation career.
 
 ### Headset
 
-I have one headset that students can borrow for the first few lessons, but I strongly suggest that you invest in a good headset for your training and beyond. Headsets run the gamut of rates from the really inexpensive (under $100) "student" headsets to mid-range headsets (around $400) to the top-of-the-line active noise canceling headsets ($800 - $1,300).
+I have one headset that students can borrow for the first one or two lessons, but I strongly suggest that you invest in a good headset for your training and beyond. Headsets run the gamut of rates from the really inexpensive (under $100) "student" headsets to mid-range headsets (around $400) to the top-of-the-line active noise canceling headsets ($800 - $1,300).
     
-My personal favorite is the [Bose A30](https://www.mypilotstore.com/mypilotstore/sep/14827), but at $1,299, it is the most expensive headset out there. Another good option for an active noise canceling headset is the [Lightspeed Zulu 3](https://mypilotstore.com/mypilotstore/sep/11329). If you're looking for something a little more "mid-range", you could purchase a passive noise canceling headset such as the [David Clark H10-13S](https://www.mypilotstore.com/mypilotstore/sep/1028), which retails for a more wallet-friendly $360.
+My personal favorite is the [Bose A30](https://www.mypilotstore.com/mypilotstore/sep/14827), but at $1,299, it is the most expensive headset out there. 
+
+Another good option for an active noise canceling headset is the [Lightspeed Zulu 3](https://mypilotstore.com/mypilotstore/sep/11329). 
+
+If you're looking for something a little more "mid-range", you could purchase a passive noise canceling headset such as the [David Clark H10-13S](https://www.mypilotstore.com/mypilotstore/sep/1028), which retails for a more wallet-friendly $360.
 
 I have found that among pilots, headsets are like religions -- you'll find the "Bose camp" and the "Lightspeed camp". So, pick one that works for you and use it for your training.
 
