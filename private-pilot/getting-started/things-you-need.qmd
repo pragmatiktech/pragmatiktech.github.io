@@ -7,7 +7,7 @@ categories:
   - Private Pilot
 image: /static/images/private-pilot/things-you-need.jpg
 description: There are many things you need during your flight training. Here is a list of most of them.
-order: 2
+order: 3
 ---
 
 ![](/static/images/private-pilot/things-you-need.jpg)

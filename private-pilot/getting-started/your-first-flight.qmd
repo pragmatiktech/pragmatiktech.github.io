@@ -7,7 +7,7 @@ categories:
   - Private Pilot
   - Getting Started
 image: /static/images/private-pilot/your-first-flight.jpg
-order: 1
+order: 2
 ---
 ![](/static/images/private-pilot/your-first-flight.jpg)
 
