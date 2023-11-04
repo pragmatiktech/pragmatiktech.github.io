@@ -7,6 +7,7 @@ website:
   title: "PFactor.io"
   site-url: https://pfactor.io
   back-to-top-navigation: true
+  favicon: /static/images/favicon.ico
   navbar:
     title: false
     logo: /static/images/PFactor-Logo-Header.jpg
