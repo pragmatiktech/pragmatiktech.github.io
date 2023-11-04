@@ -5,7 +5,7 @@ project:
 
 website:
   title: "PFactor.io"
-  site-url: https://pfactor.io/
+  site-url: https://pfactor.io
   back-to-top-navigation: true
   navbar:
     logo-href: /
@@ -35,7 +35,6 @@ format:
     css: styles.css
     toc: true
     link-external-newwindow: true
-    link-external-filter: ^(?:http:|https:)\/\/pfactor\.io\/custom
   pdf: 
     number-sections: false
     shift-heading-level-by: -1
