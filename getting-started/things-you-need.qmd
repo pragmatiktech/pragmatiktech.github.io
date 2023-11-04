@@ -6,11 +6,11 @@ date: 2023-11-03
 categories:
   - Getting Started
   - Private Pilot
-image: /static/images/private-pilot/things-you-need.jpg
+image: /static/images/getting-started/things-you-need.jpg
 order: 3
 ---
 
-![](/static/images/private-pilot/things-you-need.jpg)
+![](/static/images/getting-started/things-you-need.jpg)
 
 Here is a list of items that I recommend for students working on their private pilot's license.
 
