@@ -24,6 +24,9 @@ website:
       - section: "Private Pilot"
         contents: 
           - auto: private-pilot/*
+      - section: "Resources"
+        contents:
+          - auto: resources/*
     collapse-level: 1
   page-footer: 
     left: "Copyright &copy; 2023, PFactor.io"
