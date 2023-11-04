@@ -1,1 +1,67 @@
 /* css styles */
+body {
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	letter-spacing: normal;
+}
+
+.listing-title {
+	font-size: 1.2rem;
+	color: black;
+}
+
+.listing-subtitle {
+	font-size: 0.9rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+
+.quarto-grid-item .listing-categories .listing-category {
+	font-size: 0.85rem;
+}
+
+.quarto-title .quarto-categories .quarto-category a {
+	font-size: 1.2em;
+}
+
+.quarto-title p.subtitle {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+
+.callout.callout-style-default > div.callout-header {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+a.sidebar-item-text.sidebar-link.text-start {
+	font-size: 1.0rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+}
+
+.navbar-logo {
+	max-height: 50px;
+}
+
+.navbar-title {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	font-size: 2em;
+}
+
+@media print {
+	#quarto-header {
+		visibility: hidden !important;
+		display: none !important;
+	}
+
+	/* main#quarto-document-content.content {
+		overflow: visible;
+	} */
+}
