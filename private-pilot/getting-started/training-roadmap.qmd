@@ -1,8 +1,8 @@
 ---
 title: "Training Roadmap"
+subtitle: "Your journey to becoming a private pilot"
 date: 2023-11-03
 author: Charath Ranganathan
-description: If you have wondered what it takes to obtain a Private Pilot certificate in the United States, this post is for you. I discuss how I approach flight training and describe a phased approach to help you achieve your dream.  
 categories:
   - Private Pilot
   - Getting Started
@@ -10,6 +10,10 @@ image: /static/images/private-pilot/training-roadmap.jpg
 order: 1
 ---
 ![](/static/images/private-pilot/training-roadmap.jpg)
+
+:::{.hero}
+TEST
+:::
 
 Congratulations! You've decided to follow your dreams and get your Private Pilot certificate. You've probably contacted a nearby flight school or CFI at your local airfield. And, you might have even discussed rates, taken a demo flight, and started planning for your training.
 

@@ -1,5 +1,6 @@
 ---
 title: Things you Need
+subtitle: "Essentials, and more..."
 author: Charath Ranganathan
 date: 2023-11-03
 categories:
@@ -14,7 +15,7 @@ order: 3
 
 Here is a list of items that I recommend for students working on their private pilot's license.
 
-### Pilot Log Book
+## Pilot Log Book
 
 This is where you will maintain details of your flights, endorsements that you earn during the course of your study, and ongoing endorsements after you get your private pilot. There are a number of log books available on the market. 
 
@@ -22,7 +23,7 @@ I recommend the [Gleim Pilot Log Book](https://www.mypilotstore.com/MyPilotStore
 
 It contains columns for most entries that you will need well past your private pilot's license as well as the newer endorsements for TSA, etc. At under $10, it's a good buy and will serve as a reminder of the wonderful memories that you create in your aviation career.
 
-### Headset
+## Headset
 
 I have one headset that students can borrow for the first one or two lessons, but I strongly suggest that you invest in a good headset for your training and beyond. Headsets run the gamut of rates from the really inexpensive (under $100) "student" headsets to mid-range headsets (around $400) to the top-of-the-line active noise canceling headsets ($800 - $1,300).
     
@@ -38,14 +39,14 @@ I have found that among pilots, headsets are like religions -- you'll find the "
 When ordering a headset, make sure you order one with **dual GA plugs** or **fixed-wing, 2 plug, battery powered**. Check with your instructor if you have any questions.
 :::
     
-### Kneeboard
+## Kneeboard
 
 All pilots need a way to quickly jot down weather information, taxi instructions, and other notes, in addition to storing charts and other papers. A good [kneeboard](https://www.mypilotstore.com/mypilotstore/sep/526) is a worthwhile investment -- one that will last you a long time in your aviation career
 
-### Flight Bag
+## Flight Bag
 You will need a way to carry all your charts, headset, and other supplies to the airport and to store them safely while in flight. A good flight bag is a must. Flight bags can be as basic as a backpack that you already own or as fancy as commercially sold flight bags. While this is ultimately a matter of choice, find something that's small enough to fit on the seat behind you, and has enough pockets so that you can easily access items while in flight.
 
-### Charts
+## Charts
 
 Before your fourth or fifth lesson, you should plan on picking up a current [Los Angeles Terminal Area Chart](https://www.mypilotstore.com/mypilotstore/sep/78). These charts are updated twice a year. As you progress in your training, you will need a [Los Angeles Sectional Chart](https://www.mypilotstore.com/mypilotstore/sep/30) as well.
     
@@ -63,13 +64,13 @@ EFBs have become the _de facto_ standard in the industry. Since you will be usin
 If you are using Foreflight, all charts and chart supplements can be directly downloaded to your iPad in Foreflight and will be updated when they are updated by the FAA.
 :::
 
-### E6B Flight Computer and Navigation Plotter
+## E6B Flight Computer and Navigation Plotter
 
 When you get closer to planning longer flights (called "cross-country" flights), you will require an [E6B flight computer](https://www.mypilotstore.com/MyPilotStore/sep/2067) and a [navigation plotter](https://www.mypilotstore.com/mypilotstore/sep/516). 
 
 The E6B is a super cool circular slide rule that every pilot possesses. I include an interactive web-based E6B for practice (not for navigation) [here](https://mediafiles.aero.und.edu/aero.und.edu/aviation/trainers/e6b/?q=sliderule) and [here](https://mediafiles.aero.und.edu/aero.und.edu/aviation/trainers/e6b/?q=wind).
 
-### Flashlight and Headlamp
+## Flashlight and Headlamp
 
 As your training progresses, and you start to fly at night, you will need at least one good [flashlight](https://www.amazon.com/COAST-PX20-Color-Lumen-Flashlight/dp/B005NXPVKS/ref=sr_1_5?crid=1LKDQFKCR3D2W&keywords=dual+color+flashlight&qid=1698899000&sprefix=dual+color+flashlight%2Caps%2C205&sr=8-5) and a [headlamp](https://www.amazon.com/COAST-Lumen-Focusing-Headlamp-Reflective/dp/B01BD4HE6E/ref=sr_1_6?crid=37N6K85JT2BKZ&keywords=dual+color+headlamp&qid=1698899223&sprefix=dual+color+headlamp%2Caps%2C189&sr=8-6). In both cases, you will need one that has a **red light** in addition to the white since the eyes are less sensitive to red light at night.
 

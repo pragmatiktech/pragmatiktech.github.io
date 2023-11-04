@@ -8,13 +8,9 @@ website:
   back-to-top-navigation: true
   navbar:
     logo-href: /
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
     tools:
-      - icon: github
-        href: https://github.com/charathram
+      - icon: facebook
+        href: https://facebook.com/pfactor.io
   sidebar:
     style: docked
     contents:
@@ -22,23 +18,27 @@ website:
         contents: 
           - auto: "private-pilot/getting-started"
           - auto: "private-pilot/lesson-plans"
-    background: light
     collapse-level: 2
   page-footer: 
     left: "Copyright &copy; 2023, PFactor.io"
-    center: "Shared under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/) License"
+    center: "[Shared under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)"
     right:
       - icon: facebook
         href: https://facebook.com/pfactor.io
 
 format:
   html:
-    theme: zephyr
+    theme: lux
+    fontsize: 1.2em
+    linestretch: 1.5
     css: styles.css
     toc: true
+    link-external-newwindow: true
+    link-external-filter: ^(?:http:|https:)\/\/www\.quarto\.org\/custom
   pdf: 
     number-sections: false
     shift-heading-level-by: -1
+    classoption: sfdefaults=false
     header-includes: |
       \usepackage{fancyhdr}
       \pagestyle{fancy}

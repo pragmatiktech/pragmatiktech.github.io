@@ -1,8 +1,8 @@
 ---
 title: "Your First Lesson"
+subtitle: "What to expect on your first flight"
 date: 2023-11-02
-author: Charath Ranganathan
-description: What an exciting day for you!! You get to take your first flight lesson and embark on your aviation journey! There is a lot to cover. So, dive in and see what your first flight lesson will be like. 
+author: Charath Ranganathan 
 categories:
   - Private Pilot
   - Getting Started
