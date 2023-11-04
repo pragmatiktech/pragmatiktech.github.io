@@ -22,13 +22,17 @@ I recommend the [Gleim Pilot Log Book](https://www.mypilotstore.com/MyPilotStore
 
 It contains columns for most entries that you will need well past your private pilot's license as well as the newer endorsements for TSA, etc. At under $10, it's a good buy and will serve as a reminder of the wonderful memories that you create in your aviation career.
 
+::: {.callout-tip}
+If you are thinking about using an [electronic flight bag](#electronic-flight-bags-efbs), you could use the logbook functionality in the EFB.
+:::
+
 ## Headset
 
 I have one headset that students can borrow for the first one or two lessons, but I strongly suggest that you invest in a good headset for your training and beyond. Headsets run the gamut of rates from the really inexpensive (under $100) "student" headsets to mid-range headsets (around $400) to the top-of-the-line active noise canceling headsets ($800 - $1,300).
     
 My personal favorite is the [Bose A30](https://www.mypilotstore.com/mypilotstore/sep/14827), but at $1,299, it is the most expensive headset out there. 
 
-Another good option for an active noise canceling headset is the [Lightspeed Zulu 3](https://mypilotstore.com/mypilotstore/sep/11329). 
+Another good option for an active noise canceling headset is the [Lightspeed&nbsp;Zulu&nbsp;3](https://mypilotstore.com/mypilotstore/sep/11329). 
 
 If you're looking for something a little more "mid-range", you could purchase a passive noise canceling headset such as the [David Clark H10-13S](https://www.mypilotstore.com/mypilotstore/sep/1028), which retails for a more wallet-friendly $360.
 
@@ -48,7 +52,9 @@ You will need a way to carry all your charts, headset, and other supplies to the
 ## Charts
 
 Before your fourth or fifth lesson, you should plan on picking up a current [Los Angeles Terminal Area Chart](https://www.mypilotstore.com/mypilotstore/sep/78). These charts are updated twice a year. As you progress in your training, you will need a [Los Angeles Sectional Chart](https://www.mypilotstore.com/mypilotstore/sep/30) as well.
-    
+
+### Electronic Flight Bags (EFBs)
+
 More recently, I have asked students to purchase an electronic flight bag (EFB) such as [Foreflight](https://foreflight.com/). If you purchase Foreflight, you will need an iPad. Note that Foreflight does _not_ work on Android tablets.
 
 ::: {.callout-note}

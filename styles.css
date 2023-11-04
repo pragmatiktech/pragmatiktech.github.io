@@ -1,5 +1,11 @@
 /* css styles */
+
+p {
+	font-family: 'Merriweather', 'Georgia', serif;
+}
+
 body {
+	font-family: 'Merriweather', 'Georgia', serif;
 	font-weight: 400;
 }
 
@@ -10,7 +16,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .listing-title {
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	color: black;
 }
 
@@ -40,9 +46,10 @@ h1, h2, h3, h4, h5 {
 }
 
 a.sidebar-item-text.sidebar-link.text-start {
-	font-size: 1.0rem;
+	font-size: 1.1rem;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 500;
+	text-transform: uppercase;
 }
 
 .navbar-logo {
@@ -53,6 +60,10 @@ a.sidebar-item-text.sidebar-link.text-start {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 600;
 	font-size: 2em;
+}
+
+.callout.callout-style-default > .callout-body {
+	font-size: 1.0rem;
 }
 
 @media print {
