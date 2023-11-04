@@ -1,0 +1,24 @@
+---
+title: TSA
+subtitle: "TSA requirements for flight training"
+author: Charath Ranganathan
+date: 2023-11-04
+categories:
+  - Getting Started
+image: /static/images/getting-started/tsa.jpg
+order: 4
+---
+
+![](/static/images/getting-started/tsa.jpg)
+
+Prior to beginning flight training, all flight instructors are required to verify that the student is a citizen of the United States and endorse your log book with that information. We are also required to maintain a copy of your proof of citizenship and the endorsement.
+
+The most common form of citizenship proof is a U.S. passport. So, please plan on bringing your passport with you to our lesson.
+
+## Non-US Citizens
+
+If you are not a U.S. citizen, you will be required to submit an application for TSA screening at the [Flight Training Security Program (FTSP)](https://www.fts.tsa.dhs.gov/home) and be approved prior to beginning training. 
+
+If you are not a U.S. Citizen, please let me know as soon as possible and I can guide you through the process of TSA approval. It takes about 6 weeks and costs about $250 to get your TSA approval.
+
+We cannot begin flight training until your FTSP application has been approved.
