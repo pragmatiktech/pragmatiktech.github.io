@@ -66,6 +66,10 @@ a.sidebar-item-text.sidebar-link.text-start {
 	font-size: 1.0rem;
 }
 
+.img-fluid {
+	margin-bottom: 10px;
+}
+
 @media print {
 	#quarto-header {
 		visibility: hidden !important;
