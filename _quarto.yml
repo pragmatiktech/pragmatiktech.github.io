@@ -35,6 +35,9 @@ website:
       - icon: facebook
         href: https://facebook.com/pfactor.io
 
+execute:
+  freeze: auto
+
 format:
   html:
     theme: litera
