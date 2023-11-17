@@ -5,3 +5,4 @@
 *.log
 *.tex
 *latexmk
+*DS_Store
