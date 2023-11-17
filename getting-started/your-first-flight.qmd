@@ -19,7 +19,7 @@ Flight training is unique in a few ways from learning to drive.
 
 So, what can you expect during your first flight?
 
-# Introductions
+## Introductions
 
 Our first meeting is a chance for us to get to know each other. During your flight training, you and I will be working closely - physically and mentally. It is imperative that we are able to work together as a team, and that we understand each other.
 
@@ -31,7 +31,7 @@ On my part, I like to know a student's motivation in learning to fly and answer 
 
 On your part, you should make sure you are comfortable with me -- my approach to teaching, my background as a flight instructor, and whether you feel that I will help you reach your goals. This is your time to clarify your doubts and I encourage you to ask me as many questions as you need to feel comfortable that I am the flight instructor for you.
 
-# Flight Overview
+## Flight Overview
 
 This flight is your chance to have fun while doing as much or as little of flying as you want.
 
@@ -43,7 +43,7 @@ You will get to take off the aircraft, level off at altitude, and fly us to the 
 
 At the end of the flight, I will sign the first entry in your log book, and you are on your way to becoming a pilot.
 
-# Attire
+## Attire
 
 You should wear comfortable clothes and closed-toe shoes. A baseball cap is acceptable, but it can obstruct your vision of the sky above you. Sunglasses are a good idea, especially here in Southern California where the sun can get really bright.
 
@@ -51,7 +51,7 @@ You should wear comfortable clothes and closed-toe shoes. A baseball cap is acce
 Make sure your sunglasses are **not** polarized. The filter in polarized sunglasses can make screens hard or impossible to read.
 :::
 
-# Passengers
+## Passengers
 
 I encourage you to bring a friend or family member with you for your demo flight.
 
@@ -59,7 +59,7 @@ For safety reasons, I will need the weights of all members of your party so that
 
 Please check with me if you are planning on bringing additional passengers to the demo flight.
 
-# Flight Scheduling
+## Flight Scheduling
 
 If you are already a member of AACIT, you should schedule the aircraft and add me on the instructor line in the scheduling screen in our scheduling system, [ScheduleMaster](https://schedulemaster.com/).
 
@@ -67,11 +67,11 @@ Our normal training schedules are 3 hours long and this is, conveniently, the de
 
 If you are not a member of AACIT, I would have scheduled the aircraft when we established our appointment.
 
-# Cost
+## Cost
 
 You will be billed for actual aircraft usage (around 0.7 hours) as well as my time (around 2 hours). You should plan on paying about $200 for the entire flight.
 
-# What to Bring with You
+## What to Bring with You
 
 - [ ] A pilot log book.
 - [ ] A small spiral-bound notebook and pen.

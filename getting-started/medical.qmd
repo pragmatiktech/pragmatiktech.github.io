@@ -19,7 +19,7 @@ I recommend that students start the process of obtaining a medical certificate c
 
 The Aircraft Owners and Pilots Association (AOPA) has an excellent [reference](https://www.aopa.org/go-fly/medical-resources) for medical certification including a [list of potentially disqualifying conditions](https://www.aopa.org/go-fly/medical-resources/health-conditions) and a medications database.
 
-# Obtaining the Third Class Medical
+## Obtaining the Third Class Medical
 
 The process of obtaining a third class medical has three steps:
 
@@ -27,7 +27,7 @@ The process of obtaining a third class medical has three steps:
 2. Receive a physical examination from the AME
 3. Obtain your certificate
 
-## Identify an AME
+### Identify an AME
 
 FAA Medical Certificates are issued by Aviation Medical Examiners (AMEs). An AME is a physician who has been designated by the FAA to conduct the examination and issue a medical certificate.
 
