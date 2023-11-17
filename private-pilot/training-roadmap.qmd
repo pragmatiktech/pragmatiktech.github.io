@@ -19,11 +19,11 @@ These are important questions that you should be asking yourself and your CFI. I
 
 Your journey to your Private Pilot certificate will take you through 3 phases (or stages).
 
-# Phase 1: The Pre-solo Phase
+## Phase 1: The Pre-solo Phase
 
 This phase lays the foundation for all further flight training. In this phase, you focus on understanding the training airplane, how to fly it, how it behaves under different settings of power and "pitch attitude", and how to safely operate the aircraft at your home airport and within the local practice area. Phase 1 culminates in your first **solo flight**.
 
-## Phase 1 Syllabus
+### Phase 1 Syllabus
 
 1. Preflight preparation, checklist usage, takeoffs, landings, and the 4 fundamentals of flight (straight and level flight, climbs, descents, turns).
 2. Airport operations, and basic maneuvers (flight at various airspeeds, turns to headings, climbs and climbing turns, descents and descending turns).
@@ -37,13 +37,13 @@ The last step in Phase 1 is a **solo phase check**, normally conducted by anothe
 
 If you pass the phase check, your instructor will sign you off for your first solo flight! A huge achievement!
 
-# Phase 2: The Pre Solo-cross-country Phase
+## Phase 2: The Pre Solo-cross-country Phase
 
 Phase 2 of your training builds on the skills that you have learned in phase 1, and expands your capabilities with cross country flights, night flights, and basic instrument maneuvers. This phase helps you gain increased confidence in flying the aircraft safely. You will fly the airplane solo and practice maneuvers by yourself (solo) in addition to receiving instruction on cross country flying.
 
 You should also prepare for, and pass, your FAA knowledge test while in phase 2.
 
-## Phase 2 Syllabus
+### Phase 2 Syllabus
 
 1. Performance takeoffs and landings (short field, soft field).
 2. Navigation using pilotage, dead reckoning, and radio aids (VOR, GPS).
@@ -57,11 +57,11 @@ The last step in Phase 2 is a **solo-cross-country phase check** in which anothe
 
 Once you pass the pre solo cross country phase check, you are ready to fly the required solo cross country flights. Congratulations! You just crossed another major milestone.
 
-# Phase 3: The Solo Cross Country and Pre-checkride Phase
+## Phase 3: The Solo Cross Country and Pre-checkride Phase
 
 In phase 3, you gain proficiency in flying the aircraft to airports that are not in your local area (cross country flights) - at least 50nm miles away. You also start preparing for your practical test.
 
-## Phase 3 Syllabus
+### Phase 3 Syllabus
 
 1. Short solo cross country - one landing at an airport that is greater than 50nm from your home airport. You may do more than one of these flights.
 2. Long solo cross country - a flight with a total distance of 150nm with landings at at least 2 different airports.
@@ -71,7 +71,7 @@ Phase 3 culminates in a **checkride phase check** where another instructor asses
 
 Once you have passed the pre checkride phase check, your instructor will be ready to sign you off for your practical test.
 
-# The Practical Test (aka, the "checkride")
+## The Practical Test (aka, the "checkride")
 
 You've made it this far, and now it is time for you to pass the practical test before you can become a private pilot. Exciting!
 
