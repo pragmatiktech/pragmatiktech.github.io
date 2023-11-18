@@ -41,7 +41,7 @@ execute:
 
 format:
   html:
-    theme: zephyr
+    theme: yeti
     linestretch: 1.5
     css: styles.css
     toc: true
