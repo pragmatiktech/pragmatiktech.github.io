@@ -12,19 +12,19 @@ body {
 
 h1 {
 	font-family: 'Oswald', sans-serif;
-	letter-spacing: normal;
 }
+
 h2 {
 	font-family: 'Oswald', sans-serif;
-	font-weight: 500;
-	text-transform: uppercase;
-	letter-spacing: normal;
+	font-size: 1.9rem;
 }
 
 h3, h4, h5, h6 {
 	font-family: 'Oswald', sans-serif;
-	letter-spacing: normal;
-	font-weight: 400;
+}
+
+h3 {
+	color: darkslategray;
 }
 
 .listing-title {
