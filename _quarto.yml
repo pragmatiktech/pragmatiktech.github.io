@@ -10,7 +10,8 @@ website:
   favicon: /favicon.ico
   navbar:
     title: false
-    logo: /static/images/PFactor-Logo-Header.jpg
+    background: dark
+    logo: /static/images/pfactor-header-logo-inverted.png
     logo-href: /
     tools:
       - icon: facebook
@@ -40,7 +41,7 @@ execute:
 
 format:
   html:
-    theme: litera
+    theme: zephyr
     linestretch: 1.5
     css: styles.css
     toc: true
