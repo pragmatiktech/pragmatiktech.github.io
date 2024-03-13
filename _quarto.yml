@@ -25,6 +25,9 @@ website:
       - section: "Private Pilot"
         contents: 
           - auto: private-pilot/*
+          - section: "Lesson Plans"
+            contents:
+              - auto: private-pilot/lesson-plans/*
       - section: "Resources"
         contents:
           - auto: resources/*

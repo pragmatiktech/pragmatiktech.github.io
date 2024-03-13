@@ -57,12 +57,18 @@ h3 {
 	font-weight: 600;
 }
 
-a.sidebar-item-text.sidebar-link.text-start {
+/* a.sidebar-item-text.sidebar-link.text-start {
 	font-size: 1.1rem;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 500;
 	text-transform: uppercase;
 }
+
+a.sidebar-item-text.sidebar-link.text-start > * > * > a.sidebar-item-text.sidebar-link.text-start{
+	font-size: 1rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+} */
 
 .navbar-logo {
 	max-height: 50px;
