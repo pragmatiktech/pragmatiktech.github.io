@@ -1,0 +1,72 @@
+---
+title: "Basics of Flight"
+author: Charath Ranganathan
+date: 2024-03-11
+categories:
+  - Private Pilot
+  - Lesson Plans
+image: /static/images/private-pilot/lesson-plans/small-plane-flaps-down.jpg)
+order: 1
+---
+![](/static/images/private-pilot/lesson-plans/small-plane-flaps-down.jpg)
+
+## Objectives
+
+Introduce the student to flight training and the basic flight maneuvers.
+
+## Elements
+
+1. Student & instructor introductions, familiarity, agreements.
+2. Checklist usage
+3. Preflight
+4. Engine start, taxiing, and pre-takeoff checks
+5. Takeoff and climb
+6. Straight and level flight
+7. Shallow turns
+8. Climbs and descents
+9. Trim usage
+10. Approach and landing
+
+## Schedule
+
+* Ground: 0.5
+* Preflight: 0.5
+* Flight: 0.7
+
+## Pre-read
+
+**Jeppesen Private Pilot Maneuvers Textbook:**
+
+* Chapter 1 (Ground Operations): All maneuvers
+* Chapter 2 (Basic Manevers): All maneuvers
+
+**Jeppesen Private Pilot Textbook:**
+
+* Chapter 2 (Airplane Systems): Section A (Airplanes)
+
+## Discussion
+
+* **Student / instructor agreement:**
+  * On-time
+  * Be prepared
+  * Ask questions
+  * Communicate
+* **Certification timeline**
+  * Minimum 40 hours - this is a minimum
+  * Typically 60 - 80 hours
+  * Try to fly at least once a week, preferably twice.
+* **Budget:** Approximately $ 12,000 (2024 rates at AACIT)
+* **Logistics:**
+  * Schedule aircraft on ScheduleMaster
+  * Settling bills
+  * Instructor payment: Due at end of every lesson.
+
+## Homework
+
+**Jeppesen Private Pilot Maneuvers Textbook:**
+
+* Chapter 5 (Flight Maneuvers): Slow flight, Steep turns
+
+**Jeppesen Private Pilot Textbook:**
+
+* Chapter 2 (Airplane Systems): Section B (The Powerplant and Related Systems)
