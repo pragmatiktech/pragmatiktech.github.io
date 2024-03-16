@@ -1,5 +1,5 @@
 ---
-title: "Basics of Flight"
+title: "01 - Basics of Flight"
 author: Charath Ranganathan
 date: 2024-03-11
 categories:
@@ -10,9 +10,23 @@ order: 1
 ---
 ![](/static/images/private-pilot/lesson-plans/small-plane-flaps-down.jpg)
 
+## Introduction
+
+The first flight introduces the student to the structure of typical flight lessons and allows them to build a relationship with their instructor.
+
+Risk management and the importance of checklists are emphasized.
+
 ## Objectives
 
-Introduce the student to flight training and the basic flight maneuvers.
+At the end of the lesson, the student will be able to:
+
+1. Discuss the structure of a typical flight lesson.
+2. Use the preflight checklist to preflight the aircraft.
+3. Understand, and explain, the various items on the checklist and relate potential failures to the safety of flight.
+4. Perform a pre-takeoff check (aka *runup*).
+5. Perform a normal takeoff and climb to the practice area.
+6. Demonstrate basic flight maneuvers: climbs, descents, straight and level flight, and turns.
+7. Divide attention between external references and flight instruments.
 
 ## Elements
 
@@ -44,6 +58,8 @@ Introduce the student to flight training and the basic flight maneuvers.
 
 * Chapter 2 (Airplane Systems): Section A (Airplanes)
 
+* Review [checklist](/static/resources/documents/checklist-C172.pdf) and print a copy (two-sided, flip on short edge)
+
 ## Discussion
 
 * **Student / instructor agreement:**
@@ -52,14 +68,14 @@ Introduce the student to flight training and the basic flight maneuvers.
   * Ask questions
   * Communicate
 * **Certification timeline**
-  * Minimum 40 hours - this is a minimum
+  * *Minimum* 40 hours
   * Typically 60 - 80 hours
   * Try to fly at least once a week, preferably twice.
 * **Budget:** Approximately $ 12,000 (2024 rates at AACIT)
 * **Logistics:**
   * Schedule aircraft on ScheduleMaster
   * Settling bills
-  * Instructor payment: Due at end of every lesson.
+  * Instructor payment: Due at end of every lesson
 
 ## Homework
 
