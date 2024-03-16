@@ -5,7 +5,7 @@ date: 2024-03-11
 categories:
   - Private Pilot
   - Lesson Plans
-image: /static/images/private-pilot/lesson-plans/small-plane-flaps-down.jpg)
+image: /static/images/private-pilot/lesson-plans/small-plane-flaps-down.jpg
 order: 1
 ---
 ![](/static/images/private-pilot/lesson-plans/small-plane-flaps-down.jpg)
