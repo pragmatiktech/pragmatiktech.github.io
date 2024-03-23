@@ -1,26 +1,26 @@
 /* css styles */
 
 p {
-	font-family: 'Roboto', 'Arial', sans-serif;
+	font-family: 'Noto Sans', 'Arial', sans-serif;
 	font-weight: 400;
 }
 
 body {
-	font-family: 'Roboto', 'Arial', sans-serif;
+	font-family: 'Noto Sans', 'Arial', sans-serif;
 	font-weight: 400;
 }
 
 h1 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Barlow Condensed', sans-serif;
 }
 
 h2 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 1.9rem;
 }
 
 h3, h4, h5, h6 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Barlow Condensed', sans-serif;
 }
 
 h3 {
@@ -47,12 +47,12 @@ h3 {
 }
 
 .quarto-title p.subtitle {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Barlow Condensed', sans-serif;
 	font-weight: 400;
 }
 
 .callout.callout-style-default > div.callout-header {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 1.1rem;
 	font-weight: 600;
 }
@@ -75,7 +75,7 @@ a.sidebar-item-text.sidebar-link.text-start > * > * > a.sidebar-item-text.sideba
 }
 
 .navbar-title {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Barlow Condensed', sans-serif;
 	font-weight: 600;
 	font-size: 2em;
 }
