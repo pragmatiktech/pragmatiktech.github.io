@@ -50,7 +50,7 @@ GOOSE A CAT, CRAFT, HAND, etc. The list of acronyms that are used in aviation se
 | A | Altimeter |
 | T | Tachometer - for each engine |
 
-### **For Complex Aircraft — GOOSE A ML CAT (Goose a Male Cat)**
+### For Complex Aircraft — GOOSE A ML CAT (Goose a Male Cat)
 To the list above, add:
 
 | Acronym | Explanation |
