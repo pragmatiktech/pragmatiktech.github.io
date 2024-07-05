@@ -1,0 +1,88 @@
+---
+title: "02 - Steep Turns & Slow Flight"
+author: Charath Ranganathan
+date: 2024-03-16
+categories:
+  - Private Pilot
+  - Lesson Plans
+image: /static/images/private-pilot/lesson-plans/steep-turns.jpg
+order: 2
+---
+![](/static/images/private-pilot/lesson-plans/steep-turns.jpg)
+
+## Introduction
+
+Steep turns are a high-performance maneuver designed to develop the skills of smoothness, coordination, orientation, division of attention and control techniques. They are typically performed in either direction (left and/or right) with an angle of bank of 45$\degree\pm$ 5$\degree$.
+
+Slow flight is a manuever that shows the student how the aircraft behaves at speeds just above the stall speed of the airplane.
+
+## Objectives
+
+At the end of the lesson, the student will be able to:
+
+1. Discuss the structure of a typical flight lesson.
+2. Use the preflight checklist to preflight the aircraft.
+3. Understand, and explain, the various items on the checklist and relate potential failures to the safety of flight.
+4. Perform a pre-takeoff check (aka *runup*).
+5. Perform a normal takeoff and climb to the practice area.
+6. Demonstrate basic flight maneuvers: climbs, descents, straight and level flight, and turns.
+7. Divide attention between external references and flight instruments.
+
+## Elements
+
+1. Student & instructor introductions, familiarity, agreements.
+2. Checklist usage
+3. Preflight
+4. Engine start, taxiing, and pre-takeoff checks
+5. Takeoff and climb
+6. Straight and level flight
+7. Shallow turns
+8. Climbs and descents
+9. Trim usage
+10. Approach and landing
+
+## Schedule
+
+* Ground: 0.5
+* Preflight: 0.5
+* Flight: 0.7
+
+## Pre-read
+
+**Jeppesen Private Pilot Maneuvers Textbook:**
+
+* Chapter 1 (Ground Operations): All maneuvers
+* Chapter 2 (Basic Manevers): All maneuvers
+
+**Jeppesen Private Pilot Textbook:**
+
+* Chapter 2 (Airplane Systems): Section A (Airplanes)
+
+* Review [checklist](/static/resources/documents/checklist-C172.pdf) and print a copy (two-sided, flip on short edge)
+
+## Discussion
+
+* **Student / instructor agreement:**
+  * On-time
+  * Be prepared
+  * Ask questions
+  * Communicate
+* **Certification timeline**
+  * *Minimum* 40 hours
+  * Typically 60 - 80 hours
+  * Try to fly at least once a week, preferably twice.
+* **Budget:** Approximately $ 12,000 (2024 rates at AACIT)
+* **Logistics:**
+  * Schedule aircraft on ScheduleMaster
+  * Settling bills
+  * Instructor payment: Due at end of every lesson
+
+## Homework
+
+**Jeppesen Private Pilot Maneuvers Textbook:**
+
+* Chapter 5 (Flight Maneuvers): Slow flight, Steep turns
+
+**Jeppesen Private Pilot Textbook:**
+
+* Chapter 2 (Airplane Systems): Section B (The Powerplant and Related Systems)
