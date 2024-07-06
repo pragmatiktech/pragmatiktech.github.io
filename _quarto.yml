@@ -31,6 +31,9 @@ website:
       - section: "Resources"
         contents:
           - auto: resources/*
+      - section: "AACIT"
+        contents:
+          - auto: AACIT/*
     collapse-level: 1
   page-footer: 
     left: "Copyright &copy; 2023, PFactor.io"
