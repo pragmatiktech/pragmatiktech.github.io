@@ -11,7 +11,7 @@ order: 3
 
 ![](/static/images/aacit/kemt-map.png)
 
-AACIT's aircraft are all based out of the San Gabriel Valley (aka El Monte) airport in southern California. The airport's ICAO identifier is KEMT.
+AACIT's aircraft are all based out of the [San Gabriel Valley Airport](https://maps.app.goo.gl/p2tkt3NBDe7w6Bw26) in southern California. The airport's ICAO identifier is KEMT.
 
 The image above shows a general map of the airport, the location of the AACIT "flight line", and the hangars where two more of the AACIT aircraft are located.
 
