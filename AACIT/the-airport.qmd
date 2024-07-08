@@ -4,9 +4,10 @@ subtitle: "Getting around at the airport"
 author: Charath Ranganathan
 date: 2024-07-05
 categories:
+  - Getting Started
   - AACIT
 image: /static/images/aacit/kemt-map.png
-order: 3
+order: 1
 ---
 
 ![](/static/images/aacit/kemt-map.png)
