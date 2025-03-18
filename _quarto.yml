@@ -4,8 +4,8 @@ project:
     port: 2805
 
 website:
-  title: "PFactor.io"
-  site-url: https://pfactor.io
+  title: "Pragmatik.tech"
+  site-url: https://pragmatik.tech
   back-to-top-navigation: true
   favicon: /favicon.ico
   navbar:
