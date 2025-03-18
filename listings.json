@@ -2,17 +2,15 @@
   {
     "listing": "/index.html",
     "items": [
-      "/AACIT/schedulemaster.html",
       "/AACIT/the-airport.html",
-      "/private-pilot/basic-weather.html",
       "/private-pilot/lesson-plans/02-steep-turns-slow-flight.html",
       "/private-pilot/lesson-plans/01-basics-of-flight.html",
       "/getting-started/medical.html",
       "/resources/mnemonics.html",
       "/resources/documents.html",
       "/getting-started/tsa.html",
-      "/private-pilot/training-roadmap.html",
       "/getting-started/things-you-need.html",
+      "/private-pilot/training-roadmap.html",
       "/getting-started/your-first-flight.html"
     ]
   }

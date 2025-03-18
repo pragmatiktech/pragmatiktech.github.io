@@ -1,55 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pragmatik.tech/getting-started/things-you-need.html</loc>
-    <lastmod>2025-03-18T05:04:19.967Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pragmatik.tech/getting-started/tsa.html</loc>
-    <lastmod>2025-03-18T05:04:19.967Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pragmatik.tech/private-pilot/basic-weather.html</loc>
-    <lastmod>2025-03-18T04:50:45.402Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pragmatik.tech/private-pilot/lesson-plans/02-steep-turns-slow-flight.html</loc>
-    <lastmod>2025-03-18T05:04:19.969Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pragmatik.tech/index.html</loc>
-    <lastmod>2025-03-18T05:04:19.968Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pragmatik.tech/resources/mnemonics.html</loc>
-    <lastmod>2025-03-18T05:04:19.969Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pragmatik.tech/AACIT/schedulemaster.html</loc>
-    <lastmod>2025-03-18T04:50:45.397Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pragmatik.tech/AACIT/the-airport.html</loc>
-    <lastmod>2025-03-18T05:04:19.966Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pragmatik.tech/resources/documents.html</loc>
-    <lastmod>2025-03-18T05:04:19.969Z</lastmod>
+    <loc>https://pragmatik.tech/private-pilot/lesson-plans/01-basics-of-flight.html</loc>
+    <lastmod>2025-03-18T05:24:59.980Z</lastmod>
   </url>
   <url>
     <loc>https://pragmatik.tech/private-pilot/training-roadmap.html</loc>
-    <lastmod>2025-03-18T05:04:19.969Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pragmatik.tech/private-pilot/lesson-plans/01-basics-of-flight.html</loc>
-    <lastmod>2025-03-18T05:04:19.969Z</lastmod>
+    <lastmod>2025-03-18T05:24:59.980Z</lastmod>
   </url>
   <url>
     <loc>https://pragmatik.tech/getting-started/your-first-flight.html</loc>
-    <lastmod>2025-03-18T05:04:19.968Z</lastmod>
+    <lastmod>2025-03-18T05:24:59.980Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pragmatik.tech/getting-started/tsa.html</loc>
+    <lastmod>2025-03-18T05:24:59.980Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pragmatik.tech/resources/mnemonics.html</loc>
+    <lastmod>2025-03-18T05:24:59.981Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pragmatik.tech/AACIT/the-airport.html</loc>
+    <lastmod>2025-03-18T05:24:59.979Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pragmatik.tech/index.html</loc>
+    <lastmod>2025-03-18T05:24:59.980Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pragmatik.tech/resources/documents.html</loc>
+    <lastmod>2025-03-18T05:24:59.981Z</lastmod>
   </url>
   <url>
     <loc>https://pragmatik.tech/getting-started/medical.html</loc>
-    <lastmod>2025-03-18T05:04:19.967Z</lastmod>
+    <lastmod>2025-03-18T05:24:59.980Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pragmatik.tech/getting-started/things-you-need.html</loc>
+    <lastmod>2025-03-18T05:24:59.980Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pragmatik.tech/private-pilot/lesson-plans/02-steep-turns-slow-flight.html</loc>
+    <lastmod>2025-03-18T05:24:59.980Z</lastmod>
   </url>
 </urlset>

@@ -1,90 +1,229 @@
 [
   {
-    "objectID": "getting-started/things-you-need.html",
-    "href": "getting-started/things-you-need.html",
-    "title": "Things you Need",
+    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#introduction",
+    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#introduction",
+    "title": "01 - Basics of Flight",
+    "section": "Introduction",
+    "text": "Introduction\nThe first flight introduces the student to the structure of typical flight lessons and allows them to build a relationship with their instructor.\nRisk management and the importance of checklists are emphasized.",
+    "crumbs": [
+      "Private Pilot",
+      "Lesson Plans",
+      "01 - Basics of Flight"
+    ]
+  },
+  {
+    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#objectives",
+    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#objectives",
+    "title": "01 - Basics of Flight",
+    "section": "Objectives",
+    "text": "Objectives\nAt the end of the lesson, the student will be able to:\n\nDiscuss the structure of a typical flight lesson.\nUse the preflight checklist to preflight the aircraft.\nUnderstand, and explain, the various items on the checklist and relate potential failures to the safety of flight.\nPerform a pre-takeoff check (aka runup).\nPerform a normal takeoff and climb to the practice area.\nDemonstrate basic flight maneuvers: climbs, descents, straight and level flight, and turns.\nDivide attention between external references and flight instruments.",
+    "crumbs": [
+      "Private Pilot",
+      "Lesson Plans",
+      "01 - Basics of Flight"
+    ]
+  },
+  {
+    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#elements",
+    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#elements",
+    "title": "01 - Basics of Flight",
+    "section": "Elements",
+    "text": "Elements\n\nStudent & instructor introductions, familiarity, agreements.\nChecklist usage\nPreflight\nEngine start, taxiing, and pre-takeoff checks\nTakeoff and climb\nStraight and level flight\nShallow turns\nClimbs and descents\nTrim usage\nApproach and landing",
+    "crumbs": [
+      "Private Pilot",
+      "Lesson Plans",
+      "01 - Basics of Flight"
+    ]
+  },
+  {
+    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#schedule",
+    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#schedule",
+    "title": "01 - Basics of Flight",
+    "section": "Schedule",
+    "text": "Schedule\n\nGround: 0.5\nPreflight: 0.5\nFlight: 0.7",
+    "crumbs": [
+      "Private Pilot",
+      "Lesson Plans",
+      "01 - Basics of Flight"
+    ]
+  },
+  {
+    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#pre-read",
+    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#pre-read",
+    "title": "01 - Basics of Flight",
+    "section": "Pre-read",
+    "text": "Pre-read\nJeppesen Private Pilot Maneuvers Textbook:\n\nChapter 1 (Ground Operations): All maneuvers\nChapter 2 (Basic Manevers): All maneuvers\n\nJeppesen Private Pilot Textbook:\n\nChapter 2 (Airplane Systems): Section A (Airplanes)\nReview checklist and print a copy (two-sided, flip on short edge)",
+    "crumbs": [
+      "Private Pilot",
+      "Lesson Plans",
+      "01 - Basics of Flight"
+    ]
+  },
+  {
+    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#discussion",
+    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#discussion",
+    "title": "01 - Basics of Flight",
+    "section": "Discussion",
+    "text": "Discussion\n\nStudent / instructor agreement:\n\nOn-time\nBe prepared\nAsk questions\nCommunicate\n\nCertification timeline\n\nMinimum 40 hours\nTypically 60 - 80 hours\nTry to fly at least once a week, preferably twice.\n\nBudget: Approximately $ 12,000 (2024 rates at AACIT)\nLogistics:\n\nSchedule aircraft on ScheduleMaster\nSettling bills\nInstructor payment: Due at end of every lesson",
+    "crumbs": [
+      "Private Pilot",
+      "Lesson Plans",
+      "01 - Basics of Flight"
+    ]
+  },
+  {
+    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#homework",
+    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#homework",
+    "title": "01 - Basics of Flight",
+    "section": "Homework",
+    "text": "Homework\nJeppesen Private Pilot Maneuvers Textbook:\n\nChapter 5 (Flight Maneuvers): Slow flight, Steep turns\n\nJeppesen Private Pilot Textbook:\n\nChapter 2 (Airplane Systems): Section B (The Powerplant and Related Systems)",
+    "crumbs": [
+      "Private Pilot",
+      "Lesson Plans",
+      "01 - Basics of Flight"
+    ]
+  },
+  {
+    "objectID": "private-pilot/training-roadmap.html",
+    "href": "private-pilot/training-roadmap.html",
+    "title": "Training Roadmap",
     "section": "",
-    "text": "Here is a list of items that I recommend for students working on their private pilot’s license.",
+    "text": "Congratulations! You’ve decided to follow your dreams and get your Private Pilot certificate. You’ve probably contacted a nearby flight school or CFI at your local airfield. And, you might have even discussed rates, taken a demo flight, and started planning for your training.\nThen what? How is your training going to be organized? What are the key milestones in your training? How do you know you are making progress?\nThese are important questions that you should be asking yourself and your CFI. In this article we attempt to answer these questions for you.\nYour journey to your Private Pilot certificate will take you through 3 phases (or stages).",
     "crumbs": [
-      "Getting Started",
-      "Things you Need"
+      "Private Pilot",
+      "Training Roadmap"
     ]
   },
   {
-    "objectID": "getting-started/things-you-need.html#pilot-log-book",
-    "href": "getting-started/things-you-need.html#pilot-log-book",
-    "title": "Things you Need",
-    "section": "Pilot Log Book",
-    "text": "Pilot Log Book\nThis is where you will maintain details of your flights, endorsements that you earn during the course of your study, and ongoing endorsements after you get your private pilot. There are a number of log books available on the market.\nI recommend the Gleim Pilot Log Book.\nIt contains columns for most entries that you will need well past your private pilot’s license as well as the newer endorsements for TSA, etc. At under $10, it’s a good buy and will serve as a reminder of the wonderful memories that you create in your aviation career.\n\n\n\n\n\n\nTip\n\n\n\nIf you are thinking about using an electronic flight bag, you could use the logbook functionality in the EFB.",
+    "objectID": "private-pilot/training-roadmap.html#phase-1-the-pre-solo-phase",
+    "href": "private-pilot/training-roadmap.html#phase-1-the-pre-solo-phase",
+    "title": "Training Roadmap",
+    "section": "Phase 1: The Pre-solo Phase",
+    "text": "Phase 1: The Pre-solo Phase\nThis phase lays the foundation for all further flight training. In this phase, you focus on understanding the training airplane, how to fly it, how it behaves under different settings of power and “pitch attitude”, and how to safely operate the aircraft at your home airport and within the local practice area. Phase 1 culminates in your first solo flight.\n\nPhase 1 Syllabus\n\nPreflight preparation, checklist usage, takeoffs, landings, and the 4 fundamentals of flight (straight and level flight, climbs, descents, turns).\nAirport operations, and basic maneuvers (flight at various airspeeds, turns to headings, climbs and climbing turns, descents and descending turns).\nManeuvering during slow flight, stalls.\nPerformance maneuvers (steep turns), emergency operations.\nGround reference maneuvers (rectangular course, S-turns, turns around a point).\nTakeoffs, landings, and go-arounds.\nWeather information, aeronautical decision making, operations at alternate airports in the local area (entry into the traffic pattern, communication procedures).\n\nThe last step in Phase 1 is a solo phase check, normally conducted by another instructor. On successfully passing the phase check and a mandatory pre-solo written test, you will be ready to solo the aircraft, i.e. fly it on your own without the instructor present.\nIf you pass the phase check, your instructor will sign you off for your first solo flight! A huge achievement!",
     "crumbs": [
-      "Getting Started",
-      "Things you Need"
+      "Private Pilot",
+      "Training Roadmap"
     ]
   },
   {
-    "objectID": "getting-started/things-you-need.html#headset",
-    "href": "getting-started/things-you-need.html#headset",
-    "title": "Things you Need",
-    "section": "Headset",
-    "text": "Headset\nI have one headset that students can borrow for the first one or two lessons, but I strongly suggest that you invest in a good headset for your training and beyond. Headsets run the gamut of rates from the really inexpensive (under $100) “student” headsets to mid-range headsets (around $400) to the top-of-the-line active noise canceling headsets ($800 - $1,300).\nMy personal favorite is the Bose A30, but at $1,299, it is the most expensive headset out there.\nAnother good option for an active noise canceling headset is the Lightspeed Zulu 3.\nIf you’re looking for something a little more “mid-range”, you could purchase a passive noise canceling headset such as the David Clark H10-13S, which retails for a more wallet-friendly $360.\nI have found that among pilots, headsets are like religions – you’ll find the “Bose camp” and the “Lightspeed camp”. So, pick one that works for you and use it for your training.\n\n\n\n\n\n\nImportant\n\n\n\nWhen ordering a headset, make sure you order one with dual GA plugs or fixed-wing, 2 plug, battery powered. Check with your instructor if you have any questions.",
+    "objectID": "private-pilot/training-roadmap.html#phase-2-the-pre-solo-cross-country-phase",
+    "href": "private-pilot/training-roadmap.html#phase-2-the-pre-solo-cross-country-phase",
+    "title": "Training Roadmap",
+    "section": "Phase 2: The Pre Solo-cross-country Phase",
+    "text": "Phase 2: The Pre Solo-cross-country Phase\nPhase 2 of your training builds on the skills that you have learned in phase 1, and expands your capabilities with cross country flights, night flights, and basic instrument maneuvers. This phase helps you gain increased confidence in flying the aircraft safely. You will fly the airplane solo and practice maneuvers by yourself (solo) in addition to receiving instruction on cross country flying.\nYou should also prepare for, and pass, your FAA knowledge test while in phase 2.\n\nPhase 2 Syllabus\n\nPerformance takeoffs and landings (short field, soft field).\nNavigation using pilotage, dead reckoning, and radio aids (VOR, GPS).\nAircraft weight and balance calculations.\nCross country flight planning, including aircraft performance calculations, weight and balance, obtaining weather information, and making go/no-go decisions.\nNight flight, including a night cross country and operations at night in the airport traffic pattern.\nFlight by reference to instruments.\nDual cross country flights with your instructor in preparation for your solo cross country flight.\n\nThe last step in Phase 2 is a solo-cross-country phase check in which another instructor evaluates whether you can safely operate the airplane during your cross country flights. They will evaluate your ability to control the aircraft in all phases of flight, communicate effectively with air traffic control, operate safely within the environment of other airports, and demonstrate adequate aeronautical decision making abilities.\nOnce you pass the pre solo cross country phase check, you are ready to fly the required solo cross country flights. Congratulations! You just crossed another major milestone.",
     "crumbs": [
-      "Getting Started",
-      "Things you Need"
+      "Private Pilot",
+      "Training Roadmap"
     ]
   },
   {
-    "objectID": "getting-started/things-you-need.html#kneeboard",
-    "href": "getting-started/things-you-need.html#kneeboard",
-    "title": "Things you Need",
-    "section": "Kneeboard",
-    "text": "Kneeboard\nAll pilots need a way to quickly jot down weather information, taxi instructions, and other notes, in addition to storing charts and other papers. A good kneeboard is a worthwhile investment – one that will last you a long time in your aviation career",
+    "objectID": "private-pilot/training-roadmap.html#phase-3-the-solo-cross-country-and-pre-checkride-phase",
+    "href": "private-pilot/training-roadmap.html#phase-3-the-solo-cross-country-and-pre-checkride-phase",
+    "title": "Training Roadmap",
+    "section": "Phase 3: The Solo Cross Country and Pre-checkride Phase",
+    "text": "Phase 3: The Solo Cross Country and Pre-checkride Phase\nIn phase 3, you gain proficiency in flying the aircraft to airports that are not in your local area (cross country flights) - at least 50nm miles away. You also start preparing for your practical test.\n\nPhase 3 Syllabus\n\nShort solo cross country - one landing at an airport that is greater than 50nm from your home airport. You may do more than one of these flights.\nLong solo cross country - a flight with a total distance of 150nm with landings at at least 2 different airports.\nSolo and dual flights that help you practice the required maneuvers for your upcoming practical test.\n\nPhase 3 culminates in a checkride phase check where another instructor assesses your readiness for taking, and passing, the practical test.\nOnce you have passed the pre checkride phase check, your instructor will be ready to sign you off for your practical test.",
     "crumbs": [
-      "Getting Started",
-      "Things you Need"
+      "Private Pilot",
+      "Training Roadmap"
     ]
   },
   {
-    "objectID": "getting-started/things-you-need.html#flight-bag",
-    "href": "getting-started/things-you-need.html#flight-bag",
-    "title": "Things you Need",
-    "section": "Flight Bag",
-    "text": "Flight Bag\nYou will need a way to carry all your charts, headset, and other supplies to the airport and to store them safely while in flight. A good flight bag is a must. Flight bags can be as basic as a backpack that you already own or as fancy as commercially sold flight bags. While this is ultimately a matter of choice, find something that’s small enough to fit on the seat behind you, and has enough pockets so that you can easily access items while in flight.",
+    "objectID": "private-pilot/training-roadmap.html#the-practical-test-aka-the-checkride",
+    "href": "private-pilot/training-roadmap.html#the-practical-test-aka-the-checkride",
+    "title": "Training Roadmap",
+    "section": "The Practical Test (aka, the “checkride”)",
+    "text": "The Practical Test (aka, the “checkride”)\nYou’ve made it this far, and now it is time for you to pass the practical test before you can become a private pilot. Exciting!\nThe practical test is conducted by a FAA “designated pilot examiner” (DPE), who is an experienced pilot to whom the FAA has granted privileges to test and certify airmen.\nThe test consists of an oral exam (called the “ground” exam) and a flight exam and should take about 4 hours to complete. They will use the FAA’s Private Pilot Airmen Certification Standards (ACS) as the testing standard to evaluate your performance.\nOnce you pass your practical test, you are a Private Pilot! Congratulations! You have started on your aviation journey.",
     "crumbs": [
-      "Getting Started",
-      "Things you Need"
+      "Private Pilot",
+      "Training Roadmap"
     ]
   },
   {
-    "objectID": "getting-started/things-you-need.html#charts",
-    "href": "getting-started/things-you-need.html#charts",
-    "title": "Things you Need",
-    "section": "Charts",
-    "text": "Charts\nBefore your fourth or fifth lesson, you should plan on picking up a current Los Angeles Terminal Area Chart. These charts are updated twice a year. As you progress in your training, you will need a Los Angeles Sectional Chart as well.\n\nElectronic Flight Bags (EFBs)\nMore recently, I have asked students to purchase an electronic flight bag (EFB) such as Foreflight. If you purchase Foreflight, you will need an iPad. Note that Foreflight does not work on Android tablets.\n\n\n\n\n\n\nNote\n\n\n\nRegardless of whether you use an EFB or not, you will be required to purchase the above paper charts for your training.\n\n\nEFBs have become the de facto standard in the industry. Since you will be using EFBs for your flying “in real life”, i.e. after your private pilot certificate, I prefer to introduce them early on in flight training so that the student is better prepared to use them after the completion of their training.\nChart Supplement: In addition to the Terminal Area Chart and Sectional mentioned above, you will need to purchase a “Chart Supplement” publication. This publication (previously called the “Airports and Facility Directory or A/FD) that gives you the details of all the airports in a region as well as the navigation aids and other information. While you can purchase them, you could also refer to a site such as AirNav or print out PDFs of the relevant pages from the chart supplement using a service such as ChartBundle.\n\n\n\n\n\n\nTip\n\n\n\nIf you are using Foreflight, all charts and chart supplements can be directly downloaded to your iPad in Foreflight and will be updated when they are updated by the FAA.",
+    "objectID": "getting-started/your-first-flight.html",
+    "href": "getting-started/your-first-flight.html",
+    "title": "Your First Flight",
+    "section": "",
+    "text": "Congratulations on your decision to become a pilot! Flying is one of the most rewarding hobbies that you will pursue. It offers you a unique perspective (literally) on the world.\nFlight training is unique in a few ways from learning to drive.\nSo, what can you expect during your first flight?",
     "crumbs": [
       "Getting Started",
-      "Things you Need"
+      "Your First Flight"
     ]
   },
   {
-    "objectID": "getting-started/things-you-need.html#e6b-flight-computer-and-navigation-plotter",
-    "href": "getting-started/things-you-need.html#e6b-flight-computer-and-navigation-plotter",
-    "title": "Things you Need",
-    "section": "E6B Flight Computer and Navigation Plotter",
-    "text": "E6B Flight Computer and Navigation Plotter\nWhen you get closer to planning longer flights (called “cross-country” flights), you will require an E6B flight computer and a navigation plotter.\nThe E6B is a super cool circular slide rule that every pilot possesses. I include an interactive web-based E6B for practice (not for navigation) here and here.",
+    "objectID": "getting-started/your-first-flight.html#introductions",
+    "href": "getting-started/your-first-flight.html#introductions",
+    "title": "Your First Flight",
+    "section": "Introductions",
+    "text": "Introductions\nOur first meeting is a chance for us to get to know each other. During your flight training, you and I will be working closely - physically and mentally. It is imperative that we are able to work together as a team, and that we understand each other.\nOn my part, I like to know a student’s motivation in learning to fly and answer some basic questions:\n\nWhat piqued your interest in flying?\nWhat are your goals? Are you looking to fly for recreational purposes or are you thinking of an aviation career?\nWhat can I do to support you in the pursuit of your dream?\n\nOn your part, you should make sure you are comfortable with me – my approach to teaching, my background as a flight instructor, and whether you feel that I will help you reach your goals. This is your time to clarify your doubts and I encourage you to ask me as many questions as you need to feel comfortable that I am the flight instructor for you.",
     "crumbs": [
       "Getting Started",
-      "Things you Need"
+      "Your First Flight"
     ]
   },
   {
-    "objectID": "getting-started/things-you-need.html#flashlight-and-headlamp",
-    "href": "getting-started/things-you-need.html#flashlight-and-headlamp",
-    "title": "Things you Need",
-    "section": "Flashlight and Headlamp",
-    "text": "Flashlight and Headlamp\nAs your training progresses, and you start to fly at night, you will need at least one good flashlight and a headlamp. In both cases, you will need one that has a red light in addition to the white since the eyes are less sensitive to red light at night.\nPart of the fun of embarking upon a new hobby (adventure?) is in learning the tools of the trade and pampering yourself with some “retail therapy”. Your friends and family will no longer need to worry about what to get you for your birthday or Christmas! 🙂",
+    "objectID": "getting-started/your-first-flight.html#flight-overview",
+    "href": "getting-started/your-first-flight.html#flight-overview",
+    "title": "Your First Flight",
+    "section": "Flight Overview",
+    "text": "Flight Overview\nThis flight is your chance to have fun while doing as much or as little of flying as you want.\nYou will join me in a preflight check of the aircraft where we make sure that the aircraft is fit to fly (airworthy). After that, we will start the engines, get the weather, and taxi out to the runway. We conduct a check of the engine and the flight controls, and then we get our departure clearance and we’re off to soar in the sky!\nI generally take students to the Long Beach area for the demo flight. It is a short (15-20 minute) flight. Perhaps, more important, the air is cooler than further inland and turbulence is minimal. It is also scenic and a lot of fun to see the ships in the harbor during our flight.\nYou will get to take off the aircraft, level off at altitude, and fly us to the our destination and back. I will always be there supporting you, communicating with air traffic control (ATC), watching for other traffic, and making sure that we have a safe flight. I will take the controls during our approach and landing.\nAt the end of the flight, I will sign the first entry in your log book, and you are on your way to becoming a pilot.",
     "crumbs": [
       "Getting Started",
-      "Things you Need"
+      "Your First Flight"
+    ]
+  },
+  {
+    "objectID": "getting-started/your-first-flight.html#attire",
+    "href": "getting-started/your-first-flight.html#attire",
+    "title": "Your First Flight",
+    "section": "Attire",
+    "text": "Attire\nYou should wear comfortable clothes and closed-toe shoes. A baseball cap is acceptable, but it can obstruct your vision of the sky above you. Sunglasses are a good idea, especially here in Southern California where the sun can get really bright.\n\n\n\n\n\n\nImportant\n\n\n\nMake sure your sunglasses are not polarized. The filter in polarized sunglasses can make screens hard or impossible to read.",
+    "crumbs": [
+      "Getting Started",
+      "Your First Flight"
+    ]
+  },
+  {
+    "objectID": "getting-started/your-first-flight.html#passengers",
+    "href": "getting-started/your-first-flight.html#passengers",
+    "title": "Your First Flight",
+    "section": "Passengers",
+    "text": "Passengers\nI encourage you to bring a friend or family member with you for your demo flight.\nFor safety reasons, I will need the weights of all members of your party so that I can run a weight and balance calculation and ensure we will be safe. The aircraft is a 4-seater, meaning that it can seat the pilot (you), the instructor (me), and two more people in the back. Given the maximum takeoff weight of small training aircraft, you can typically only fit one passenger in the plane – not two.\nPlease check with me if you are planning on bringing additional passengers to the demo flight.",
+    "crumbs": [
+      "Getting Started",
+      "Your First Flight"
+    ]
+  },
+  {
+    "objectID": "getting-started/your-first-flight.html#flight-scheduling",
+    "href": "getting-started/your-first-flight.html#flight-scheduling",
+    "title": "Your First Flight",
+    "section": "Flight Scheduling",
+    "text": "Flight Scheduling\nIf you are already a member of AACIT, you should schedule the aircraft and add me on the instructor line in the scheduling screen in our scheduling system, ScheduleMaster.\nOur normal training schedules are 3 hours long and this is, conveniently, the default duration in ScheduleMaster.\nIf you are not a member of AACIT, I would have scheduled the aircraft when we established our appointment.",
+    "crumbs": [
+      "Getting Started",
+      "Your First Flight"
+    ]
+  },
+  {
+    "objectID": "getting-started/your-first-flight.html#cost",
+    "href": "getting-started/your-first-flight.html#cost",
+    "title": "Your First Flight",
+    "section": "Cost",
+    "text": "Cost\nYou will be billed for actual aircraft usage (around 0.7 hours) as well as my time (around 2 hours). You should plan on paying about $200 for the entire flight.",
+    "crumbs": [
+      "Getting Started",
+      "Your First Flight"
+    ]
+  },
+  {
+    "objectID": "getting-started/your-first-flight.html#what-to-bring-with-you",
+    "href": "getting-started/your-first-flight.html#what-to-bring-with-you",
+    "title": "Your First Flight",
+    "section": "What to Bring with You",
+    "text": "What to Bring with You\n\nA pilot log book.\nA small spiral-bound notebook and pen.\nA way to pay me - I take cash, check, Venmo, and Zelle.\n\nAnd, of course, your enthusiasm!\nFor a more detailed look at the most essential things you will need during your training, check out my article.\nI look forward to the pleasure of guiding you on your aviation journey.",
+    "crumbs": [
+      "Getting Started",
+      "Your First Flight"
     ]
   },
   {
@@ -108,141 +247,6 @@
       "Getting Started",
       "TSA"
     ]
-  },
-  {
-    "objectID": "private-pilot/basic-weather.html",
-    "href": "private-pilot/basic-weather.html",
-    "title": "Basic Weather",
-    "section": "",
-    "text": "As a beginning pilot, you rely on your instructor to tell you when it is safe to fly. Often, your instructor will tell you that the weather is not great and your lesson is canceled. Sometimes, you look at the weather forecasts and wonder whether your lesson will be canceled or whether you should make the trek to your airport for a lesson.\nAfter a few lessons (typically 2 - 4), I like to introduce weather reports to my students and train them to make a determination of whether they think it is safe to fly. This orients them towards aeronautical decision making (ADM), teaches them about personal minimums, and familiarizes them with concepts that are critical as they progress toward their first solo.",
-    "crumbs": [
-      "Private Pilot",
-      "Basic Weather"
-    ]
-  },
-  {
-    "objectID": "private-pilot/basic-weather.html#weather-minimums",
-    "href": "private-pilot/basic-weather.html#weather-minimums",
-    "title": "Basic Weather",
-    "section": "Weather Minimums",
-    "text": "Weather Minimums\nA weather minimum, as the name indicates, is the lowest acceptable set of weather conditions under which a pilot will still fly.\nWeather minimums are an essential aspect of aeronautical decision making, and safe pilots will have their own weather minimums incorporated into their personal minimums – a set of minimums that include the aircraft’s condition, the pilot’s wellbeing, and the weather – which a safe pilot uses to determine whether to undertake a mission or not.\n\nComponents of Weather Minimums\n\nVisibility: How far can the pilot see while in the air. Expressed in statute miles.\nCeiling: How high above the ground are the bases of the clouds. Expressed in feet.\nWinds:\n\nSpeed: How strong are the winds. Expressed in knots.\nDirection: Are the winds directly down the runway or is there a significant crosswind component?\nGusts: Are the winds steady or are there gusts?\n\nAdverse Conditions: These would include things like turbulence, thunderstorms, icing, etc. They’re not as relevant for flying in SoCal (since we hardly get any real weather), but they’re important to keep in mind.\n\n\n\nWeather Minimums for A Pre-solo Student\nFor a pre-solo student, I like to keep things fairly “easy”. As the student gets closer to solo, I add more challenging situations in order to help the student understand (appreciate?) how even small changes in the weather could make their flights “interesting”.\n\nVisibility: 5 SM. Can be 3 SM if staying in the pattern at KEMT.\nCeiling: 3,500 feet. Can be 1,500 feet if staying in the pattern at KEMT.\nWinds: 5 knots. As we progress toward solo, this will increase to 10 knots, with a crosswind component of 2 knots.\nAdverse Conditions: No turbulence greater than light. Obviously, no thunderstorms in the vicinity. Light rain or rain showers are OK – they are irritating during preflight and can make landing a little challenging.",
-    "crumbs": [
-      "Private Pilot",
-      "Basic Weather"
-    ]
-  },
-  {
-    "objectID": "private-pilot/basic-weather.html#weather-reports",
-    "href": "private-pilot/basic-weather.html#weather-reports",
-    "title": "Basic Weather",
-    "section": "Weather Reports",
-    "text": "Weather Reports\nThere are two weather reports that are relevant to our discussion:\n\nTAF: The “terminal aerodrome forecast” which is issued every 6 hours (4 times a day) and valid for either 24 or 30 hours. The TAF, as the name implies, is a forecast.\nMETAR: The “routine aviation meteorological report”. This report is issued once an hour or more often if conditions change significantly. They are an observation, i.e. a point-in-time record of the weather at an airport.\n\n\nObtaining Weather Reports\nThe easiest way to obtain weather reports is through an EFB like Foreflight. But, if you do not have access to Foreflight, you can find all weather reports at the Aviation Weather Center.",
-    "crumbs": [
-      "Private Pilot",
-      "Basic Weather"
-    ]
-  },
-  {
-    "objectID": "private-pilot/basic-weather.html#interpreting-weather-reports",
-    "href": "private-pilot/basic-weather.html#interpreting-weather-reports",
-    "title": "Basic Weather",
-    "section": "Interpreting Weather Reports",
-    "text": "Interpreting Weather Reports\nLet us understand how to interpret these weather reports with a practical example.\nOn May 3rd, around 17:00 local, I was trying to determine whether I would be able to fly with a student on May 4th at 15:00 local (22:00Z at this time of year).\nSince my home airport, KEMT, does not have a TAF, one has to infer the possible weather around KEMT by “triangulating” the weather from a few nearby airports for whom TAFs are generated.\nTypically, we look at a combination of TAFs from KLGB, KBUR, and KONT to determine what the weather at KEMT might be.\nSo, let’s take a look at what the TAFs looked like at 17:00 local on the 3rd.\nKLGB 032331Z 0400/0424 22008KT P6SM BKN028 \n  FM040100 29008KT P6SM BKN025 \n  FM040400 VRB03KT P6SM BKN015 OVC025 \n  FM041000 VRB03KT P6SM OVC025 \n  FM041700 16006KT P6SM OVC025 \n  FM042100 21008KT P6SM OVC015\n\nKBUR 032331Z 0400/0424 18008KT P6SM SKC \n  FM040200 17006KT P6SM SKC \n  FM040600 15004KT P6SM OVC025 \n  FM042000 18008KT P6SM OVC025\n\nKONT 032323Z 0400/0506 26011G17KT P6SM SKC \n  FM040400 25006KT P6SM SKC \n  FM040700 VRB04KT 6SM BR SCT008 OVC015 \n  FM041100 VRB04KT 4SM BR BKN007 OVC012 \n  FM041700 23005KT 5SM HZ SCT009 BKN018 \n  FM042000 25011G18KT P6SM SCT020 BKN030 \n  FM050300 25008KT P6SM VCSH BKN015 OVC030\nLet’s look at the TAF for Long Beach airport (KLGB) and analyze it.\nThe first line shows the following information:\n\nThe airport for which the TAF was issued (KLGB).\nThe time it was issued (032331Z). This means the TAF was issued on the 3rd of the month at 2331Z.\nThe date and time for which the TAF is valid (0400/0424). This means that the TAF is valid from 00Z on the 4th (0400) through 24Z on the 4th (0424).\nThe general weather to be expected during the valid period:\n\n22008KT: Winds from 220 (the south west) at 8 knots. Winds are expressed in a 5-digit segment, with the wind direction being the first 3 digits and the wind speed being the last 2 digits.\nP6SM: Visibility of greater than 6 statute miles (the “P” stands for “Plus”)\nBKN028: Sky conditions: A broken layer of clouds at 2,800 feet AGL.",
-    "crumbs": [
-      "Private Pilot",
-      "Basic Weather"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#introduction",
-    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#introduction",
-    "title": "02 - Steep Turns & Slow Flight",
-    "section": "Introduction",
-    "text": "Introduction\nSteep turns are a high-performance maneuver designed to develop the skills of smoothness, coordination, orientation, division of attention and control techniques. They are typically performed in either direction (left and/or right) with an angle of bank of 45\\(\\degree\\pm\\) 5\\(\\degree\\).\nSlow flight is a manuever that shows the student how the aircraft behaves at speeds just above the stall speed of the airplane.",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "02 - Steep Turns & Slow Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#objectives",
-    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#objectives",
-    "title": "02 - Steep Turns & Slow Flight",
-    "section": "Objectives",
-    "text": "Objectives\nAt the end of the lesson, the student will be able to:\n\nDiscuss the structure of a typical flight lesson.\nUse the preflight checklist to preflight the aircraft.\nUnderstand, and explain, the various items on the checklist and relate potential failures to the safety of flight.\nPerform a pre-takeoff check (aka runup).\nPerform a normal takeoff and climb to the practice area.\nDemonstrate basic flight maneuvers: climbs, descents, straight and level flight, and turns.\nDivide attention between external references and flight instruments.",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "02 - Steep Turns & Slow Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#elements",
-    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#elements",
-    "title": "02 - Steep Turns & Slow Flight",
-    "section": "Elements",
-    "text": "Elements\n\nStudent & instructor introductions, familiarity, agreements.\nChecklist usage\nPreflight\nEngine start, taxiing, and pre-takeoff checks\nTakeoff and climb\nStraight and level flight\nShallow turns\nClimbs and descents\nTrim usage\nApproach and landing",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "02 - Steep Turns & Slow Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#schedule",
-    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#schedule",
-    "title": "02 - Steep Turns & Slow Flight",
-    "section": "Schedule",
-    "text": "Schedule\n\nGround: 0.5\nPreflight: 0.5\nFlight: 0.7",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "02 - Steep Turns & Slow Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#pre-read",
-    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#pre-read",
-    "title": "02 - Steep Turns & Slow Flight",
-    "section": "Pre-read",
-    "text": "Pre-read\nJeppesen Private Pilot Maneuvers Textbook:\n\nChapter 1 (Ground Operations): All maneuvers\nChapter 2 (Basic Manevers): All maneuvers\n\nJeppesen Private Pilot Textbook:\n\nChapter 2 (Airplane Systems): Section A (Airplanes)\nReview checklist and print a copy (two-sided, flip on short edge)",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "02 - Steep Turns & Slow Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#discussion",
-    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#discussion",
-    "title": "02 - Steep Turns & Slow Flight",
-    "section": "Discussion",
-    "text": "Discussion\n\nStudent / instructor agreement:\n\nOn-time\nBe prepared\nAsk questions\nCommunicate\n\nCertification timeline\n\nMinimum 40 hours\nTypically 60 - 80 hours\nTry to fly at least once a week, preferably twice.\n\nBudget: Approximately $ 12,000 (2024 rates at AACIT)\nLogistics:\n\nSchedule aircraft on ScheduleMaster\nSettling bills\nInstructor payment: Due at end of every lesson",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "02 - Steep Turns & Slow Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#homework",
-    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#homework",
-    "title": "02 - Steep Turns & Slow Flight",
-    "section": "Homework",
-    "text": "Homework\nJeppesen Private Pilot Maneuvers Textbook:\n\nChapter 5 (Flight Maneuvers): Slow flight, Steep turns\n\nJeppesen Private Pilot Textbook:\n\nChapter 2 (Airplane Systems): Section B (The Powerplant and Related Systems)",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "02 - Steep Turns & Slow Flight"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Using this site",
-    "section": "",
-    "text": "Thank you for visiting my web site. My name is Charath Ranganathan and I am a CFII based in Southern California. I teach at the Aero Association of California Institute of Technology (AACIT), often known as the “Caltech/JPL Flying Club.”\nAs a lifelong aviation enthusiast, avid flight simmer, and AvGeek, I am happiest when I’m in the air. I consider it a privilege to guide you in your aviation journey.\nMy goal is to make this site one of the most sought-after resources for those embarking on their aviation journey. The site and its contents will always be free.\n\nUsing this site\nThe sidebar on your left will take you to the articles, lessons, and other material on the site. However, for your convenience, the 10 most recent articles published on the site are listed below.\n\n\nRecent Articles\n\n\n\n\n\n\n\n\n\n\nScheduleMaster\n\n\nHow to Schedule Resources\n\n\n\nGetting Started\n\n\nAACIT\n\n\n\n\nCharath Ranganathan\n\n\nJul 7, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSan Gabriel Valley Airport\n\n\nGetting around at the airport\n\n\n\nGetting Started\n\n\nAACIT\n\n\n\n\nCharath Ranganathan\n\n\nJul 5, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBasic Weather\n\n\nInterpreting weather as a beginning pilot\n\n\n\nPrivate Pilot\n\n\nGetting Started\n\n\n\n\nCharath Ranganathan\n\n\nMay 5, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n02 - Steep Turns & Slow Flight\n\n\n\nPrivate Pilot\n\n\nLesson Plans\n\n\n\n\nCharath Ranganathan\n\n\nMar 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n01 - Basics of Flight\n\n\n\nPrivate Pilot\n\n\nLesson Plans\n\n\n\n\nCharath Ranganathan\n\n\nMar 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFAA Medical\n\n\nGetting an FAA Medical Certificate\n\n\n\nGetting Started\n\n\n\n\nCharath Ranganathan\n\n\nNov 8, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAviation Mnemomics\n\n\nLet’s dive into the alphabet soup of aviation mnemonics.\n\n\n\nResources\n\n\n\n\nCharath Ranganathan\n\n\nNov 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocuments\n\n\nDocuments that you need during your training\n\n\n\nResources\n\n\n\n\nCharath Ranganathan\n\n\nNov 4, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTSA\n\n\nTSA requirements for flight training\n\n\n\nGetting Started\n\n\n\n\nCharath Ranganathan\n\n\nNov 4, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTraining Roadmap\n\n\nYour journey to becoming a private pilot\n\n\n\nPrivate Pilot\n\n\nGetting Started\n\n\n\n\nCharath Ranganathan\n\n\nNov 3, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "resources/mnemonics.html",
@@ -344,28 +348,6 @@
     ]
   },
   {
-    "objectID": "AACIT/schedulemaster.html",
-    "href": "AACIT/schedulemaster.html",
-    "title": "ScheduleMaster",
-    "section": "",
-    "text": "AACIT uses ScheduleMaster for aircraft scheduling, maintenance tracking, and billing.\nThe Secretary will assign you a username and password when your membership to AACIT is confirmed. Please use this when logging into the system.",
-    "crumbs": [
-      "AACIT",
-      "ScheduleMaster"
-    ]
-  },
-  {
-    "objectID": "AACIT/schedulemaster.html#scheduling-aircraft",
-    "href": "AACIT/schedulemaster.html#scheduling-aircraft",
-    "title": "ScheduleMaster",
-    "section": "Scheduling Aircraft",
-    "text": "Scheduling Aircraft",
-    "crumbs": [
-      "AACIT",
-      "ScheduleMaster"
-    ]
-  },
-  {
     "objectID": "AACIT/the-airport.html",
     "href": "AACIT/the-airport.html",
     "title": "San Gabriel Valley Airport",
@@ -454,6 +436,13 @@
     ]
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Using this site",
+    "section": "",
+    "text": "Thank you for visiting my web site. My name is Charath Ranganathan and I am a CFII based in Southern California. I teach at the Aero Association of California Institute of Technology (AACIT), often known as the “Caltech/JPL Flying Club.”\nAs a lifelong aviation enthusiast, avid flight simmer, and AvGeek, I am happiest when I’m in the air. I consider it a privilege to guide you in your aviation journey.\nMy goal is to make this site one of the most sought-after resources for those embarking on their aviation journey. The site and its contents will always be free.\n\nUsing this site\nThe sidebar on your left will take you to the articles, lessons, and other material on the site. However, for your convenience, the 10 most recent articles published on the site are listed below.\n\n\nRecent Articles\n\n\n\n\n\n\n\n\n\n\nSan Gabriel Valley Airport\n\n\nGetting around at the airport\n\n\n\nGetting Started\n\n\nAACIT\n\n\n\n\nCharath Ranganathan\n\n\nJul 5, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n02 - Steep Turns & Slow Flight\n\n\n\nPrivate Pilot\n\n\nLesson Plans\n\n\n\n\nCharath Ranganathan\n\n\nMar 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n01 - Basics of Flight\n\n\n\nPrivate Pilot\n\n\nLesson Plans\n\n\n\n\nCharath Ranganathan\n\n\nMar 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFAA Medical\n\n\nGetting an FAA Medical Certificate\n\n\n\nGetting Started\n\n\n\n\nCharath Ranganathan\n\n\nNov 8, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAviation Mnemomics\n\n\nLet’s dive into the alphabet soup of aviation mnemonics.\n\n\n\nResources\n\n\n\n\nCharath Ranganathan\n\n\nNov 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocuments\n\n\nDocuments that you need during your training\n\n\n\nResources\n\n\n\n\nCharath Ranganathan\n\n\nNov 4, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTSA\n\n\nTSA requirements for flight training\n\n\n\nGetting Started\n\n\n\n\nCharath Ranganathan\n\n\nNov 4, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThings you Need\n\n\nEssentials, and more…\n\n\n\nGetting Started\n\n\nPrivate Pilot\n\n\n\n\nCharath Ranganathan\n\n\nNov 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTraining Roadmap\n\n\nYour journey to becoming a private pilot\n\n\n\nPrivate Pilot\n\n\nGetting Started\n\n\n\n\nCharath Ranganathan\n\n\nNov 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYour First Flight\n\n\nWhat to expect on your first, aka “demo”, flight.\n\n\n\nGetting Started\n\n\n\n\nCharath Ranganathan\n\n\nNov 2, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "resources/documents.html",
     "href": "resources/documents.html",
     "title": "Documents",
@@ -484,233 +473,6 @@
     "crumbs": [
       "Resources",
       "Documents"
-    ]
-  },
-  {
-    "objectID": "private-pilot/training-roadmap.html",
-    "href": "private-pilot/training-roadmap.html",
-    "title": "Training Roadmap",
-    "section": "",
-    "text": "Congratulations! You’ve decided to follow your dreams and get your Private Pilot certificate. You’ve probably contacted a nearby flight school or CFI at your local airfield. And, you might have even discussed rates, taken a demo flight, and started planning for your training.\nThen what? How is your training going to be organized? What are the key milestones in your training? How do you know you are making progress?\nThese are important questions that you should be asking yourself and your CFI. In this article we attempt to answer these questions for you.\nYour journey to your Private Pilot certificate will take you through 3 phases (or stages).",
-    "crumbs": [
-      "Private Pilot",
-      "Training Roadmap"
-    ]
-  },
-  {
-    "objectID": "private-pilot/training-roadmap.html#phase-1-the-pre-solo-phase",
-    "href": "private-pilot/training-roadmap.html#phase-1-the-pre-solo-phase",
-    "title": "Training Roadmap",
-    "section": "Phase 1: The Pre-solo Phase",
-    "text": "Phase 1: The Pre-solo Phase\nThis phase lays the foundation for all further flight training. In this phase, you focus on understanding the training airplane, how to fly it, how it behaves under different settings of power and “pitch attitude”, and how to safely operate the aircraft at your home airport and within the local practice area. Phase 1 culminates in your first solo flight.\n\nPhase 1 Syllabus\n\nPreflight preparation, checklist usage, takeoffs, landings, and the 4 fundamentals of flight (straight and level flight, climbs, descents, turns).\nAirport operations, and basic maneuvers (flight at various airspeeds, turns to headings, climbs and climbing turns, descents and descending turns).\nManeuvering during slow flight, stalls.\nPerformance maneuvers (steep turns), emergency operations.\nGround reference maneuvers (rectangular course, S-turns, turns around a point).\nTakeoffs, landings, and go-arounds.\nWeather information, aeronautical decision making, operations at alternate airports in the local area (entry into the traffic pattern, communication procedures).\n\nThe last step in Phase 1 is a solo phase check, normally conducted by another instructor. On successfully passing the phase check and a mandatory pre-solo written test, you will be ready to solo the aircraft, i.e. fly it on your own without the instructor present.\nIf you pass the phase check, your instructor will sign you off for your first solo flight! A huge achievement!",
-    "crumbs": [
-      "Private Pilot",
-      "Training Roadmap"
-    ]
-  },
-  {
-    "objectID": "private-pilot/training-roadmap.html#phase-2-the-pre-solo-cross-country-phase",
-    "href": "private-pilot/training-roadmap.html#phase-2-the-pre-solo-cross-country-phase",
-    "title": "Training Roadmap",
-    "section": "Phase 2: The Pre Solo-cross-country Phase",
-    "text": "Phase 2: The Pre Solo-cross-country Phase\nPhase 2 of your training builds on the skills that you have learned in phase 1, and expands your capabilities with cross country flights, night flights, and basic instrument maneuvers. This phase helps you gain increased confidence in flying the aircraft safely. You will fly the airplane solo and practice maneuvers by yourself (solo) in addition to receiving instruction on cross country flying.\nYou should also prepare for, and pass, your FAA knowledge test while in phase 2.\n\nPhase 2 Syllabus\n\nPerformance takeoffs and landings (short field, soft field).\nNavigation using pilotage, dead reckoning, and radio aids (VOR, GPS).\nAircraft weight and balance calculations.\nCross country flight planning, including aircraft performance calculations, weight and balance, obtaining weather information, and making go/no-go decisions.\nNight flight, including a night cross country and operations at night in the airport traffic pattern.\nFlight by reference to instruments.\nDual cross country flights with your instructor in preparation for your solo cross country flight.\n\nThe last step in Phase 2 is a solo-cross-country phase check in which another instructor evaluates whether you can safely operate the airplane during your cross country flights. They will evaluate your ability to control the aircraft in all phases of flight, communicate effectively with air traffic control, operate safely within the environment of other airports, and demonstrate adequate aeronautical decision making abilities.\nOnce you pass the pre solo cross country phase check, you are ready to fly the required solo cross country flights. Congratulations! You just crossed another major milestone.",
-    "crumbs": [
-      "Private Pilot",
-      "Training Roadmap"
-    ]
-  },
-  {
-    "objectID": "private-pilot/training-roadmap.html#phase-3-the-solo-cross-country-and-pre-checkride-phase",
-    "href": "private-pilot/training-roadmap.html#phase-3-the-solo-cross-country-and-pre-checkride-phase",
-    "title": "Training Roadmap",
-    "section": "Phase 3: The Solo Cross Country and Pre-checkride Phase",
-    "text": "Phase 3: The Solo Cross Country and Pre-checkride Phase\nIn phase 3, you gain proficiency in flying the aircraft to airports that are not in your local area (cross country flights) - at least 50nm miles away. You also start preparing for your practical test.\n\nPhase 3 Syllabus\n\nShort solo cross country - one landing at an airport that is greater than 50nm from your home airport. You may do more than one of these flights.\nLong solo cross country - a flight with a total distance of 150nm with landings at at least 2 different airports.\nSolo and dual flights that help you practice the required maneuvers for your upcoming practical test.\n\nPhase 3 culminates in a checkride phase check where another instructor assesses your readiness for taking, and passing, the practical test.\nOnce you have passed the pre checkride phase check, your instructor will be ready to sign you off for your practical test.",
-    "crumbs": [
-      "Private Pilot",
-      "Training Roadmap"
-    ]
-  },
-  {
-    "objectID": "private-pilot/training-roadmap.html#the-practical-test-aka-the-checkride",
-    "href": "private-pilot/training-roadmap.html#the-practical-test-aka-the-checkride",
-    "title": "Training Roadmap",
-    "section": "The Practical Test (aka, the “checkride”)",
-    "text": "The Practical Test (aka, the “checkride”)\nYou’ve made it this far, and now it is time for you to pass the practical test before you can become a private pilot. Exciting!\nThe practical test is conducted by a FAA “designated pilot examiner” (DPE), who is an experienced pilot to whom the FAA has granted privileges to test and certify airmen.\nThe test consists of an oral exam (called the “ground” exam) and a flight exam and should take about 4 hours to complete. They will use the FAA’s Private Pilot Airmen Certification Standards (ACS) as the testing standard to evaluate your performance.\nOnce you pass your practical test, you are a Private Pilot! Congratulations! You have started on your aviation journey.",
-    "crumbs": [
-      "Private Pilot",
-      "Training Roadmap"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#introduction",
-    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#introduction",
-    "title": "01 - Basics of Flight",
-    "section": "Introduction",
-    "text": "Introduction\nThe first flight introduces the student to the structure of typical flight lessons and allows them to build a relationship with their instructor.\nRisk management and the importance of checklists are emphasized.",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "01 - Basics of Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#objectives",
-    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#objectives",
-    "title": "01 - Basics of Flight",
-    "section": "Objectives",
-    "text": "Objectives\nAt the end of the lesson, the student will be able to:\n\nDiscuss the structure of a typical flight lesson.\nUse the preflight checklist to preflight the aircraft.\nUnderstand, and explain, the various items on the checklist and relate potential failures to the safety of flight.\nPerform a pre-takeoff check (aka runup).\nPerform a normal takeoff and climb to the practice area.\nDemonstrate basic flight maneuvers: climbs, descents, straight and level flight, and turns.\nDivide attention between external references and flight instruments.",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "01 - Basics of Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#elements",
-    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#elements",
-    "title": "01 - Basics of Flight",
-    "section": "Elements",
-    "text": "Elements\n\nStudent & instructor introductions, familiarity, agreements.\nChecklist usage\nPreflight\nEngine start, taxiing, and pre-takeoff checks\nTakeoff and climb\nStraight and level flight\nShallow turns\nClimbs and descents\nTrim usage\nApproach and landing",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "01 - Basics of Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#schedule",
-    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#schedule",
-    "title": "01 - Basics of Flight",
-    "section": "Schedule",
-    "text": "Schedule\n\nGround: 0.5\nPreflight: 0.5\nFlight: 0.7",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "01 - Basics of Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#pre-read",
-    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#pre-read",
-    "title": "01 - Basics of Flight",
-    "section": "Pre-read",
-    "text": "Pre-read\nJeppesen Private Pilot Maneuvers Textbook:\n\nChapter 1 (Ground Operations): All maneuvers\nChapter 2 (Basic Manevers): All maneuvers\n\nJeppesen Private Pilot Textbook:\n\nChapter 2 (Airplane Systems): Section A (Airplanes)\nReview checklist and print a copy (two-sided, flip on short edge)",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "01 - Basics of Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#discussion",
-    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#discussion",
-    "title": "01 - Basics of Flight",
-    "section": "Discussion",
-    "text": "Discussion\n\nStudent / instructor agreement:\n\nOn-time\nBe prepared\nAsk questions\nCommunicate\n\nCertification timeline\n\nMinimum 40 hours\nTypically 60 - 80 hours\nTry to fly at least once a week, preferably twice.\n\nBudget: Approximately $ 12,000 (2024 rates at AACIT)\nLogistics:\n\nSchedule aircraft on ScheduleMaster\nSettling bills\nInstructor payment: Due at end of every lesson",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "01 - Basics of Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#homework",
-    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#homework",
-    "title": "01 - Basics of Flight",
-    "section": "Homework",
-    "text": "Homework\nJeppesen Private Pilot Maneuvers Textbook:\n\nChapter 5 (Flight Maneuvers): Slow flight, Steep turns\n\nJeppesen Private Pilot Textbook:\n\nChapter 2 (Airplane Systems): Section B (The Powerplant and Related Systems)",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "01 - Basics of Flight"
-    ]
-  },
-  {
-    "objectID": "getting-started/your-first-flight.html",
-    "href": "getting-started/your-first-flight.html",
-    "title": "Your First Flight",
-    "section": "",
-    "text": "Congratulations on your decision to become a pilot! Flying is one of the most rewarding hobbies that you will pursue. It offers you a unique perspective (literally) on the world.\nFlight training is unique in a few ways from learning to drive.\nSo, what can you expect during your first flight?",
-    "crumbs": [
-      "Getting Started",
-      "Your First Flight"
-    ]
-  },
-  {
-    "objectID": "getting-started/your-first-flight.html#introductions",
-    "href": "getting-started/your-first-flight.html#introductions",
-    "title": "Your First Flight",
-    "section": "Introductions",
-    "text": "Introductions\nOur first meeting is a chance for us to get to know each other. During your flight training, you and I will be working closely - physically and mentally. It is imperative that we are able to work together as a team, and that we understand each other.\nOn my part, I like to know a student’s motivation in learning to fly and answer some basic questions:\n\nWhat piqued your interest in flying?\nWhat are your goals? Are you looking to fly for recreational purposes or are you thinking of an aviation career?\nWhat can I do to support you in the pursuit of your dream?\n\nOn your part, you should make sure you are comfortable with me – my approach to teaching, my background as a flight instructor, and whether you feel that I will help you reach your goals. This is your time to clarify your doubts and I encourage you to ask me as many questions as you need to feel comfortable that I am the flight instructor for you.",
-    "crumbs": [
-      "Getting Started",
-      "Your First Flight"
-    ]
-  },
-  {
-    "objectID": "getting-started/your-first-flight.html#flight-overview",
-    "href": "getting-started/your-first-flight.html#flight-overview",
-    "title": "Your First Flight",
-    "section": "Flight Overview",
-    "text": "Flight Overview\nThis flight is your chance to have fun while doing as much or as little of flying as you want.\nYou will join me in a preflight check of the aircraft where we make sure that the aircraft is fit to fly (airworthy). After that, we will start the engines, get the weather, and taxi out to the runway. We conduct a check of the engine and the flight controls, and then we get our departure clearance and we’re off to soar in the sky!\nI generally take students to the Long Beach area for the demo flight. It is a short (15-20 minute) flight. Perhaps, more important, the air is cooler than further inland and turbulence is minimal. It is also scenic and a lot of fun to see the ships in the harbor during our flight.\nYou will get to take off the aircraft, level off at altitude, and fly us to the our destination and back. I will always be there supporting you, communicating with air traffic control (ATC), watching for other traffic, and making sure that we have a safe flight. I will take the controls during our approach and landing.\nAt the end of the flight, I will sign the first entry in your log book, and you are on your way to becoming a pilot.",
-    "crumbs": [
-      "Getting Started",
-      "Your First Flight"
-    ]
-  },
-  {
-    "objectID": "getting-started/your-first-flight.html#attire",
-    "href": "getting-started/your-first-flight.html#attire",
-    "title": "Your First Flight",
-    "section": "Attire",
-    "text": "Attire\nYou should wear comfortable clothes and closed-toe shoes. A baseball cap is acceptable, but it can obstruct your vision of the sky above you. Sunglasses are a good idea, especially here in Southern California where the sun can get really bright.\n\n\n\n\n\n\nImportant\n\n\n\nMake sure your sunglasses are not polarized. The filter in polarized sunglasses can make screens hard or impossible to read.",
-    "crumbs": [
-      "Getting Started",
-      "Your First Flight"
-    ]
-  },
-  {
-    "objectID": "getting-started/your-first-flight.html#passengers",
-    "href": "getting-started/your-first-flight.html#passengers",
-    "title": "Your First Flight",
-    "section": "Passengers",
-    "text": "Passengers\nI encourage you to bring a friend or family member with you for your demo flight.\nFor safety reasons, I will need the weights of all members of your party so that I can run a weight and balance calculation and ensure we will be safe. The aircraft is a 4-seater, meaning that it can seat the pilot (you), the instructor (me), and two more people in the back. Given the maximum takeoff weight of small training aircraft, you can typically only fit one passenger in the plane – not two.\nPlease check with me if you are planning on bringing additional passengers to the demo flight.",
-    "crumbs": [
-      "Getting Started",
-      "Your First Flight"
-    ]
-  },
-  {
-    "objectID": "getting-started/your-first-flight.html#flight-scheduling",
-    "href": "getting-started/your-first-flight.html#flight-scheduling",
-    "title": "Your First Flight",
-    "section": "Flight Scheduling",
-    "text": "Flight Scheduling\nIf you are already a member of AACIT, you should schedule the aircraft and add me on the instructor line in the scheduling screen in our scheduling system, ScheduleMaster.\nOur normal training schedules are 3 hours long and this is, conveniently, the default duration in ScheduleMaster.\nIf you are not a member of AACIT, I would have scheduled the aircraft when we established our appointment.",
-    "crumbs": [
-      "Getting Started",
-      "Your First Flight"
-    ]
-  },
-  {
-    "objectID": "getting-started/your-first-flight.html#cost",
-    "href": "getting-started/your-first-flight.html#cost",
-    "title": "Your First Flight",
-    "section": "Cost",
-    "text": "Cost\nYou will be billed for actual aircraft usage (around 0.7 hours) as well as my time (around 2 hours). You should plan on paying about $200 for the entire flight.",
-    "crumbs": [
-      "Getting Started",
-      "Your First Flight"
-    ]
-  },
-  {
-    "objectID": "getting-started/your-first-flight.html#what-to-bring-with-you",
-    "href": "getting-started/your-first-flight.html#what-to-bring-with-you",
-    "title": "Your First Flight",
-    "section": "What to Bring with You",
-    "text": "What to Bring with You\n\nA pilot log book.\nA small spiral-bound notebook and pen.\nA way to pay me - I take cash, check, Venmo, and Zelle.\n\nAnd, of course, your enthusiasm!\nFor a more detailed look at the most essential things you will need during your training, check out my article.\nI look forward to the pleasure of guiding you on your aviation journey.",
-    "crumbs": [
-      "Getting Started",
-      "Your First Flight"
     ]
   },
   {
@@ -777,6 +539,178 @@
     "crumbs": [
       "Getting Started",
       "FAA Medical"
+    ]
+  },
+  {
+    "objectID": "getting-started/things-you-need.html",
+    "href": "getting-started/things-you-need.html",
+    "title": "Things you Need",
+    "section": "",
+    "text": "Here is a list of items that I recommend for students working on their private pilot’s license.",
+    "crumbs": [
+      "Getting Started",
+      "Things you Need"
+    ]
+  },
+  {
+    "objectID": "getting-started/things-you-need.html#pilot-log-book",
+    "href": "getting-started/things-you-need.html#pilot-log-book",
+    "title": "Things you Need",
+    "section": "Pilot Log Book",
+    "text": "Pilot Log Book\nThis is where you will maintain details of your flights, endorsements that you earn during the course of your study, and ongoing endorsements after you get your private pilot. There are a number of log books available on the market.\nI recommend the Gleim Pilot Log Book.\nIt contains columns for most entries that you will need well past your private pilot’s license as well as the newer endorsements for TSA, etc. At under $10, it’s a good buy and will serve as a reminder of the wonderful memories that you create in your aviation career.\n\n\n\n\n\n\nTip\n\n\n\nIf you are thinking about using an electronic flight bag, you could use the logbook functionality in the EFB.",
+    "crumbs": [
+      "Getting Started",
+      "Things you Need"
+    ]
+  },
+  {
+    "objectID": "getting-started/things-you-need.html#headset",
+    "href": "getting-started/things-you-need.html#headset",
+    "title": "Things you Need",
+    "section": "Headset",
+    "text": "Headset\nI have one headset that students can borrow for the first one or two lessons, but I strongly suggest that you invest in a good headset for your training and beyond. Headsets run the gamut of rates from the really inexpensive (under $100) “student” headsets to mid-range headsets (around $400) to the top-of-the-line active noise canceling headsets ($800 - $1,300).\nMy personal favorite is the Bose A30, but at $1,299, it is the most expensive headset out there.\nAnother good option for an active noise canceling headset is the Lightspeed Zulu 3.\nIf you’re looking for something a little more “mid-range”, you could purchase a passive noise canceling headset such as the David Clark H10-13S, which retails for a more wallet-friendly $360.\nI have found that among pilots, headsets are like religions – you’ll find the “Bose camp” and the “Lightspeed camp”. So, pick one that works for you and use it for your training.\n\n\n\n\n\n\nImportant\n\n\n\nWhen ordering a headset, make sure you order one with dual GA plugs or fixed-wing, 2 plug, battery powered. Check with your instructor if you have any questions.",
+    "crumbs": [
+      "Getting Started",
+      "Things you Need"
+    ]
+  },
+  {
+    "objectID": "getting-started/things-you-need.html#kneeboard",
+    "href": "getting-started/things-you-need.html#kneeboard",
+    "title": "Things you Need",
+    "section": "Kneeboard",
+    "text": "Kneeboard\nAll pilots need a way to quickly jot down weather information, taxi instructions, and other notes, in addition to storing charts and other papers. A good kneeboard is a worthwhile investment – one that will last you a long time in your aviation career",
+    "crumbs": [
+      "Getting Started",
+      "Things you Need"
+    ]
+  },
+  {
+    "objectID": "getting-started/things-you-need.html#flight-bag",
+    "href": "getting-started/things-you-need.html#flight-bag",
+    "title": "Things you Need",
+    "section": "Flight Bag",
+    "text": "Flight Bag\nYou will need a way to carry all your charts, headset, and other supplies to the airport and to store them safely while in flight. A good flight bag is a must. Flight bags can be as basic as a backpack that you already own or as fancy as commercially sold flight bags. While this is ultimately a matter of choice, find something that’s small enough to fit on the seat behind you, and has enough pockets so that you can easily access items while in flight.",
+    "crumbs": [
+      "Getting Started",
+      "Things you Need"
+    ]
+  },
+  {
+    "objectID": "getting-started/things-you-need.html#charts",
+    "href": "getting-started/things-you-need.html#charts",
+    "title": "Things you Need",
+    "section": "Charts",
+    "text": "Charts\nBefore your fourth or fifth lesson, you should plan on picking up a current Los Angeles Terminal Area Chart. These charts are updated twice a year. As you progress in your training, you will need a Los Angeles Sectional Chart as well.\n\nElectronic Flight Bags (EFBs)\nMore recently, I have asked students to purchase an electronic flight bag (EFB) such as Foreflight. If you purchase Foreflight, you will need an iPad. Note that Foreflight does not work on Android tablets.\n\n\n\n\n\n\nNote\n\n\n\nRegardless of whether you use an EFB or not, you will be required to purchase the above paper charts for your training.\n\n\nEFBs have become the de facto standard in the industry. Since you will be using EFBs for your flying “in real life”, i.e. after your private pilot certificate, I prefer to introduce them early on in flight training so that the student is better prepared to use them after the completion of their training.\nChart Supplement: In addition to the Terminal Area Chart and Sectional mentioned above, you will need to purchase a “Chart Supplement” publication. This publication (previously called the “Airports and Facility Directory or A/FD) that gives you the details of all the airports in a region as well as the navigation aids and other information. While you can purchase them, you could also refer to a site such as AirNav or print out PDFs of the relevant pages from the chart supplement using a service such as ChartBundle.\n\n\n\n\n\n\nTip\n\n\n\nIf you are using Foreflight, all charts and chart supplements can be directly downloaded to your iPad in Foreflight and will be updated when they are updated by the FAA.",
+    "crumbs": [
+      "Getting Started",
+      "Things you Need"
+    ]
+  },
+  {
+    "objectID": "getting-started/things-you-need.html#e6b-flight-computer-and-navigation-plotter",
+    "href": "getting-started/things-you-need.html#e6b-flight-computer-and-navigation-plotter",
+    "title": "Things you Need",
+    "section": "E6B Flight Computer and Navigation Plotter",
+    "text": "E6B Flight Computer and Navigation Plotter\nWhen you get closer to planning longer flights (called “cross-country” flights), you will require an E6B flight computer and a navigation plotter.\nThe E6B is a super cool circular slide rule that every pilot possesses. I include an interactive web-based E6B for practice (not for navigation) here and here.",
+    "crumbs": [
+      "Getting Started",
+      "Things you Need"
+    ]
+  },
+  {
+    "objectID": "getting-started/things-you-need.html#flashlight-and-headlamp",
+    "href": "getting-started/things-you-need.html#flashlight-and-headlamp",
+    "title": "Things you Need",
+    "section": "Flashlight and Headlamp",
+    "text": "Flashlight and Headlamp\nAs your training progresses, and you start to fly at night, you will need at least one good flashlight and a headlamp. In both cases, you will need one that has a red light in addition to the white since the eyes are less sensitive to red light at night.\nPart of the fun of embarking upon a new hobby (adventure?) is in learning the tools of the trade and pampering yourself with some “retail therapy”. Your friends and family will no longer need to worry about what to get you for your birthday or Christmas! 🙂",
+    "crumbs": [
+      "Getting Started",
+      "Things you Need"
+    ]
+  },
+  {
+    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#introduction",
+    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#introduction",
+    "title": "02 - Steep Turns & Slow Flight",
+    "section": "Introduction",
+    "text": "Introduction\nSteep turns are a high-performance maneuver designed to develop the skills of smoothness, coordination, orientation, division of attention and control techniques. They are typically performed in either direction (left and/or right) with an angle of bank of 45\\(\\degree\\pm\\) 5\\(\\degree\\).\nSlow flight is a manuever that shows the student how the aircraft behaves at speeds just above the stall speed of the airplane.",
+    "crumbs": [
+      "Private Pilot",
+      "Lesson Plans",
+      "02 - Steep Turns & Slow Flight"
+    ]
+  },
+  {
+    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#objectives",
+    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#objectives",
+    "title": "02 - Steep Turns & Slow Flight",
+    "section": "Objectives",
+    "text": "Objectives\nAt the end of the lesson, the student will be able to:\n\nDiscuss the structure of a typical flight lesson.\nUse the preflight checklist to preflight the aircraft.\nUnderstand, and explain, the various items on the checklist and relate potential failures to the safety of flight.\nPerform a pre-takeoff check (aka runup).\nPerform a normal takeoff and climb to the practice area.\nDemonstrate basic flight maneuvers: climbs, descents, straight and level flight, and turns.\nDivide attention between external references and flight instruments.",
+    "crumbs": [
+      "Private Pilot",
+      "Lesson Plans",
+      "02 - Steep Turns & Slow Flight"
+    ]
+  },
+  {
+    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#elements",
+    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#elements",
+    "title": "02 - Steep Turns & Slow Flight",
+    "section": "Elements",
+    "text": "Elements\n\nStudent & instructor introductions, familiarity, agreements.\nChecklist usage\nPreflight\nEngine start, taxiing, and pre-takeoff checks\nTakeoff and climb\nStraight and level flight\nShallow turns\nClimbs and descents\nTrim usage\nApproach and landing",
+    "crumbs": [
+      "Private Pilot",
+      "Lesson Plans",
+      "02 - Steep Turns & Slow Flight"
+    ]
+  },
+  {
+    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#schedule",
+    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#schedule",
+    "title": "02 - Steep Turns & Slow Flight",
+    "section": "Schedule",
+    "text": "Schedule\n\nGround: 0.5\nPreflight: 0.5\nFlight: 0.7",
+    "crumbs": [
+      "Private Pilot",
+      "Lesson Plans",
+      "02 - Steep Turns & Slow Flight"
+    ]
+  },
+  {
+    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#pre-read",
+    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#pre-read",
+    "title": "02 - Steep Turns & Slow Flight",
+    "section": "Pre-read",
+    "text": "Pre-read\nJeppesen Private Pilot Maneuvers Textbook:\n\nChapter 1 (Ground Operations): All maneuvers\nChapter 2 (Basic Manevers): All maneuvers\n\nJeppesen Private Pilot Textbook:\n\nChapter 2 (Airplane Systems): Section A (Airplanes)\nReview checklist and print a copy (two-sided, flip on short edge)",
+    "crumbs": [
+      "Private Pilot",
+      "Lesson Plans",
+      "02 - Steep Turns & Slow Flight"
+    ]
+  },
+  {
+    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#discussion",
+    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#discussion",
+    "title": "02 - Steep Turns & Slow Flight",
+    "section": "Discussion",
+    "text": "Discussion\n\nStudent / instructor agreement:\n\nOn-time\nBe prepared\nAsk questions\nCommunicate\n\nCertification timeline\n\nMinimum 40 hours\nTypically 60 - 80 hours\nTry to fly at least once a week, preferably twice.\n\nBudget: Approximately $ 12,000 (2024 rates at AACIT)\nLogistics:\n\nSchedule aircraft on ScheduleMaster\nSettling bills\nInstructor payment: Due at end of every lesson",
+    "crumbs": [
+      "Private Pilot",
+      "Lesson Plans",
+      "02 - Steep Turns & Slow Flight"
+    ]
+  },
+  {
+    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#homework",
+    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#homework",
+    "title": "02 - Steep Turns & Slow Flight",
+    "section": "Homework",
+    "text": "Homework\nJeppesen Private Pilot Maneuvers Textbook:\n\nChapter 5 (Flight Maneuvers): Slow flight, Steep turns\n\nJeppesen Private Pilot Textbook:\n\nChapter 2 (Airplane Systems): Section B (The Powerplant and Related Systems)",
+    "crumbs": [
+      "Private Pilot",
+      "Lesson Plans",
+      "02 - Steep Turns & Slow Flight"
     ]
   }
 ]
