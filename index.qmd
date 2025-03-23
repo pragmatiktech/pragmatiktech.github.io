@@ -14,7 +14,7 @@ format:
     toc: false
 ---
 
-![](/static/images/pfactor-header-logo.png){width=50% fig-align="center"}
+![](/static/images/pragmatik-logo.png){width=50% fig-align="center"}
 
 Thank you for visiting my web site. My name is Charath Ranganathan and I am a CFII based in Southern California. I teach at the [Aero Association of California Institute of Technology](https://aacit.org/) (AACIT), often known as the "Caltech/JPL Flying Club."
 

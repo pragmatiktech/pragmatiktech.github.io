@@ -11,7 +11,7 @@ website:
   navbar:
     title: false
     background: dark
-    logo: /static/images/pfactor-header-logo-inverted.png
+    logo: /static/images/pragmatik-logo-inverse.png
     logo-href: /
     tools:
       - icon: facebook
