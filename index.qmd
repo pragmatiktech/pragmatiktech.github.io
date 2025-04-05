@@ -14,8 +14,6 @@ format:
     toc: false
 ---
 
-![](/static/images/pragmatik-logo.png){width=100% fig-align="center"}
-
 Welcome to `pragmatik.tech`. This is a site dedicated to technology, specifically the following:
 
 - Embedded programming in TinyGo and Micropython, with an emphasis on the Raspberry Pi Pico.
