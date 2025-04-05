@@ -5,7 +5,7 @@ project:
 
 website:
   title: "Pragmatik.tech"
-  site-url: https://pragmatik.tech
+  site-url: https://pragmatiktech.github.io
   back-to-top-navigation: true
   favicon: /favicon.ico
   navbar:

@@ -12,8 +12,6 @@ order: 1
 ---
 ![](/static/images/embedded/leds.jpg)
 
-# Blinking an LED with TinyGo
-
 {{< video https://youtu.be/B-6GsoEg0Lw >}}
 
 ## The Program
