@@ -11,11 +11,11 @@ body {
 }
 
 code {
-	font-family: 'JetBrains Mono', 'DM Mono', monospace;
+	font-family: 'Fira Code', 'JetBrains Mono', 'DM Mono', monospace;
 }
 
 pre > code {
-	font-family: 'JetBrains Mono', 'DM Mono', monospace;
+	font-family: 'Fira Code', 'JetBrains Mono', 'DM Mono', monospace;
 }
 
 h1 {
