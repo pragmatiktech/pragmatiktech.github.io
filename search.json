@@ -1,716 +1,193 @@
 [
   {
-    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#introduction",
-    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#introduction",
-    "title": "01 - Basics of Flight",
-    "section": "Introduction",
-    "text": "Introduction\nThe first flight introduces the student to the structure of typical flight lessons and allows them to build a relationship with their instructor.\nRisk management and the importance of checklists are emphasized.",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "01 - Basics of Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#objectives",
-    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#objectives",
-    "title": "01 - Basics of Flight",
-    "section": "Objectives",
-    "text": "Objectives\nAt the end of the lesson, the student will be able to:\n\nDiscuss the structure of a typical flight lesson.\nUse the preflight checklist to preflight the aircraft.\nUnderstand, and explain, the various items on the checklist and relate potential failures to the safety of flight.\nPerform a pre-takeoff check (aka runup).\nPerform a normal takeoff and climb to the practice area.\nDemonstrate basic flight maneuvers: climbs, descents, straight and level flight, and turns.\nDivide attention between external references and flight instruments.",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "01 - Basics of Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#elements",
-    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#elements",
-    "title": "01 - Basics of Flight",
-    "section": "Elements",
-    "text": "Elements\n\nStudent & instructor introductions, familiarity, agreements.\nChecklist usage\nPreflight\nEngine start, taxiing, and pre-takeoff checks\nTakeoff and climb\nStraight and level flight\nShallow turns\nClimbs and descents\nTrim usage\nApproach and landing",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "01 - Basics of Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#schedule",
-    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#schedule",
-    "title": "01 - Basics of Flight",
-    "section": "Schedule",
-    "text": "Schedule\n\nGround: 0.5\nPreflight: 0.5\nFlight: 0.7",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "01 - Basics of Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#pre-read",
-    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#pre-read",
-    "title": "01 - Basics of Flight",
-    "section": "Pre-read",
-    "text": "Pre-read\nJeppesen Private Pilot Maneuvers Textbook:\n\nChapter 1 (Ground Operations): All maneuvers\nChapter 2 (Basic Manevers): All maneuvers\n\nJeppesen Private Pilot Textbook:\n\nChapter 2 (Airplane Systems): Section A (Airplanes)\nReview checklist and print a copy (two-sided, flip on short edge)",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "01 - Basics of Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#discussion",
-    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#discussion",
-    "title": "01 - Basics of Flight",
-    "section": "Discussion",
-    "text": "Discussion\n\nStudent / instructor agreement:\n\nOn-time\nBe prepared\nAsk questions\nCommunicate\n\nCertification timeline\n\nMinimum 40 hours\nTypically 60 - 80 hours\nTry to fly at least once a week, preferably twice.\n\nBudget: Approximately $ 12,000 (2024 rates at AACIT)\nLogistics:\n\nSchedule aircraft on ScheduleMaster\nSettling bills\nInstructor payment: Due at end of every lesson",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "01 - Basics of Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/01-basics-of-flight.html#homework",
-    "href": "private-pilot/lesson-plans/01-basics-of-flight.html#homework",
-    "title": "01 - Basics of Flight",
-    "section": "Homework",
-    "text": "Homework\nJeppesen Private Pilot Maneuvers Textbook:\n\nChapter 5 (Flight Maneuvers): Slow flight, Steep turns\n\nJeppesen Private Pilot Textbook:\n\nChapter 2 (Airplane Systems): Section B (The Powerplant and Related Systems)",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "01 - Basics of Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/training-roadmap.html",
-    "href": "private-pilot/training-roadmap.html",
-    "title": "Training Roadmap",
+    "objectID": "embedded/concurrency-goroutines.html",
+    "href": "embedded/concurrency-goroutines.html",
+    "title": "Concurrency with Goroutines",
     "section": "",
-    "text": "Congratulations! You’ve decided to follow your dreams and get your Private Pilot certificate. You’ve probably contacted a nearby flight school or CFI at your local airfield. And, you might have even discussed rates, taken a demo flight, and started planning for your training.\nThen what? How is your training going to be organized? What are the key milestones in your training? How do you know you are making progress?\nThese are important questions that you should be asking yourself and your CFI. In this article we attempt to answer these questions for you.\nYour journey to your Private Pilot certificate will take you through 3 phases (or stages).",
+    "text": "Let us modify the simple blink program from our earlier tutorial to run multiple tasks simultaneously. This is what we call concurrency.\nGo has a number of primitives to help make programmers’ lives easier when they create concurrent programs. In this tutorial, we will look at one of them, namely Goroutines.",
     "crumbs": [
-      "Private Pilot",
-      "Training Roadmap"
+      "Embedded Systems",
+      "Concurrency with Goroutines"
     ]
   },
   {
-    "objectID": "private-pilot/training-roadmap.html#phase-1-the-pre-solo-phase",
-    "href": "private-pilot/training-roadmap.html#phase-1-the-pre-solo-phase",
-    "title": "Training Roadmap",
-    "section": "Phase 1: The Pre-solo Phase",
-    "text": "Phase 1: The Pre-solo Phase\nThis phase lays the foundation for all further flight training. In this phase, you focus on understanding the training airplane, how to fly it, how it behaves under different settings of power and “pitch attitude”, and how to safely operate the aircraft at your home airport and within the local practice area. Phase 1 culminates in your first solo flight.\n\nPhase 1 Syllabus\n\nPreflight preparation, checklist usage, takeoffs, landings, and the 4 fundamentals of flight (straight and level flight, climbs, descents, turns).\nAirport operations, and basic maneuvers (flight at various airspeeds, turns to headings, climbs and climbing turns, descents and descending turns).\nManeuvering during slow flight, stalls.\nPerformance maneuvers (steep turns), emergency operations.\nGround reference maneuvers (rectangular course, S-turns, turns around a point).\nTakeoffs, landings, and go-arounds.\nWeather information, aeronautical decision making, operations at alternate airports in the local area (entry into the traffic pattern, communication procedures).\n\nThe last step in Phase 1 is a solo phase check, normally conducted by another instructor. On successfully passing the phase check and a mandatory pre-solo written test, you will be ready to solo the aircraft, i.e. fly it on your own without the instructor present.\nIf you pass the phase check, your instructor will sign you off for your first solo flight! A huge achievement!",
+    "objectID": "embedded/concurrency-goroutines.html#the-program",
+    "href": "embedded/concurrency-goroutines.html#the-program",
+    "title": "Concurrency with Goroutines",
+    "section": "The Program",
+    "text": "The Program\nThe aim of our program is to do the following two things at once:\n\nBlink the onboard LED twice a second.\nPrint the phrase “hello concurrently” to the serial (UART) port.\n\nWe modify the blink.go program from the earlier tutorial to add:\n\nA function (named printHello) that prints “hello concurrently” in an infinite loop.\nA goroutine that spawns this function so that it runs concurrent to the main thread that is blinking the LED.\n\npackage main\n\nimport (\n    \"machine\"\n    \"time\"\n)\n\nfunc main() {\n    led := machine.LED\n    led.Configure(machine.PinConfig{\n            Mode: machine.PinOutput,\n    })\n        \n    go printHello()\n    \n    for {\n        led.High()\n        time.Sleep(500 * time.Millisecond)\n        led.Low()\n        time.Sleep(500 * time.Millisecond)\n    }\n}\n\nfunc printHello() {\n    for {\n        println(\"hello concurrently\")\n        time.Sleep(time.Second)\n    }\n}",
     "crumbs": [
-      "Private Pilot",
-      "Training Roadmap"
+      "Embedded Systems",
+      "Concurrency with Goroutines"
     ]
   },
   {
-    "objectID": "private-pilot/training-roadmap.html#phase-2-the-pre-solo-cross-country-phase",
-    "href": "private-pilot/training-roadmap.html#phase-2-the-pre-solo-cross-country-phase",
-    "title": "Training Roadmap",
-    "section": "Phase 2: The Pre Solo-cross-country Phase",
-    "text": "Phase 2: The Pre Solo-cross-country Phase\nPhase 2 of your training builds on the skills that you have learned in phase 1, and expands your capabilities with cross country flights, night flights, and basic instrument maneuvers. This phase helps you gain increased confidence in flying the aircraft safely. You will fly the airplane solo and practice maneuvers by yourself (solo) in addition to receiving instruction on cross country flying.\nYou should also prepare for, and pass, your FAA knowledge test while in phase 2.\n\nPhase 2 Syllabus\n\nPerformance takeoffs and landings (short field, soft field).\nNavigation using pilotage, dead reckoning, and radio aids (VOR, GPS).\nAircraft weight and balance calculations.\nCross country flight planning, including aircraft performance calculations, weight and balance, obtaining weather information, and making go/no-go decisions.\nNight flight, including a night cross country and operations at night in the airport traffic pattern.\nFlight by reference to instruments.\nDual cross country flights with your instructor in preparation for your solo cross country flight.\n\nThe last step in Phase 2 is a solo-cross-country phase check in which another instructor evaluates whether you can safely operate the airplane during your cross country flights. They will evaluate your ability to control the aircraft in all phases of flight, communicate effectively with air traffic control, operate safely within the environment of other airports, and demonstrate adequate aeronautical decision making abilities.\nOnce you pass the pre solo cross country phase check, you are ready to fly the required solo cross country flights. Congratulations! You just crossed another major milestone.",
+    "objectID": "embedded/concurrency-goroutines.html#testing-the-program",
+    "href": "embedded/concurrency-goroutines.html#testing-the-program",
+    "title": "Concurrency with Goroutines",
+    "section": "Testing the Program",
+    "text": "Testing the Program\nEnsure that your serial console is set up as described in my earlier tutorial on setting up the Pico for serial debugging.\nFlash the program to your pico:\n% tinygo flash -target=pico concurrentblink.go\nYou should see the onboard LED blinking, while the phrase “hello concurrently” is printed every second in the serial monitor.",
     "crumbs": [
-      "Private Pilot",
-      "Training Roadmap"
+      "Embedded Systems",
+      "Concurrency with Goroutines"
     ]
   },
   {
-    "objectID": "private-pilot/training-roadmap.html#phase-3-the-solo-cross-country-and-pre-checkride-phase",
-    "href": "private-pilot/training-roadmap.html#phase-3-the-solo-cross-country-and-pre-checkride-phase",
-    "title": "Training Roadmap",
-    "section": "Phase 3: The Solo Cross Country and Pre-checkride Phase",
-    "text": "Phase 3: The Solo Cross Country and Pre-checkride Phase\nIn phase 3, you gain proficiency in flying the aircraft to airports that are not in your local area (cross country flights) - at least 50nm miles away. You also start preparing for your practical test.\n\nPhase 3 Syllabus\n\nShort solo cross country - one landing at an airport that is greater than 50nm from your home airport. You may do more than one of these flights.\nLong solo cross country - a flight with a total distance of 150nm with landings at at least 2 different airports.\nSolo and dual flights that help you practice the required maneuvers for your upcoming practical test.\n\nPhase 3 culminates in a checkride phase check where another instructor assesses your readiness for taking, and passing, the practical test.\nOnce you have passed the pre checkride phase check, your instructor will be ready to sign you off for your practical test.",
+    "objectID": "embedded/concurrency-goroutines.html#references",
+    "href": "embedded/concurrency-goroutines.html#references",
+    "title": "Concurrency with Goroutines",
+    "section": "References",
+    "text": "References\n\nRob Pike’s presentation on “Concurrency is not parallelism”.",
     "crumbs": [
-      "Private Pilot",
-      "Training Roadmap"
+      "Embedded Systems",
+      "Concurrency with Goroutines"
     ]
   },
   {
-    "objectID": "private-pilot/training-roadmap.html#the-practical-test-aka-the-checkride",
-    "href": "private-pilot/training-roadmap.html#the-practical-test-aka-the-checkride",
-    "title": "Training Roadmap",
-    "section": "The Practical Test (aka, the “checkride”)",
-    "text": "The Practical Test (aka, the “checkride”)\nYou’ve made it this far, and now it is time for you to pass the practical test before you can become a private pilot. Exciting!\nThe practical test is conducted by a FAA “designated pilot examiner” (DPE), who is an experienced pilot to whom the FAA has granted privileges to test and certify airmen.\nThe test consists of an oral exam (called the “ground” exam) and a flight exam and should take about 4 hours to complete. They will use the FAA’s Private Pilot Airmen Certification Standards (ACS) as the testing standard to evaluate your performance.\nOnce you pass your practical test, you are a Private Pilot! Congratulations! You have started on your aviation journey.",
+    "objectID": "embedded/blinking-an-led.html#the-program",
+    "href": "embedded/blinking-an-led.html#the-program",
+    "title": "Blinking an LED with TinyGo",
+    "section": "The Program",
+    "text": "The Program\nThe program itself is simple - about 15 lines of code.\n// blink.go\n\npackage main\n\nimport (\n        \"machine\"\n        \"time\"\n)\n\nfunc main() {\n        led := machine.LED\n        led.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n        })\n        \n        for {\n            led.High()\n            time.Sleep(500 * time.Millisecond)\n            led.Low()\n            time.Sleep(500 * time.Millisecond)\n        }\n}",
     "crumbs": [
-      "Private Pilot",
-      "Training Roadmap"
+      "Embedded Systems",
+      "Blinking an LED with TinyGo"
     ]
   },
   {
-    "objectID": "getting-started/your-first-flight.html",
-    "href": "getting-started/your-first-flight.html",
-    "title": "Your First Flight",
-    "section": "",
-    "text": "Congratulations on your decision to become a pilot! Flying is one of the most rewarding hobbies that you will pursue. It offers you a unique perspective (literally) on the world.\nFlight training is unique in a few ways from learning to drive.\nSo, what can you expect during your first flight?",
+    "objectID": "embedded/blinking-an-led.html#basic-steps-to-interact-with-gpio",
+    "href": "embedded/blinking-an-led.html#basic-steps-to-interact-with-gpio",
+    "title": "Blinking an LED with TinyGo",
+    "section": "Basic Steps to Interact with GPIO",
+    "text": "Basic Steps to Interact with GPIO\nThe basic steps for interacting with a General Purpose Input-Output (GPIO) pin on the Pico are the same:\n\nImport the machine package.\nCreate a variable that is an instance of the GPIO pin.\nConfigure the instance.\nLoop while doing something with the pin.\n\nLet us examine each of these steps in detail.\n\nImport the machine Package\nimport (\n        \"machine\"\n        ... // other imports\n)\nThe machine package provides an abstraction in Go to the underlying capabilities of the microcontroller target. It also defines some constants that make it easier when referring to the facilities of the microcontroller in Go. As an example, consider the machine.LED constant, which represents the onboard LED on the Pico.\n\n\nCreate an Instance of the Pin\nled := machine.LED\nCreating the variable and initializing it to an instance of Pin allows us to access the variable in other parts of the program.\nNote that the pin is not configured yet. That needs to be done in the next step.\n\n\nConfigure the Pin Instance\nled.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n})\nThe Configure function takes an instance of a type called PinConfig as its input. The PinConfig type is defined as below:\ntype PinConfig struct {\n        Mode PinMode\n}\nThe following Modes are accepted:\nconst (\n        PinOutput PinMode = iota\n        PinInput\n        PinInputPulldown\n        PinInputPullup\n        PinAnalog\n        PinUART\n        PinPWM\n        PinI2C\n        PinSPI\n)\nSince we want the LED to blink, but are not concerned about its input, we configure the pin as a PinOutput.\n\n\nLoop\nOnce the GPIO pins are initialized and configured, we loop while performing a set of tasks. This is typical of any microcontroller (or embedded) application.\nIn the case of this trivial “blink” program, we turn the LED on and off periodically inside the loop. For the purposes of this program, we use a time of 500 milliseconds between turning the LED on, and turning it off.\nfor {\n    led.High()\n    time.Sleep(500 * time.Millisecond)\n    led.Low()\n    time.Sleep(500 * time.Millisecond)\n}\nOutputting a High to the pin switches on the LED, while a Low turns it off. The time.sleep merely pauses the program so that the pin isn’t toggled so frequently that the LED never appears to turn off.",
     "crumbs": [
-      "Getting Started",
-      "Your First Flight"
+      "Embedded Systems",
+      "Blinking an LED with TinyGo"
     ]
   },
   {
-    "objectID": "getting-started/your-first-flight.html#introductions",
-    "href": "getting-started/your-first-flight.html#introductions",
-    "title": "Your First Flight",
-    "section": "Introductions",
-    "text": "Introductions\nOur first meeting is a chance for us to get to know each other. During your flight training, you and I will be working closely - physically and mentally. It is imperative that we are able to work together as a team, and that we understand each other.\nOn my part, I like to know a student’s motivation in learning to fly and answer some basic questions:\n\nWhat piqued your interest in flying?\nWhat are your goals? Are you looking to fly for recreational purposes or are you thinking of an aviation career?\nWhat can I do to support you in the pursuit of your dream?\n\nOn your part, you should make sure you are comfortable with me – my approach to teaching, my background as a flight instructor, and whether you feel that I will help you reach your goals. This is your time to clarify your doubts and I encourage you to ask me as many questions as you need to feel comfortable that I am the flight instructor for you.",
+    "objectID": "embedded/blinking-an-led.html#summary",
+    "href": "embedded/blinking-an-led.html#summary",
+    "title": "Blinking an LED with TinyGo",
+    "section": "Summary",
+    "text": "Summary\nIn this tutorial, we learnt to:\n\nInitialize and configure a single GPIO pin using TinyGo.\nOutput binary high or low values to the pin.\nRun our program endlessly.",
     "crumbs": [
-      "Getting Started",
-      "Your First Flight"
+      "Embedded Systems",
+      "Blinking an LED with TinyGo"
     ]
   },
   {
-    "objectID": "getting-started/your-first-flight.html#flight-overview",
-    "href": "getting-started/your-first-flight.html#flight-overview",
-    "title": "Your First Flight",
-    "section": "Flight Overview",
-    "text": "Flight Overview\nThis flight is your chance to have fun while doing as much or as little of flying as you want.\nYou will join me in a preflight check of the aircraft where we make sure that the aircraft is fit to fly (airworthy). After that, we will start the engines, get the weather, and taxi out to the runway. We conduct a check of the engine and the flight controls, and then we get our departure clearance and we’re off to soar in the sky!\nI generally take students to the Long Beach area for the demo flight. It is a short (15-20 minute) flight. Perhaps, more important, the air is cooler than further inland and turbulence is minimal. It is also scenic and a lot of fun to see the ships in the harbor during our flight.\nYou will get to take off the aircraft, level off at altitude, and fly us to the our destination and back. I will always be there supporting you, communicating with air traffic control (ATC), watching for other traffic, and making sure that we have a safe flight. I will take the controls during our approach and landing.\nAt the end of the flight, I will sign the first entry in your log book, and you are on your way to becoming a pilot.",
+    "objectID": "embedded/blinking-an-led.html#references",
+    "href": "embedded/blinking-an-led.html#references",
+    "title": "Blinking an LED with TinyGo",
+    "section": "References",
+    "text": "References\n\nGitHub\nmachine package reference for Pico",
     "crumbs": [
-      "Getting Started",
-      "Your First Flight"
-    ]
-  },
-  {
-    "objectID": "getting-started/your-first-flight.html#attire",
-    "href": "getting-started/your-first-flight.html#attire",
-    "title": "Your First Flight",
-    "section": "Attire",
-    "text": "Attire\nYou should wear comfortable clothes and closed-toe shoes. A baseball cap is acceptable, but it can obstruct your vision of the sky above you. Sunglasses are a good idea, especially here in Southern California where the sun can get really bright.\n\n\n\n\n\n\nImportant\n\n\n\nMake sure your sunglasses are not polarized. The filter in polarized sunglasses can make screens hard or impossible to read.",
-    "crumbs": [
-      "Getting Started",
-      "Your First Flight"
-    ]
-  },
-  {
-    "objectID": "getting-started/your-first-flight.html#passengers",
-    "href": "getting-started/your-first-flight.html#passengers",
-    "title": "Your First Flight",
-    "section": "Passengers",
-    "text": "Passengers\nI encourage you to bring a friend or family member with you for your demo flight.\nFor safety reasons, I will need the weights of all members of your party so that I can run a weight and balance calculation and ensure we will be safe. The aircraft is a 4-seater, meaning that it can seat the pilot (you), the instructor (me), and two more people in the back. Given the maximum takeoff weight of small training aircraft, you can typically only fit one passenger in the plane – not two.\nPlease check with me if you are planning on bringing additional passengers to the demo flight.",
-    "crumbs": [
-      "Getting Started",
-      "Your First Flight"
-    ]
-  },
-  {
-    "objectID": "getting-started/your-first-flight.html#flight-scheduling",
-    "href": "getting-started/your-first-flight.html#flight-scheduling",
-    "title": "Your First Flight",
-    "section": "Flight Scheduling",
-    "text": "Flight Scheduling\nIf you are already a member of AACIT, you should schedule the aircraft and add me on the instructor line in the scheduling screen in our scheduling system, ScheduleMaster.\nOur normal training schedules are 3 hours long and this is, conveniently, the default duration in ScheduleMaster.\nIf you are not a member of AACIT, I would have scheduled the aircraft when we established our appointment.",
-    "crumbs": [
-      "Getting Started",
-      "Your First Flight"
-    ]
-  },
-  {
-    "objectID": "getting-started/your-first-flight.html#cost",
-    "href": "getting-started/your-first-flight.html#cost",
-    "title": "Your First Flight",
-    "section": "Cost",
-    "text": "Cost\nYou will be billed for actual aircraft usage (around 0.7 hours) as well as my time (around 2 hours). You should plan on paying about $200 for the entire flight.",
-    "crumbs": [
-      "Getting Started",
-      "Your First Flight"
-    ]
-  },
-  {
-    "objectID": "getting-started/your-first-flight.html#what-to-bring-with-you",
-    "href": "getting-started/your-first-flight.html#what-to-bring-with-you",
-    "title": "Your First Flight",
-    "section": "What to Bring with You",
-    "text": "What to Bring with You\n\nA pilot log book.\nA small spiral-bound notebook and pen.\nA way to pay me - I take cash, check, Venmo, and Zelle.\n\nAnd, of course, your enthusiasm!\nFor a more detailed look at the most essential things you will need during your training, check out my article.\nI look forward to the pleasure of guiding you on your aviation journey.",
-    "crumbs": [
-      "Getting Started",
-      "Your First Flight"
-    ]
-  },
-  {
-    "objectID": "getting-started/tsa.html",
-    "href": "getting-started/tsa.html",
-    "title": "TSA",
-    "section": "",
-    "text": "Prior to beginning flight training, all flight instructors are required to verify that the student is a citizen of the United States and endorse your log book with that information. We are also required to maintain a copy of your proof of citizenship and the endorsement.\nThe most common form of citizenship proof is a U.S. passport. So, please plan on bringing your passport with you to our lesson.",
-    "crumbs": [
-      "Getting Started",
-      "TSA"
-    ]
-  },
-  {
-    "objectID": "getting-started/tsa.html#non-us-citizens",
-    "href": "getting-started/tsa.html#non-us-citizens",
-    "title": "TSA",
-    "section": "Non-US Citizens",
-    "text": "Non-US Citizens\nIf you are not a U.S. citizen, you will be required to submit an application for TSA screening at the Flight Training Security Program (FTSP) and be approved prior to beginning training.\nIf you are not a U.S. Citizen, please let me know as soon as possible and I can guide you through the process of TSA approval. It takes about 6 weeks and costs about $250 to get your TSA approval.\nWe cannot begin flight training until your FTSP application has been approved.",
-    "crumbs": [
-      "Getting Started",
-      "TSA"
-    ]
-  },
-  {
-    "objectID": "resources/mnemonics.html",
-    "href": "resources/mnemonics.html",
-    "title": "Aviation Mnemomics",
-    "section": "",
-    "text": "GOOSE A CAT, CRAFT, HAND, etc. The list of acronyms that are used in aviation seems never-ending. The goal of this article is to list of some of the more common acronyms encountered by general aviation pilots. It could also be a useful tool to keep handy for a checkride.",
-    "crumbs": [
-      "Resources",
-      "Aviation Mnemomics"
-    ]
-  },
-  {
-    "objectID": "resources/mnemonics.html#required-documents-arrow",
-    "href": "resources/mnemonics.html#required-documents-arrow",
-    "title": "Aviation Mnemomics",
-    "section": "Required Documents — ARROW",
-    "text": "Required Documents — ARROW\n\n\n\nAcronym\nExplanation\n\n\n\n\nA\nAirworthiness Certificate\n\n\nR\nRegistration Certificate\n\n\nR\nRadio Operator’s License (optional)\n\n\nO\nOperating Limitations (in POH, AFM, placards, etc.)\n\n\nW\nWeight and Balance Information",
-    "crumbs": [
-      "Resources",
-      "Aviation Mnemomics"
-    ]
-  },
-  {
-    "objectID": "resources/mnemonics.html#required-inspections-aav1ate",
-    "href": "resources/mnemonics.html#required-inspections-aav1ate",
-    "title": "Aviation Mnemomics",
-    "section": "Required Inspections — AAV1ATE",
-    "text": "Required Inspections — AAV1ATE\n\n\n\nAcronym\nExplanation\nHow Often\n\n\n\n\nA\nAnnual Inspection\nEvery 12 months\n\n\nA\nAirworthiness Directives\nAs mandated by the AD\n\n\nV\nVOR Inspection (For IFR flights only)\nEvery 30 days\n\n\n1\n100-hr (if operated for rent/hire)\nEvery 100-hours\n\n\nA\nAltimeter & Pitot Static System Inspection\nEvery 24 months\n\n\nT\nTransponder Inspection\nEvery 24 months\n\n\nE\nEmergency Locator Transmitter (ELT)\nEvery 12 months",
-    "crumbs": [
-      "Resources",
-      "Aviation Mnemomics"
-    ]
-  },
-  {
-    "objectID": "resources/mnemonics.html#required-equipment-for-day-vfr-flight-goose-a-cat",
-    "href": "resources/mnemonics.html#required-equipment-for-day-vfr-flight-goose-a-cat",
-    "title": "Aviation Mnemomics",
-    "section": "Required Equipment for Day VFR Flight — GOOSE A CAT",
-    "text": "Required Equipment for Day VFR Flight — GOOSE A CAT\n\n\n\nAcronym\nExplanation\n\n\n\n\nG\nGas (fuel) level gauge - for each fuel tank\n\n\nO\nOil pressure gauge\n\n\nO\nOil temperature gauge\n\n\nS\nSeatbelts - for each occupant.\n\n\nE\nELT\n\n\nA\nAirspeed Indicator\n\n\nC\nCompass\n\n\nA\nAltimeter\n\n\nT\nTachometer - for each engine\n\n\n\n\nFor Complex Aircraft — GOOSE A ML CAT (Goose a Male Cat)\nTo the list above, add:\n\n\n\nAcronym\nExplanation\n\n\n\n\nM\nManifold Pressure Gauge - for each engine\n\n\nL\nLanding gear indicator",
-    "crumbs": [
-      "Resources",
-      "Aviation Mnemomics"
-    ]
-  },
-  {
-    "objectID": "resources/mnemonics.html#required-equipment-for-night-vfr-flight-flaps",
-    "href": "resources/mnemonics.html#required-equipment-for-night-vfr-flight-flaps",
-    "title": "Aviation Mnemomics",
-    "section": "Required Equipment for Night VFR Flight — FLAPS",
-    "text": "Required Equipment for Night VFR Flight — FLAPS\nIn addition to the equipment required for day VFR flight, add:\n\n\n\nAcronym\nExplanation\n\n\n\n\nF\nFuses (one complete spare set)\n\n\nL\nLanding light - if carrying persons for compensation or hire.\n\n\nA\nAnti-collision lights\n\n\nP\nPosition lights\n\n\nS\nSource of electricity (alternator, generator, etc.)",
-    "crumbs": [
-      "Resources",
-      "Aviation Mnemomics"
-    ]
-  },
-  {
-    "objectID": "resources/mnemonics.html#required-equipment-for-ifr-operations-dec-a-rat",
-    "href": "resources/mnemonics.html#required-equipment-for-ifr-operations-dec-a-rat",
-    "title": "Aviation Mnemomics",
-    "section": "Required Equipment for IFR Operations — DEC A RAT",
-    "text": "Required Equipment for IFR Operations — DEC A RAT\n\n\n\nAcronym\nExplanation\n\n\n\n\nD\nDirectional gyro\n\n\nE\nElectrical source\n\n\nC\nClock\n\n\nA\nAttitude indicator\n\n\nR\nRadios\n\n\nA\nAltimeter (adjustable)\n\n\nT\nTurn coordinator and slip/skid indicator",
-    "crumbs": [
-      "Resources",
-      "Aviation Mnemomics"
-    ]
-  },
-  {
-    "objectID": "resources/mnemonics.html#required-preflight-preparation-for-cross-country-flights-rawfat",
-    "href": "resources/mnemonics.html#required-preflight-preparation-for-cross-country-flights-rawfat",
-    "title": "Aviation Mnemomics",
-    "section": "Required Preflight Preparation for Cross-country Flights — RAWFAT",
-    "text": "Required Preflight Preparation for Cross-country Flights — RAWFAT\n\n\n\n\n\n\n\nAcronym\nExplanation\n\n\n\n\nR\nRunway lengths at airports of intended use\n\n\nA\nAlternates if the destination airport is unavailable\n\n\nW\nWeather briefing\n\n\nF\nFuel requirements (remember https://www.law.cornell.edu/cfr/text/14/91.151 for VFR and https://www.law.cornell.edu/cfr/text/14/91.167 for IFR)\n\n\nA\nATC delays\n\n\nT\nTakeoff and landing distance data",
-    "crumbs": [
-      "Resources",
-      "Aviation Mnemomics"
-    ]
-  },
-  {
-    "objectID": "resources/mnemonics.html#components-of-a-weather-briefing-sacred-wind",
-    "href": "resources/mnemonics.html#components-of-a-weather-briefing-sacred-wind",
-    "title": "Aviation Mnemomics",
-    "section": "Components of a Weather Briefing — SACrED WiNd",
-    "text": "Components of a Weather Briefing — SACrED WiNd\n\n\n\nAcronym\nExplanation\n\n\n\n\nS\nSynopsis\n\n\nA\nAdverse conditions\n\n\nC\nCurrent conditions\n\n\nR\nen Route forecast\n\n\nD\nDestination forecast\n\n\nW\nWinds aloft\n\n\nN\nNOTAMs",
-    "crumbs": [
-      "Resources",
-      "Aviation Mnemomics"
-    ]
-  },
-  {
-    "objectID": "resources/mnemonics.html#acknowledgements",
-    "href": "resources/mnemonics.html#acknowledgements",
-    "title": "Aviation Mnemomics",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\nMany of these acronyms were taken from the excellent site of Scott Cameron Todd",
-    "crumbs": [
-      "Resources",
-      "Aviation Mnemomics"
-    ]
-  },
-  {
-    "objectID": "AACIT/the-airport.html",
-    "href": "AACIT/the-airport.html",
-    "title": "San Gabriel Valley Airport",
-    "section": "",
-    "text": "AACIT’s aircraft are all based out of the San Gabriel Valley Airport in southern California. The airport’s ICAO identifier is KEMT.\nThe image above shows a general map of the airport, the location of the AACIT “flight line”, and the hangars where two more of the AACIT aircraft are located.",
-    "crumbs": [
-      "AACIT",
-      "San Gabriel Valley Airport"
-    ]
-  },
-  {
-    "objectID": "AACIT/the-airport.html#airport-restaurant",
-    "href": "AACIT/the-airport.html#airport-restaurant",
-    "title": "San Gabriel Valley Airport",
-    "section": "Airport Restaurant",
-    "text": "Airport Restaurant\nThe terminal building is home to the airport restaurant, Annia’s Kitchen, which is a popular hang out for locals and pilots alike. Annia’s can get extremely busy during the lunch hour on weekends (11:00AM - 1:00PM). So, if you are planning to meet your instructor for a meal, remember to arrive early and get your name on the list.\n\n\n\n\n\n\nTip\n\n\n\nSome of the instructors get “special” treatment at Annia’s. So, check with your instructor if they are one of the special ones!",
-    "crumbs": [
-      "AACIT",
-      "San Gabriel Valley Airport"
-    ]
-  },
-  {
-    "objectID": "AACIT/the-airport.html#fuel",
-    "href": "AACIT/the-airport.html#fuel",
-    "title": "San Gabriel Valley Airport",
-    "section": "Fuel",
-    "text": "Fuel\nAACIT has an account with Billion Air aviation - a FBO (Fixed Base Operator) located at the airport. They will dispatch a fuel truck for fuel requests. Your instructor will give you more information on the specifics of fueling your aircraft.\n\n\n\n\n\n\nImportant\n\n\n\nBillion Air is not open 24x7. If you need fuel when they are closed, you will need to get fuel at the fuel pit and submit the bill when you close out your flight in AACIT’s scheduling system.\n\n\n\nFuel Pit (self-serve)\nThe fuel pit is located about midfield and is accessible 24x7. You will need to taxi your airplane to the fuel pit and use your credit card to get fuel.\nDo NOT fuel the aircraft by yourself until your instructor has demonstrated how to safely fuel the aircraft and how to access the fuel pit.",
-    "crumbs": [
-      "AACIT",
-      "San Gabriel Valley Airport"
-    ]
-  },
-  {
-    "objectID": "AACIT/the-airport.html#aacit-aircraft-locations",
-    "href": "AACIT/the-airport.html#aacit-aircraft-locations",
-    "title": "San Gabriel Valley Airport",
-    "section": "AACIT Aircraft Locations",
-    "text": "AACIT Aircraft Locations\nThe majority of AACIT aircraft are located on row 22 - which is a short walk to the north of the terminal building.\nTwo AACIT aircraft – N98326 (C172) and N599PM (SR22) – are hangared. They are located in hangars B11 and A8 respectively. The hangars are secured with number locks and your instructor will tell you the combination to the hangars.",
-    "crumbs": [
-      "AACIT",
-      "San Gabriel Valley Airport"
-    ]
-  },
-  {
-    "objectID": "AACIT/the-airport.html#oil-and-supplies",
-    "href": "AACIT/the-airport.html#oil-and-supplies",
-    "title": "San Gabriel Valley Airport",
-    "section": "Oil and Supplies",
-    "text": "Oil and Supplies\nThere is a green box in row 22 which contains engine oil, oil funnels, and other maintenance supplies. The keys to the green box are found on the control locks in every aircraft. Remember to lock the green box after every use.\nAdditional oil and supplies are located in 98326’s hangar (B11). If you find that the supplies in the green box are running low, please be a good member and refill them with those from B11. Your fellow members will be much appreciative of your gesture.",
-    "crumbs": [
-      "AACIT",
-      "San Gabriel Valley Airport"
-    ]
-  },
-  {
-    "objectID": "AACIT/the-airport.html#trash",
-    "href": "AACIT/the-airport.html#trash",
-    "title": "San Gabriel Valley Airport",
-    "section": "Trash",
-    "text": "Trash\nThere is a trash bin next to the green box. All trash from the aircraft (empty oil containers, food wrappers, etc.) should be disposed off in the trash bin and the lid secured by you.\nIt is important to secure the lid so that it doesn’t accidentally open in the prop wash of other aircraft and cause damage to aircraft. Your instructor will show you how to use the trash bin (even though its operation is fairly trivial).\nAlso, if the trash bin is full, please empty it and replace the bag from one that’s located at the bottom of the bin. If there are no empty bags at the bottom, please email the board and one of the board members will place some there.\nJust like with the oil, we are highly appreciative of any members who help us by cleaning out the trash bin in a timely manner.\nTrash bags can be disposed off in the trash containers located just south of the vehicle entrance to the airport. This entrance is just south of the terminal building and near the wash rack.",
-    "crumbs": [
-      "AACIT",
-      "San Gabriel Valley Airport"
-    ]
-  },
-  {
-    "objectID": "AACIT/the-airport.html#restrooms",
-    "href": "AACIT/the-airport.html#restrooms",
-    "title": "San Gabriel Valley Airport",
-    "section": "Restrooms",
-    "text": "Restrooms\nThe closest restrooms to the AACIT flight line are on the south and north ends of hangar row A. The terminal building also houses restrooms.",
-    "crumbs": [
-      "AACIT",
-      "San Gabriel Valley Airport"
-    ]
-  },
-  {
-    "objectID": "AACIT/the-airport.html#parking",
-    "href": "AACIT/the-airport.html#parking",
-    "title": "San Gabriel Valley Airport",
-    "section": "Parking",
-    "text": "Parking\nParking is in the main parking lot outside the terminal building.",
-    "crumbs": [
-      "AACIT",
-      "San Gabriel Valley Airport"
+      "Embedded Systems",
+      "Blinking an LED with TinyGo"
     ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Using this site",
+    "title": "Recent Articles",
     "section": "",
-    "text": "Thank you for visiting my web site. My name is Charath Ranganathan and I am a CFII based in Southern California. I teach at the Aero Association of California Institute of Technology (AACIT), often known as the “Caltech/JPL Flying Club.”\nAs a lifelong aviation enthusiast, avid flight simmer, and AvGeek, I am happiest when I’m in the air. I consider it a privilege to guide you in your aviation journey.\nMy goal is to make this site one of the most sought-after resources for those embarking on their aviation journey. The site and its contents will always be free.\n\nUsing this site\nThe sidebar on your left will take you to the articles, lessons, and other material on the site. However, for your convenience, the 10 most recent articles published on the site are listed below.\n\n\nRecent Articles\n\n\n\n\n\n\n\n\n\n\nSan Gabriel Valley Airport\n\n\nGetting around at the airport\n\n\n\nGetting Started\n\n\nAACIT\n\n\n\n\nCharath Ranganathan\n\n\nJul 5, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n02 - Steep Turns & Slow Flight\n\n\n\nPrivate Pilot\n\n\nLesson Plans\n\n\n\n\nCharath Ranganathan\n\n\nMar 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n01 - Basics of Flight\n\n\n\nPrivate Pilot\n\n\nLesson Plans\n\n\n\n\nCharath Ranganathan\n\n\nMar 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFAA Medical\n\n\nGetting an FAA Medical Certificate\n\n\n\nGetting Started\n\n\n\n\nCharath Ranganathan\n\n\nNov 8, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAviation Mnemomics\n\n\nLet’s dive into the alphabet soup of aviation mnemonics.\n\n\n\nResources\n\n\n\n\nCharath Ranganathan\n\n\nNov 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocuments\n\n\nDocuments that you need during your training\n\n\n\nResources\n\n\n\n\nCharath Ranganathan\n\n\nNov 4, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTSA\n\n\nTSA requirements for flight training\n\n\n\nGetting Started\n\n\n\n\nCharath Ranganathan\n\n\nNov 4, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThings you Need\n\n\nEssentials, and more…\n\n\n\nGetting Started\n\n\nPrivate Pilot\n\n\n\n\nCharath Ranganathan\n\n\nNov 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTraining Roadmap\n\n\nYour journey to becoming a private pilot\n\n\n\nPrivate Pilot\n\n\nGetting Started\n\n\n\n\nCharath Ranganathan\n\n\nNov 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYour First Flight\n\n\nWhat to expect on your first, aka “demo”, flight.\n\n\n\nGetting Started\n\n\n\n\nCharath Ranganathan\n\n\nNov 2, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n Back to top"
+    "text": "Welcome to pragmatik.tech. This is a site dedicated to technology, specifically the following:\n\nEmbedded programming in TinyGo and Micropython, with an emphasis on the Raspberry Pi Pico.\nGenerative AI programming in Java (using LangChain4J) and Python.\nMachine learning (coming soon).\n\n\nRecent Articles\n\n\n\n\n\n\n\n\n\n\nConcurrency with Goroutines\n\n\nDoing multiple things at once.\n\n\n\nEmbedded Systems\n\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlinking an LED with TinyGo\n\n\nYour first program.\n\n\n\nEmbedded Systems\n\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 4, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSet up your Pico with TinyGo and VScode\n\n\nLet the fun begin!\n\n\n\nEmbedded Systems\n\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 1, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "resources/documents.html",
-    "href": "resources/documents.html",
-    "title": "Documents",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Below is a list of documents that you can download and use during your flight training.",
+    "text": "Charath Ranganathan is the CTO at Crowdbotics, where they are revolutionizing the software development lifecycle (SDLC) through their AI-based code-to-spec system.\nCharath has been an avid coder for over 4 decades, having started with BASIC on a Casio Handheld computer and then on a Sinclair ZX Spectrum in the early 1980s. He is a polyglot programmer with experience in a wide range of programming languages from COBOL and FORTRAN, through Java and Python, to Go.\nCharath is also very interested in embedded systems programming, especially in TinyGo and Micropython. You can view his tutorials on YouTube.\nWhen he is not working or coding, Charath can be found at his local airport, where he is an FAA-certified flight instructor with the Caltech/JPL Flying Club.",
     "crumbs": [
-      "Resources",
-      "Documents"
+      "About"
     ]
   },
   {
-    "objectID": "resources/documents.html#checklists",
-    "href": "resources/documents.html#checklists",
-    "title": "Documents",
-    "section": "Checklists",
-    "text": "Checklists\n\nCessna 172 Checklist\nPiper Arrow Checklist\n\nPrint these checklists two-sided flip on short edge. They fold down into 3 sections.",
+    "objectID": "about.html#experience-partial",
+    "href": "about.html#experience-partial",
+    "title": "About",
+    "section": "Experience (partial)",
+    "text": "Experience (partial)\nCrowdboticsCTODecember 2018 - present\nPlaytika Santa MonicaVP - EngineeringApril 2012 - April 2016\nSun Microsystems, Inc.Multiple engineering management rolesSeptember 2002 - March 2009\nSIP TechnologiesCo-founderJuly 1996 - September 2002",
     "crumbs": [
-      "Resources",
-      "Documents"
+      "About"
     ]
   },
   {
-    "objectID": "resources/documents.html#other-documents",
-    "href": "resources/documents.html#other-documents",
-    "title": "Documents",
-    "section": "Other Documents",
-    "text": "Other Documents\n\nATIS scratchpad\nPre-solo Knowledge Test",
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nTexas A&M University, College Station, TX M.S. in Electrical Engineering  1990 - 1993\nCollege of Engineering, Anna University, Chennai, India B.E. in Electrical and Electronics Engineering 1986 - 1990",
     "crumbs": [
-      "Resources",
-      "Documents"
+      "About"
     ]
   },
   {
-    "objectID": "getting-started/medical.html",
-    "href": "getting-started/medical.html",
-    "title": "FAA Medical",
+    "objectID": "embedded/setting-up-tinygo.html",
+    "href": "embedded/setting-up-tinygo.html",
+    "title": "Set up your Pico with TinyGo and VScode",
     "section": "",
-    "text": "You will need to obtain at least a third-class FAA medical certificate prior to your first solo flight.\nIn most cases, the process for obtaining a medical certificate is straightforward, but if you have a medical condition, it can get fairly complicated. Even something like sleep apnea requires what is called a special issuance (SI) from the FAA.\nI recommend that students start the process of obtaining a medical certificate concurrent with their first lesson. If they feel like they might have a condition that would impact the issuance of a medical, I strongly suggest that they begin the process of obtaining the medical before beginning flight training.\nThe Aircraft Owners and Pilots Association (AOPA) has an excellent reference for medical certification including a list of potentially disqualifying conditions and a medications database.",
+    "text": "The TinyGo web site has a detailed installation guide for various operating systems. So, the steps below are just for your quick reference. When in doubt, refer to the TinyGo web site.",
     "crumbs": [
-      "Getting Started",
-      "FAA Medical"
+      "Embedded Systems",
+      "Set up your Pico with TinyGo and VScode"
     ]
   },
   {
-    "objectID": "getting-started/medical.html#obtaining-the-third-class-medical",
-    "href": "getting-started/medical.html#obtaining-the-third-class-medical",
-    "title": "FAA Medical",
-    "section": "Obtaining the Third Class Medical",
-    "text": "Obtaining the Third Class Medical\nThe process of obtaining a third class medical has three steps:\n\nIdentify an Aviation Medical Examiner (AME)\nReceive a physical examination from the AME\nObtain your certificate\n\n\nIdentify an AME\nFAA Medical Certificates are issued by Aviation Medical Examiners (AMEs). An AME is a physician who has been designated by the FAA to conduct the examination and issue a medical certificate.\nA list of AMEs can be found via the FAA Designee Management System. Use Chrome or Microsoft Edge for best results on this site.\nThe screenshot below shows how to request information on this form. You should select “AME” for “Designee Type” and then use “Location Search” for finding a list of AMEs in your area.\n\n\n\nFAA Designee Management System\n\n\n\n\n\n\n\n\nTip\n\n\n\nSome AMEs can be difficult to work with. So, it is best that you consult with fellow pilots or your instructor or flight school to get a sense of whom they might recommend.",
+    "objectID": "embedded/setting-up-tinygo.html#prerequisites",
+    "href": "embedded/setting-up-tinygo.html#prerequisites",
+    "title": "Set up your Pico with TinyGo and VScode",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nGo version 1.20 or greater.\nVisual Studio Code: I currently run VSCode 1.98.2.",
     "crumbs": [
-      "Getting Started",
-      "FAA Medical"
+      "Embedded Systems",
+      "Set up your Pico with TinyGo and VScode"
     ]
   },
   {
-    "objectID": "getting-started/medical.html#receive-a-physical-examination-from-the-ame",
-    "href": "getting-started/medical.html#receive-a-physical-examination-from-the-ame",
-    "title": "FAA Medical",
-    "section": "Receive a physical examination from the AME",
-    "text": "Receive a physical examination from the AME\nOnce you have identified an AME, set up an appointment with them for an examination.\nYou will need to fill out the FAA MedXPress application online and submit it prior to your appointment. Also print and take a copy of the application with you.\nAlthough the most current version is always at the MedXPress web site, a sample of the form can be viewed here. Pay particular attention to question 18 on the form.\nWhen you visit the AME, s/he will conduct a thorough physical examination as prescribed by the FAA. The test will include a urinanalysis for diabetes, an eye exam, auditory tests and musculoskeletal exams.",
+    "objectID": "embedded/setting-up-tinygo.html#install-tinygo-using-homebrew",
+    "href": "embedded/setting-up-tinygo.html#install-tinygo-using-homebrew",
+    "title": "Set up your Pico with TinyGo and VScode",
+    "section": "Install TinyGo using Homebrew",
+    "text": "Install TinyGo using Homebrew\nRun the following commands:\n% brew tap tinygo-org/tools\n% brew install tinygo\nVerify that the installation was successful by running this command, which should give you the output that is shown below it.\n% tinygo version\ntinygo version 0.25.0 darwin/amd64 (using go version go1.18.5 and LLVM version 14.0.0)",
     "crumbs": [
-      "Getting Started",
-      "FAA Medical"
+      "Embedded Systems",
+      "Set up your Pico with TinyGo and VScode"
     ]
   },
   {
-    "objectID": "getting-started/medical.html#obtain-your-certificate",
-    "href": "getting-started/medical.html#obtain-your-certificate",
-    "title": "FAA Medical",
-    "section": "Obtain your certificate",
-    "text": "Obtain your certificate\nIf the AME determines that you meet the eligibility criteria for issuance of a Third Class Medical, s/he will issue you a medical certificate on conclusion of the examination.\nSign and keep the certificate safe. You will need it for your solo flight and beyond.",
+    "objectID": "embedded/setting-up-tinygo.html#install-the-tinygo-vscode-extension",
+    "href": "embedded/setting-up-tinygo.html#install-the-tinygo-vscode-extension",
+    "title": "Set up your Pico with TinyGo and VScode",
+    "section": "Install the TinyGo VSCode Extension",
+    "text": "Install the TinyGo VSCode Extension\nInside VSCode, search for the TinyGo VSCode extension and install it.\n\nThis extension requires the VSCode Go extension to be installed. If not already installed, the Go extension is installed as a dependency by the TinyGo extension’s installer.\n\nTesting the VSCode Installation\n\nPut the Pico into Bootsel mode by holding down the BOOTSEL button on the Pico while plugging in the USB cable.\nRelease the BOOTSEL button. You should now see a drive named RPI-RP2 on your Desktop.\nGo to the VSCode Command Window (Cmd-Shift-P on Mac, Ctrl-Shift-P on Windows) and run the TinyGo target command. Select pico for the board. The command will run and create a .vscode/settings.json file in your workspace home directory. This provides the appropriate type hints for Intellisense to work correctly.\nStart a new Go program in VSCode. Let’s name it blinky.go.\n\n// blinky.go\n\npackage main\n\nimport (\n    \"machine\"\n    \"time\"\n)\n\nfunc main() {\n    led := machine.LED\n    led.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n    })\n\n    for {\n        led.High()\n        time.Sleep(500 * time.Millisecond)\n        led.Low()\n        time.Sleep(500 * time.Millisecond)\n    }\n}\n\nFlash the program to your Pico using the tinygo flash command:\n\n   % tinygo flash -target=pico blinky.go\nYou should now see the onboard LED blink twice a second, i.e. at 2 Hz.\nYou have now set up TinyGo on your computer, as well as the TinyGo VSCode extension. The next steps are optional.",
     "crumbs": [
-      "Getting Started",
-      "FAA Medical"
+      "Embedded Systems",
+      "Set up your Pico with TinyGo and VScode"
     ]
   },
   {
-    "objectID": "getting-started/medical.html#third-party-services",
-    "href": "getting-started/medical.html#third-party-services",
-    "title": "FAA Medical",
-    "section": "Third-party services",
-    "text": "Third-party services\nThere are services that can help with your submission. They are expensive, but might be worth the cost if you have a complex condition.\nThe main benefit of these services is that they will do a thorough review of your application before it is submitted so that the chances that you are asked for additional evidence are greatly reduced. Often, delays in certification are caused by missing evidence. Therefore, these services are invaluable in ensuring that all possible evidence is included in your initial submission.\nIf you need to contact a third-party service, I can refer you to one that I have used in the past.",
+    "objectID": "embedded/setting-up-tinygo.html#optional-install-a-reset-button",
+    "href": "embedded/setting-up-tinygo.html#optional-install-a-reset-button",
+    "title": "Set up your Pico with TinyGo and VScode",
+    "section": "(Optional) Install a Reset Button",
+    "text": "(Optional) Install a Reset Button\nI highly recommend this step since it makes the process of flashing new programs to your Pico significantly less tedious than unplugging and replugging the USB cable into the Pico while holding down the BOOTSEL button.\nDetailed instructions are available on the Raspberry Pi web site, but a summary is below.\nConnect a push button between the RUN pin (pin 30) on your Pico and ground. Refer to the image below from the Raspberry Pi web site.\n\nInstalling the reset button for the Pico\nTo load a new program, follow these steps:\n\nHold down the pushbutton and the BOOTSEL button.\nRelease the pushbutton.\nRelease the BOOTSEL button.\n\nYou’ll see the RPI-RP2 folder on your computer indicating your Pico is ready to be flashed with a new program.",
     "crumbs": [
-      "Getting Started",
-      "FAA Medical"
+      "Embedded Systems",
+      "Set up your Pico with TinyGo and VScode"
     ]
   },
   {
-    "objectID": "getting-started/medical.html#basicmed-renewal-requirements",
-    "href": "getting-started/medical.html#basicmed-renewal-requirements",
-    "title": "FAA Medical",
-    "section": "BasicMed renewal requirements",
-    "text": "BasicMed renewal requirements\nTo maintain flying privileges under BasicMed, the pilot is required to:\n\nStudy the online course and pass the test every 24 calendar months.\nBe examined by a state-licensed physician every 4 years to the day.\nNot develop a disqualifying condition during that time.\n\nThe common disqualifying conditions are listed in 14 CFR 68.9. The AOPA also has a page dedicated to common disqualifying conditions for BasicMed.",
+    "objectID": "embedded/setting-up-tinygo.html#optional-enable-serial-debugging",
+    "href": "embedded/setting-up-tinygo.html#optional-enable-serial-debugging",
+    "title": "Set up your Pico with TinyGo and VScode",
+    "section": "(Optional) Enable Serial Debugging",
+    "text": "(Optional) Enable Serial Debugging\nIn most microcontroller projects, it is easy (and common) to use the serial port for debugging. If you use MicroPython or CircuitPython, the serial messages are sent via the USB connection to your computer.\nUnfortunately, the RP2040 port of TinyGo does not support the printing of serial messages over the USB port. Consequently, you will have to use the UART on the Pico to send debugging messages.\nAs of TinyGo 0.25.0, USB is supported for debugging. So, this section is moot, but I have left it here in case someone wants to set up a UART connection to their computer.\n\nInstall a UART-to-USB Cable\nSince the UART cannot talk directly to USB, you will need a USB-to-Serial cable to convert the UART output to USB-compatible signals.\nThankfully, the fine folks at Adafruit have one such cable.\nPurchase one of these cables, and follow the instructions to install the drivers required for your OS. Then, plug in the individual leads of the cable into the appropriate UART ports of your Pico, and the USB connector into a USB port on your computer.\nIf you get the same cable that I did, the connections are as follows:\n\nBlack: GND\nWhite: UART0 TX (pin 1 - GP0 - on the Pico)\nGreen: UART0 RX (pin 2 - GP1 - on the Pico)\n\n\n\nInstall the Serial Monitor VSCode Extension\nSearch for, and install the Serial Monitor extension for VSCode.\n\nOnce the extension is installed, you’ll see a Serial Monitor tab in the terminal pane in VSCode. Click on that tab and configure the settings as shown in the image:\n\n\n\nVS Code Serial Monitor Settings\n\n\nYou can use the following program to test that your serial connection is successful.\n// serial.go\n\npackage main\n\nimport \"time\"\n\nfunc main() {\n    print(\"starting\")   // the command starts with lowercase \"p\"\n    print(\"program\\n\")  // the command starts with lowercase \"p\"\n\n    for {\n      println(\"hello, world\")   // the command starts with lowercase \"p\"\n      time.Sleep(time.Second)\n    }\n}\nOn the Serial Monitor, ensure you have the correct port selected, and press Start Monitoring.\nPut your Pico into BOOTSEL mode, and flash your program to the Pico.\n% tinygo flash -target=pico serial.go\n\nYou should see the text startingprogram printed out to the serial monitor followed by hello, world, every second. Here is a sample.\n---- Opened the serial port &#x2F;dev&#x2F;tty.usbserial-0001 ----\nstartingprogram\nhello, world\nhello, world\nhello, world\nhello, world\n---- Closed the serial port &#x2F;dev&#x2F;tty.usbserial-0001 ----\n\nPress Stop Monitoring on the Serial Monitor to stop monitoring the serial input.\nYou have now successfully set up serial debugging between your computer and the Pico for TinyGo.\nWhile the extension is great since it’s well integrated with VSCode, the font choice - which is as yet unchangeable - is terrible. Apparently, this issue has been fixed and will release with the next release of this extension, whenever that is.\nGrab a coffee or your drink of choice! You have earned it!",
     "crumbs": [
-      "Getting Started",
-      "FAA Medical"
-    ]
-  },
-  {
-    "objectID": "getting-started/things-you-need.html",
-    "href": "getting-started/things-you-need.html",
-    "title": "Things you Need",
-    "section": "",
-    "text": "Here is a list of items that I recommend for students working on their private pilot’s license.",
-    "crumbs": [
-      "Getting Started",
-      "Things you Need"
-    ]
-  },
-  {
-    "objectID": "getting-started/things-you-need.html#pilot-log-book",
-    "href": "getting-started/things-you-need.html#pilot-log-book",
-    "title": "Things you Need",
-    "section": "Pilot Log Book",
-    "text": "Pilot Log Book\nThis is where you will maintain details of your flights, endorsements that you earn during the course of your study, and ongoing endorsements after you get your private pilot. There are a number of log books available on the market.\nI recommend the Gleim Pilot Log Book.\nIt contains columns for most entries that you will need well past your private pilot’s license as well as the newer endorsements for TSA, etc. At under $10, it’s a good buy and will serve as a reminder of the wonderful memories that you create in your aviation career.\n\n\n\n\n\n\nTip\n\n\n\nIf you are thinking about using an electronic flight bag, you could use the logbook functionality in the EFB.",
-    "crumbs": [
-      "Getting Started",
-      "Things you Need"
-    ]
-  },
-  {
-    "objectID": "getting-started/things-you-need.html#headset",
-    "href": "getting-started/things-you-need.html#headset",
-    "title": "Things you Need",
-    "section": "Headset",
-    "text": "Headset\nI have one headset that students can borrow for the first one or two lessons, but I strongly suggest that you invest in a good headset for your training and beyond. Headsets run the gamut of rates from the really inexpensive (under $100) “student” headsets to mid-range headsets (around $400) to the top-of-the-line active noise canceling headsets ($800 - $1,300).\nMy personal favorite is the Bose A30, but at $1,299, it is the most expensive headset out there.\nAnother good option for an active noise canceling headset is the Lightspeed Zulu 3.\nIf you’re looking for something a little more “mid-range”, you could purchase a passive noise canceling headset such as the David Clark H10-13S, which retails for a more wallet-friendly $360.\nI have found that among pilots, headsets are like religions – you’ll find the “Bose camp” and the “Lightspeed camp”. So, pick one that works for you and use it for your training.\n\n\n\n\n\n\nImportant\n\n\n\nWhen ordering a headset, make sure you order one with dual GA plugs or fixed-wing, 2 plug, battery powered. Check with your instructor if you have any questions.",
-    "crumbs": [
-      "Getting Started",
-      "Things you Need"
-    ]
-  },
-  {
-    "objectID": "getting-started/things-you-need.html#kneeboard",
-    "href": "getting-started/things-you-need.html#kneeboard",
-    "title": "Things you Need",
-    "section": "Kneeboard",
-    "text": "Kneeboard\nAll pilots need a way to quickly jot down weather information, taxi instructions, and other notes, in addition to storing charts and other papers. A good kneeboard is a worthwhile investment – one that will last you a long time in your aviation career",
-    "crumbs": [
-      "Getting Started",
-      "Things you Need"
-    ]
-  },
-  {
-    "objectID": "getting-started/things-you-need.html#flight-bag",
-    "href": "getting-started/things-you-need.html#flight-bag",
-    "title": "Things you Need",
-    "section": "Flight Bag",
-    "text": "Flight Bag\nYou will need a way to carry all your charts, headset, and other supplies to the airport and to store them safely while in flight. A good flight bag is a must. Flight bags can be as basic as a backpack that you already own or as fancy as commercially sold flight bags. While this is ultimately a matter of choice, find something that’s small enough to fit on the seat behind you, and has enough pockets so that you can easily access items while in flight.",
-    "crumbs": [
-      "Getting Started",
-      "Things you Need"
-    ]
-  },
-  {
-    "objectID": "getting-started/things-you-need.html#charts",
-    "href": "getting-started/things-you-need.html#charts",
-    "title": "Things you Need",
-    "section": "Charts",
-    "text": "Charts\nBefore your fourth or fifth lesson, you should plan on picking up a current Los Angeles Terminal Area Chart. These charts are updated twice a year. As you progress in your training, you will need a Los Angeles Sectional Chart as well.\n\nElectronic Flight Bags (EFBs)\nMore recently, I have asked students to purchase an electronic flight bag (EFB) such as Foreflight. If you purchase Foreflight, you will need an iPad. Note that Foreflight does not work on Android tablets.\n\n\n\n\n\n\nNote\n\n\n\nRegardless of whether you use an EFB or not, you will be required to purchase the above paper charts for your training.\n\n\nEFBs have become the de facto standard in the industry. Since you will be using EFBs for your flying “in real life”, i.e. after your private pilot certificate, I prefer to introduce them early on in flight training so that the student is better prepared to use them after the completion of their training.\nChart Supplement: In addition to the Terminal Area Chart and Sectional mentioned above, you will need to purchase a “Chart Supplement” publication. This publication (previously called the “Airports and Facility Directory or A/FD) that gives you the details of all the airports in a region as well as the navigation aids and other information. While you can purchase them, you could also refer to a site such as AirNav or print out PDFs of the relevant pages from the chart supplement using a service such as ChartBundle.\n\n\n\n\n\n\nTip\n\n\n\nIf you are using Foreflight, all charts and chart supplements can be directly downloaded to your iPad in Foreflight and will be updated when they are updated by the FAA.",
-    "crumbs": [
-      "Getting Started",
-      "Things you Need"
-    ]
-  },
-  {
-    "objectID": "getting-started/things-you-need.html#e6b-flight-computer-and-navigation-plotter",
-    "href": "getting-started/things-you-need.html#e6b-flight-computer-and-navigation-plotter",
-    "title": "Things you Need",
-    "section": "E6B Flight Computer and Navigation Plotter",
-    "text": "E6B Flight Computer and Navigation Plotter\nWhen you get closer to planning longer flights (called “cross-country” flights), you will require an E6B flight computer and a navigation plotter.\nThe E6B is a super cool circular slide rule that every pilot possesses. I include an interactive web-based E6B for practice (not for navigation) here and here.",
-    "crumbs": [
-      "Getting Started",
-      "Things you Need"
-    ]
-  },
-  {
-    "objectID": "getting-started/things-you-need.html#flashlight-and-headlamp",
-    "href": "getting-started/things-you-need.html#flashlight-and-headlamp",
-    "title": "Things you Need",
-    "section": "Flashlight and Headlamp",
-    "text": "Flashlight and Headlamp\nAs your training progresses, and you start to fly at night, you will need at least one good flashlight and a headlamp. In both cases, you will need one that has a red light in addition to the white since the eyes are less sensitive to red light at night.\nPart of the fun of embarking upon a new hobby (adventure?) is in learning the tools of the trade and pampering yourself with some “retail therapy”. Your friends and family will no longer need to worry about what to get you for your birthday or Christmas! 🙂",
-    "crumbs": [
-      "Getting Started",
-      "Things you Need"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#introduction",
-    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#introduction",
-    "title": "02 - Steep Turns & Slow Flight",
-    "section": "Introduction",
-    "text": "Introduction\nSteep turns are a high-performance maneuver designed to develop the skills of smoothness, coordination, orientation, division of attention and control techniques. They are typically performed in either direction (left and/or right) with an angle of bank of 45\\(\\degree\\pm\\) 5\\(\\degree\\).\nSlow flight is a manuever that shows the student how the aircraft behaves at speeds just above the stall speed of the airplane.",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "02 - Steep Turns & Slow Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#objectives",
-    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#objectives",
-    "title": "02 - Steep Turns & Slow Flight",
-    "section": "Objectives",
-    "text": "Objectives\nAt the end of the lesson, the student will be able to:\n\nDiscuss the structure of a typical flight lesson.\nUse the preflight checklist to preflight the aircraft.\nUnderstand, and explain, the various items on the checklist and relate potential failures to the safety of flight.\nPerform a pre-takeoff check (aka runup).\nPerform a normal takeoff and climb to the practice area.\nDemonstrate basic flight maneuvers: climbs, descents, straight and level flight, and turns.\nDivide attention between external references and flight instruments.",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "02 - Steep Turns & Slow Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#elements",
-    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#elements",
-    "title": "02 - Steep Turns & Slow Flight",
-    "section": "Elements",
-    "text": "Elements\n\nStudent & instructor introductions, familiarity, agreements.\nChecklist usage\nPreflight\nEngine start, taxiing, and pre-takeoff checks\nTakeoff and climb\nStraight and level flight\nShallow turns\nClimbs and descents\nTrim usage\nApproach and landing",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "02 - Steep Turns & Slow Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#schedule",
-    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#schedule",
-    "title": "02 - Steep Turns & Slow Flight",
-    "section": "Schedule",
-    "text": "Schedule\n\nGround: 0.5\nPreflight: 0.5\nFlight: 0.7",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "02 - Steep Turns & Slow Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#pre-read",
-    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#pre-read",
-    "title": "02 - Steep Turns & Slow Flight",
-    "section": "Pre-read",
-    "text": "Pre-read\nJeppesen Private Pilot Maneuvers Textbook:\n\nChapter 1 (Ground Operations): All maneuvers\nChapter 2 (Basic Manevers): All maneuvers\n\nJeppesen Private Pilot Textbook:\n\nChapter 2 (Airplane Systems): Section A (Airplanes)\nReview checklist and print a copy (two-sided, flip on short edge)",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "02 - Steep Turns & Slow Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#discussion",
-    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#discussion",
-    "title": "02 - Steep Turns & Slow Flight",
-    "section": "Discussion",
-    "text": "Discussion\n\nStudent / instructor agreement:\n\nOn-time\nBe prepared\nAsk questions\nCommunicate\n\nCertification timeline\n\nMinimum 40 hours\nTypically 60 - 80 hours\nTry to fly at least once a week, preferably twice.\n\nBudget: Approximately $ 12,000 (2024 rates at AACIT)\nLogistics:\n\nSchedule aircraft on ScheduleMaster\nSettling bills\nInstructor payment: Due at end of every lesson",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "02 - Steep Turns & Slow Flight"
-    ]
-  },
-  {
-    "objectID": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#homework",
-    "href": "private-pilot/lesson-plans/02-steep-turns-slow-flight.html#homework",
-    "title": "02 - Steep Turns & Slow Flight",
-    "section": "Homework",
-    "text": "Homework\nJeppesen Private Pilot Maneuvers Textbook:\n\nChapter 5 (Flight Maneuvers): Slow flight, Steep turns\n\nJeppesen Private Pilot Textbook:\n\nChapter 2 (Airplane Systems): Section B (The Powerplant and Related Systems)",
-    "crumbs": [
-      "Private Pilot",
-      "Lesson Plans",
-      "02 - Steep Turns & Slow Flight"
+      "Embedded Systems",
+      "Set up your Pico with TinyGo and VScode"
     ]
   }
 ]
