@@ -14,17 +14,14 @@ format:
     toc: false
 ---
 
-![](/static/images/pragmatik-logo.png){width=50% fig-align="center"}
+![](/static/images/pragmatik-logo.png){width=100% fig-align="center"}
 
-Thank you for visiting my web site. My name is Charath Ranganathan and I am a CFII based in Southern California. I teach at the [Aero Association of California Institute of Technology](https://aacit.org/) (AACIT), often known as the "Caltech/JPL Flying Club."
+Welcome to `pragmatik.tech`. This is a site dedicated to technology, specifically the following:
 
-As a lifelong aviation enthusiast, avid flight simmer, and AvGeek, I am happiest when I'm in the air. I consider it a privilege to guide you in your aviation journey.
+- Embedded programming in TinyGo and Micropython, with an emphasis on the Raspberry Pi Pico.
+- Generative AI programming in Java (using LangChain4J) and Python.
+- Machine learning (coming soon).
 
-My goal is to make this site one of the most sought-after resources for those embarking on their aviation journey. The site and its contents will always be free.
-
-# Using this site
-
-The sidebar on your left will take you to the articles, lessons, and other material on the site. However, for your convenience, the 10 most recent articles published on the site are listed below.
 
 # Recent Articles
 

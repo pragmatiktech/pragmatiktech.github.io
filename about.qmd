@@ -1,0 +1,44 @@
+---
+title: "About"
+about:
+  template: broadside
+  image: /static/images/profile.png
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/charath
+    - icon: youtube
+      text: YouTube
+      href: "https://youtube.com/@pragmatiktech"
+    - icon: github
+      text: Github
+      href: https://github.com/pragmatiktech
+---
+
+Charath Ranganathan is the CTO at Crowdbotics, where they are revolutionizing the software development lifecycle (SDLC) through their AI-based code-to-spec system.
+
+Charath has been an avid coder for over 4 decades, having started with BASIC on a Casio Handheld computer and then on a Sinclair ZX Spectrum in the early 1980s. He is a polyglot programmer with experience in a wide range of programming languages from COBOL and FORTRAN, through Java and Python, to Go.
+
+Charath is also very interested in embedded systems programming, especially in TinyGo and Micropython. You can view his tutorials on [YouTube](https://youtube.com/@pragmatiktech).
+
+When he is not working or coding, Charath can be found at his local airport, where he is an FAA-certified flight instructor with the [Caltech/JPL Flying Club](https://aacit.org/).
+
+## Experience (partial)
+
+**Crowdbotics**<br />*CTO*<br />December 2018 - present
+
+**Playtika Santa Monica**<br />*VP - Engineering*<br />April 2012 - April 2016
+
+**Sun Microsystems, Inc.**<br />*Multiple engineering management roles*<br />September 2002 - March 2009
+
+**SIP Technologies**<br />*Co-founder*<br />July 1996 - September 2002
+
+## Education
+
+**Texas A&M University**, College Station, TX<br />
+*M.S. in Electrical Engineering* <br />
+1990 - 1993
+
+**College of Engineering, Anna University**, Chennai, India<br />
+*B.E. in Electrical and Electronics Engineering*<br />
+1986 - 1990

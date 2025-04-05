@@ -14,33 +14,31 @@ website:
     logo: /static/images/pragmatik-logo-inverse.png
     logo-href: /
     tools:
-      - icon: facebook
-        href: https://facebook.com/pfactor.io
+      - icon: youtube
+        href: https://youtube.com/@pragmatiktech
+      - icon: github
+        href: https://github.com/pragmatiktech
+      - icon: linkedin
+        href: https://linkedin.com/in/charath
   sidebar:
     style: floating
     contents:
-      - section: "Getting Started"
+      - text: "About"
+        href: about.qmd
+      - section: "Embedded Systems"
         contents:
-          - auto: getting-started/*
-      - section: "Private Pilot"
-        contents: 
-          - auto: private-pilot/*
-          - section: "Lesson Plans"
-            contents:
-              - auto: private-pilot/lesson-plans/*
-      - section: "Resources"
-        contents:
-          - auto: resources/*
-      - section: "AACIT"
-        contents:
-          - auto: AACIT/*
+          - auto: embedded/*
     collapse-level: 1
   page-footer: 
-    left: "Copyright &copy; 2023, PFactor.io"
+    left: "Copyright &copy; 2023, pragmatik.tech"
     center: "[Shared under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)"
     right:
-      - icon: facebook
-        href: https://facebook.com/pfactor.io
+      - icon: youtube
+        href: https://youtube.com/@pragmatiktech
+      - icon: linkedin
+        href: https://linkedin.com/in/charath
+      - icon: github
+        href: https://github.com/pragmatiktech
 
 execute:
   freeze: auto
@@ -55,6 +53,11 @@ format:
     header-includes: |
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Noto+Sans:ital,wght@0,100..900;1,100..900&DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-    mainfont: "DM Sans"
+      <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    mainfont: "Space Grotesk"
     anchor-sections: true
+    code-block-bg: true
+    highlight-style: github
+    code-line-numbers: true
+    monofont: "JetBrains Mono"

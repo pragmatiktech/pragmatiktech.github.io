@@ -1,13 +1,21 @@
 /* css styles */
 
 p {
-	font-family: 'DM Sans', 'Arial', sans-serif;
+	font-family: 'Space Grotesk', 'DM Sans', 'Arial', sans-serif;
 	font-weight: 400;
 }
 
 body {
-	font-family: 'DM Sans', 'Arial', sans-serif;
+	font-family: 'Space Grotesk', 'DM Sans', 'Arial', sans-serif;
 	font-weight: 400;
+}
+
+code {
+	font-family: 'JetBrains Mono', 'DM Mono', monospace;
+}
+
+pre > code {
+	font-family: 'JetBrains Mono', 'DM Mono', monospace;
 }
 
 h1 {
@@ -28,7 +36,9 @@ h3 {
 }
 
 .listing-title {
-	font-size: 1.1rem;
+	font-family: 'Space Grotesk', 'DM Sans', 'Arial', sans-serif;
+	font-weight: 600;
+	/* font-size: 1.1rem; */
 	color: black;
 }
 
@@ -39,12 +49,16 @@ h3 {
 }
 
 .quarto-grid-item .listing-categories .listing-category {
-	font-size: 0.85rem;
+	font-size: 0.75rem;
 }
 
 .quarto-title .quarto-categories .quarto-category a {
 	font-size: 1.2em;
 }
+
+.category {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 0.9rem;}
 
 .quarto-title p.subtitle {
 	font-family: 'Barlow Condensed', sans-serif;
