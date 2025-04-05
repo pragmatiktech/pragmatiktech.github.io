@@ -12,6 +12,7 @@ body {
 
 code {
 	font-family: 'Fira Code', 'JetBrains Mono', 'DM Mono', monospace;
+	font-size: 1.0rem;
 }
 
 pre > code {
@@ -29,6 +30,10 @@ h2 {
 
 h3, h4, h5, h6 {
 	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 1.2;
+	margin-top: 1.5rem;
 }
 
 h3 {

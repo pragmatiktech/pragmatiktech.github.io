@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pragmatik.tech/embedded/concurrency-goroutines.html</loc>
-    <lastmod>2025-04-05T21:50:20.024Z</lastmod>
+    <loc>https://pragmatiktech.github.io/embedded/concurrency-goroutines.html</loc>
+    <lastmod>2025-04-05T22:50:35.505Z</lastmod>
   </url>
   <url>
-    <loc>https://pragmatik.tech/embedded/blinking-an-led.html</loc>
-    <lastmod>2025-04-05T21:50:20.024Z</lastmod>
+    <loc>https://pragmatiktech.github.io/embedded/gpio-and-interrupts.html</loc>
+    <lastmod>2025-04-05T22:50:35.505Z</lastmod>
   </url>
   <url>
-    <loc>https://pragmatik.tech/index.html</loc>
-    <lastmod>2025-04-05T21:50:20.024Z</lastmod>
+    <loc>https://pragmatiktech.github.io/embedded/blinking-an-led.html</loc>
+    <lastmod>2025-04-05T22:50:35.505Z</lastmod>
   </url>
   <url>
-    <loc>https://pragmatik.tech/about.html</loc>
-    <lastmod>2025-04-05T21:50:20.024Z</lastmod>
+    <loc>https://pragmatiktech.github.io/index.html</loc>
+    <lastmod>2025-04-05T22:50:35.505Z</lastmod>
   </url>
   <url>
-    <loc>https://pragmatik.tech/embedded/setting-up-tinygo.html</loc>
-    <lastmod>2025-04-05T21:50:20.024Z</lastmod>
+    <loc>https://pragmatiktech.github.io/about.html</loc>
+    <lastmod>2025-04-05T22:50:35.505Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pragmatiktech.github.io/embedded/channels.html</loc>
+    <lastmod>2025-04-05T22:50:35.505Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pragmatiktech.github.io/embedded/setting-up-tinygo.html</loc>
+    <lastmod>2025-04-05T22:50:35.505Z</lastmod>
   </url>
 </urlset>

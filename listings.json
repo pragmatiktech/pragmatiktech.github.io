@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/embedded/channels.html",
+      "/embedded/gpio-and-interrupts.html",
       "/embedded/concurrency-goroutines.html",
       "/embedded/blinking-an-led.html",
       "/embedded/setting-up-tinygo.html"

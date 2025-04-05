@@ -170,8 +170,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../embedded/channels.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TinyGo Channels on the Pico</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../embedded/concurrency-goroutines.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Concurrency with Goroutines</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../embedded/gpio-and-interrupts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">GPIO and Interrupts on the Pico</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -192,9 +204,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#blinking-an-led-with-tinygo" id="toc-blinking-an-led-with-tinygo" class="nav-link active" data-scroll-target="#blinking-an-led-with-tinygo">Blinking an LED with TinyGo</a>
-  <ul class="collapse">
-  <li><a href="#the-program" id="toc-the-program" class="nav-link" data-scroll-target="#the-program">The Program</a></li>
+  <li><a href="#the-program" id="toc-the-program" class="nav-link active" data-scroll-target="#the-program">The Program</a></li>
   <li><a href="#basic-steps-to-interact-with-gpio" id="toc-basic-steps-to-interact-with-gpio" class="nav-link" data-scroll-target="#basic-steps-to-interact-with-gpio">Basic Steps to Interact with GPIO</a>
   <ul class="collapse">
   <li><a href="#import-the-machine-package" id="toc-import-the-machine-package" class="nav-link" data-scroll-target="#import-the-machine-package">Import the <code>machine</code> Package</a></li>
@@ -204,7 +214,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -248,8 +257,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p><img src="../static/images/embedded/leds.jpg" class="img-fluid"></p>
-<section id="blinking-an-led-with-tinygo" class="level1">
-<h1>Blinking an LED with TinyGo</h1>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/B-6GsoEg0Lw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <section id="the-program" class="level2">
 <h2 class="anchored" data-anchor-id="the-program">The Program</h2>
@@ -355,7 +362,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 </section>
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -448,7 +454,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/pragmatik\.tech");
+      var filterRegex = new RegExp("https:\/\/pragmatiktech\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
