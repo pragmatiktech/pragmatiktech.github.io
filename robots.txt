@@ -1,1 +1,1 @@
-Sitemap: https://pragmatiktech.github.io/sitemap.xml
+Sitemap: https://pragmatik.tech/sitemap.xml
