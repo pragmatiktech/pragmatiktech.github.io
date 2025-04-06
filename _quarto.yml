@@ -30,7 +30,7 @@ website:
           - auto: embedded/*
     collapse-level: 1
   page-footer: 
-    left: "Copyright &copy; 2023, pragmatik.tech"
+    left: "Copyright &copy; 2023, Charath Ranganathan and pragmatik.tech"
     center: "[Shared under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)"
     right:
       - icon: youtube
