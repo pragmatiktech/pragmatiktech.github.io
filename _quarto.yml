@@ -45,7 +45,7 @@ execute:
 
 format:
   html:
-    theme: yeti
+    theme: united
     linestretch: 1.5
     css: styles.css
     toc: true
