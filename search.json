@@ -1,197 +1,130 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "AI.html",
+    "href": "AI.html",
+    "title": "AI.md - Project Documentation and Maintenance Notes",
     "section": "",
-    "text": "Charath Ranganathan is the CTO at CoreStory, where they are revolutionizing the software development lifecycle (SDLC) through their AI-based code-to-spec system.\nCharath has been an avid coder for over 4 decades, having started with BASIC on a Casio Handheld computer and then on a Sinclair ZX Spectrum in the early 1980s. He is a polyglot programmer with experience in a wide range of programming languages from COBOL and FORTRAN, through Java and Python, to Go.\nCharath is also very interested in embedded systems programming, especially in TinyGo and Micropython. You can view his tutorials on YouTube.\nWhen he is not working or coding, Charath can be found at his local airport, where he is an FAA-certified flight instructor with the Caltech/JPL Flying Club.",
-    "crumbs": [
-      "About"
-    ]
+    "text": "pragmatik.tech is a technical blog/website built with Quarto, focused on: - Embedded systems programming (TinyGo, MicroPython, Raspberry Pi Pico) - Generative AI programming (Java with LangChain4J, Python) - Machine learning (planned content)\n\n\n\n\nFramework: Quarto (static site generator)\nHosting: GitHub Pages (pragmatiktech.github.io)\nDomain: pragmatik.tech\nContent: Markdown/QMD files\nTheme: United theme with custom CSS\nFonts: Space Grotesk (main), Fira Code (code blocks)\n\n\n\n\npragmatiktech.github.io/\n├── _quarto.yml          # Main Quarto configuration\n├── _publish.yml         # Publishing configuration\n├── index.qmd           # Homepage with article listings\n├── about.qmd           # About page\n├── styles.css          # Custom CSS styles\n├── embedded/           # Embedded systems articles\n│   ├── setting-up-tinygo.qmd\n│   ├── blinking-an-led.md\n│   ├── gpio-and-interrupts.qmd\n│   ├── channels.qmd\n│   └── concurrency-goroutines.md\n├── static/             # Static assets (images, etc.)\n├── .github/            # GitHub Actions workflows\n└── _site/              # Generated site (auto-generated)\n\n\n\n\n\n\nSite URL: https://pragmatik.tech\nPreview port: 2805\nNavbar: Dark theme with logo, social links (YouTube, GitHub, LinkedIn)\nSidebar: Floating style with embedded systems section\nFooter: Copyright, Creative Commons license, social links\n\n\n\n\n\nArticles are organized by topic (embedded/, future: ai/, ml/)\nHomepage shows recent articles in grid format (2 columns, max 10 items)\nAutomatic listing generation from QMD/MD files\nCategories and tags supported\n\n\n\n\n\nLogo: /static/images/pragmatik-logo-inverse.png\nProfile image: /static/images/profile.png\nFavicon: /favicon.ico\nColor scheme: Dark navbar, custom CSS theming\n\n\n\n\n\n\nName: Charath Ranganathan\nRole: CTO at CoreStory\nBackground: 4+ decades of programming experience\nInterests: Embedded systems, AI/ML, flight instruction\nSocial:\n\nYouTube: @pragmatiktech\nLinkedIn: /in/charath\nGitHub: pragmatiktech\n\n\n\n\n\n\n\n\nCreate .qmd or .md file in appropriate directory\nInclude frontmatter with title, date, categories\nContent automatically appears in listings\nBuild with quarto render\nPublish to GitHub Pages\n\n\n\n\n\nKeep embedded systems content current with TinyGo/MicroPython updates\nAdd new AI/ML content as planned\nMonitor and update dependencies\nEnsure social links remain active\n\n\n\n\n\n\n\n\nWebsite project type\nAutomatic listings\nCustom CSS theming\nCode syntax highlighting\nSocial media integration\nCreative Commons licensing\n\n\n\n\n\nStatic site generation for fast loading\nOptimized Google Fonts loading\nEfficient CSS organization\nImage optimization in static assets\n\n\n\n\n\nProper heading structure\nAlt text for images\nSemantic HTML from Quarto\nMobile-responsive design\nExternal links open in new windows\n\n\n\n\n\n\nAdd AI/ML content sections\nImplement search functionality\nAdd RSS feed\nEnhance social sharing\nAdd comment system\nCreate video embedding for YouTube content\nAdd newsletter signup\nImplement analytics\n\n\n\n\nThe site uses a two-stage deployment process following the Quarto Netlify GitHub Action workflow:\n\nGitHub Actions: Renders the site and publishes to gh-pages branch\n\nTriggered on push to main branch or manual workflow dispatch\nUses quarto-dev/quarto-actions/publish@v2 with target: gh-pages\nRequires GITHUB_TOKEN secret (automatically provided)\n\nNetlify: Deploys the gh-pages branch content\n\nNetlify is connected to the gh-pages branch of the repository\nCustom domain (pragmatik.tech) configured via CNAME\nUses Netlify’s build plugin for Quarto: @quarto/netlify-plugin-quarto\n\n\n\n\n\n.github/workflows/publish.yml - GitHub Action workflow\nnetlify.toml - Netlify build plugin configuration\n\npackage.json - Netlify plugin dependency\nCNAME - Custom domain configuration\n\n\n\n\n\n\n_quarto.yml - Main configuration\nindex.qmd - Homepage content and listings\nabout.qmd - Author information\nstyles.css - Custom styling\nArticles in embedded/ directory\n\nLast updated: 2024"
   },
   {
-    "objectID": "about.html#experience-partial",
-    "href": "about.html#experience-partial",
-    "title": "About",
-    "section": "Experience (partial)",
-    "text": "Experience (partial)\nCoreStoryCTOMarch 2025 - present\nCrowdboticsCTODecember 2018 - March 2025\nPlaytika Santa MonicaVP - EngineeringApril 2012 - April 2016\nSun Microsystems, Inc.Multiple engineering management rolesSeptember 2002 - March 2009\nSIP TechnologiesCo-founderJuly 1996 - September 2002",
-    "crumbs": [
-      "About"
-    ]
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About",
-    "section": "Education",
-    "text": "Education\nTexas A&M University, College Station, TX M.S. in Electrical Engineering  1990 - 1993\nCollege of Engineering, Anna University, Chennai, India B.E. in Electrical and Electronics Engineering 1986 - 1990",
-    "crumbs": [
-      "About"
-    ]
-  },
-  {
-    "objectID": "embedded/setting-up-tinygo.html",
-    "href": "embedded/setting-up-tinygo.html",
-    "title": "Set up your Pico with TinyGo and VScode",
+    "objectID": "AI.html#project-overview",
+    "href": "AI.html#project-overview",
+    "title": "AI.md - Project Documentation and Maintenance Notes",
     "section": "",
-    "text": "The TinyGo web site has a detailed installation guide for various operating systems. So, the steps below are just for your quick reference. When in doubt, refer to the TinyGo web site.",
+    "text": "pragmatik.tech is a technical blog/website built with Quarto, focused on: - Embedded systems programming (TinyGo, MicroPython, Raspberry Pi Pico) - Generative AI programming (Java with LangChain4J, Python) - Machine learning (planned content)"
+  },
+  {
+    "objectID": "AI.html#technical-stack",
+    "href": "AI.html#technical-stack",
+    "title": "AI.md - Project Documentation and Maintenance Notes",
+    "section": "",
+    "text": "Framework: Quarto (static site generator)\nHosting: GitHub Pages (pragmatiktech.github.io)\nDomain: pragmatik.tech\nContent: Markdown/QMD files\nTheme: United theme with custom CSS\nFonts: Space Grotesk (main), Fira Code (code blocks)"
+  },
+  {
+    "objectID": "AI.html#project-structure",
+    "href": "AI.html#project-structure",
+    "title": "AI.md - Project Documentation and Maintenance Notes",
+    "section": "",
+    "text": "pragmatiktech.github.io/\n├── _quarto.yml          # Main Quarto configuration\n├── _publish.yml         # Publishing configuration\n├── index.qmd           # Homepage with article listings\n├── about.qmd           # About page\n├── styles.css          # Custom CSS styles\n├── embedded/           # Embedded systems articles\n│   ├── setting-up-tinygo.qmd\n│   ├── blinking-an-led.md\n│   ├── gpio-and-interrupts.qmd\n│   ├── channels.qmd\n│   └── concurrency-goroutines.md\n├── static/             # Static assets (images, etc.)\n├── .github/            # GitHub Actions workflows\n└── _site/              # Generated site (auto-generated)"
+  },
+  {
+    "objectID": "AI.html#key-configuration-details",
+    "href": "AI.html#key-configuration-details",
+    "title": "AI.md - Project Documentation and Maintenance Notes",
+    "section": "",
+    "text": "Site URL: https://pragmatik.tech\nPreview port: 2805\nNavbar: Dark theme with logo, social links (YouTube, GitHub, LinkedIn)\nSidebar: Floating style with embedded systems section\nFooter: Copyright, Creative Commons license, social links\n\n\n\n\n\nArticles are organized by topic (embedded/, future: ai/, ml/)\nHomepage shows recent articles in grid format (2 columns, max 10 items)\nAutomatic listing generation from QMD/MD files\nCategories and tags supported\n\n\n\n\n\nLogo: /static/images/pragmatik-logo-inverse.png\nProfile image: /static/images/profile.png\nFavicon: /favicon.ico\nColor scheme: Dark navbar, custom CSS theming"
+  },
+  {
+    "objectID": "AI.html#author-information",
+    "href": "AI.html#author-information",
+    "title": "AI.md - Project Documentation and Maintenance Notes",
+    "section": "",
+    "text": "Name: Charath Ranganathan\nRole: CTO at CoreStory\nBackground: 4+ decades of programming experience\nInterests: Embedded systems, AI/ML, flight instruction\nSocial:\n\nYouTube: @pragmatiktech\nLinkedIn: /in/charath\nGitHub: pragmatiktech"
+  },
+  {
+    "objectID": "AI.html#development-workflow",
+    "href": "AI.html#development-workflow",
+    "title": "AI.md - Project Documentation and Maintenance Notes",
+    "section": "",
+    "text": "Create .qmd or .md file in appropriate directory\nInclude frontmatter with title, date, categories\nContent automatically appears in listings\nBuild with quarto render\nPublish to GitHub Pages\n\n\n\n\n\nKeep embedded systems content current with TinyGo/MicroPython updates\nAdd new AI/ML content as planned\nMonitor and update dependencies\nEnsure social links remain active"
+  },
+  {
+    "objectID": "AI.html#technical-notes",
+    "href": "AI.html#technical-notes",
+    "title": "AI.md - Project Documentation and Maintenance Notes",
+    "section": "",
+    "text": "Website project type\nAutomatic listings\nCustom CSS theming\nCode syntax highlighting\nSocial media integration\nCreative Commons licensing\n\n\n\n\n\nStatic site generation for fast loading\nOptimized Google Fonts loading\nEfficient CSS organization\nImage optimization in static assets\n\n\n\n\n\nProper heading structure\nAlt text for images\nSemantic HTML from Quarto\nMobile-responsive design\nExternal links open in new windows"
+  },
+  {
+    "objectID": "AI.html#future-enhancements",
+    "href": "AI.html#future-enhancements",
+    "title": "AI.md - Project Documentation and Maintenance Notes",
+    "section": "",
+    "text": "Add AI/ML content sections\nImplement search functionality\nAdd RSS feed\nEnhance social sharing\nAdd comment system\nCreate video embedding for YouTube content\nAdd newsletter signup\nImplement analytics"
+  },
+  {
+    "objectID": "AI.html#deployment",
+    "href": "AI.html#deployment",
+    "title": "AI.md - Project Documentation and Maintenance Notes",
+    "section": "",
+    "text": "The site uses a two-stage deployment process following the Quarto Netlify GitHub Action workflow:\n\nGitHub Actions: Renders the site and publishes to gh-pages branch\n\nTriggered on push to main branch or manual workflow dispatch\nUses quarto-dev/quarto-actions/publish@v2 with target: gh-pages\nRequires GITHUB_TOKEN secret (automatically provided)\n\nNetlify: Deploys the gh-pages branch content\n\nNetlify is connected to the gh-pages branch of the repository\nCustom domain (pragmatik.tech) configured via CNAME\nUses Netlify’s build plugin for Quarto: @quarto/netlify-plugin-quarto\n\n\n\n\n\n.github/workflows/publish.yml - GitHub Action workflow\nnetlify.toml - Netlify build plugin configuration\n\npackage.json - Netlify plugin dependency\nCNAME - Custom domain configuration"
+  },
+  {
+    "objectID": "AI.html#key-files-to-monitor",
+    "href": "AI.html#key-files-to-monitor",
+    "title": "AI.md - Project Documentation and Maintenance Notes",
+    "section": "",
+    "text": "_quarto.yml - Main configuration\nindex.qmd - Homepage content and listings\nabout.qmd - Author information\nstyles.css - Custom styling\nArticles in embedded/ directory\n\nLast updated: 2024"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Recent Articles",
+    "section": "",
+    "text": "Welcome to pragmatik.tech. This is a site dedicated to technology, specifically the following:\n\nEmbedded programming in TinyGo and Micropython, with an emphasis on the Raspberry Pi Pico.\nGenerative AI programming in Java (using LangChain4J) and Python.\nMachine learning (coming soon).\n\n\nRecent Articles\n\n\n\n\n\n\n\n\nAI.md - Project Documentation and Maintenance Notes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTinyGo Channels on the Pico\n\n\nConcurrency via channels.\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 31, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nGPIO and Interrupts on the Pico\n\n\nStop interrupting me!\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 13, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nConcurrency with Goroutines\n\n\nDoing multiple things at once.\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlinking an LED with TinyGo\n\n\nYour first program.\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 4, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nSet up your Pico with TinyGo and VScode\n\n\nLet the fun begin!\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 1, 2022\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "embedded/concurrency-goroutines.html",
+    "href": "embedded/concurrency-goroutines.html",
+    "title": "Concurrency with Goroutines",
+    "section": "",
+    "text": "Let us modify the simple blink program from our earlier tutorial to run multiple tasks simultaneously. This is what we call concurrency.\nGo has a number of primitives to help make programmers’ lives easier when they create concurrent programs. In this tutorial, we will look at one of them, namely Goroutines.",
     "crumbs": [
       "Embedded Systems",
-      "Set up your Pico with TinyGo and VScode"
+      "Concurrency with Goroutines"
     ]
   },
   {
-    "objectID": "embedded/setting-up-tinygo.html#prerequisites",
-    "href": "embedded/setting-up-tinygo.html#prerequisites",
-    "title": "Set up your Pico with TinyGo and VScode",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nGo version 1.20 or greater.\nVisual Studio Code: I currently run VSCode 1.98.2.",
-    "crumbs": [
-      "Embedded Systems",
-      "Set up your Pico with TinyGo and VScode"
-    ]
-  },
-  {
-    "objectID": "embedded/setting-up-tinygo.html#install-tinygo-using-homebrew",
-    "href": "embedded/setting-up-tinygo.html#install-tinygo-using-homebrew",
-    "title": "Set up your Pico with TinyGo and VScode",
-    "section": "Install TinyGo using Homebrew",
-    "text": "Install TinyGo using Homebrew\nRun the following commands:\n% brew tap tinygo-org/tools\n% brew install tinygo\nVerify that the installation was successful by running this command, which should give you the output that is shown below it.\n% tinygo version\ntinygo version 0.25.0 darwin/amd64 (using go version go1.18.5 and LLVM version 14.0.0)",
-    "crumbs": [
-      "Embedded Systems",
-      "Set up your Pico with TinyGo and VScode"
-    ]
-  },
-  {
-    "objectID": "embedded/setting-up-tinygo.html#install-the-tinygo-vscode-extension",
-    "href": "embedded/setting-up-tinygo.html#install-the-tinygo-vscode-extension",
-    "title": "Set up your Pico with TinyGo and VScode",
-    "section": "Install the TinyGo VSCode Extension",
-    "text": "Install the TinyGo VSCode Extension\nInside VSCode, search for the TinyGo VSCode extension and install it.\n\nThis extension requires the VSCode Go extension to be installed. If not already installed, the Go extension is installed as a dependency by the TinyGo extension’s installer.\n\nTesting the VSCode Installation\n\nPut the Pico into Bootsel mode by holding down the BOOTSEL button on the Pico while plugging in the USB cable.\nRelease the BOOTSEL button. You should now see a drive named RPI-RP2 on your Desktop.\nGo to the VSCode Command Window (Cmd-Shift-P on Mac, Ctrl-Shift-P on Windows) and run the TinyGo target command. Select pico for the board. The command will run and create a .vscode/settings.json file in your workspace home directory. This provides the appropriate type hints for Intellisense to work correctly.\nStart a new Go program in VSCode. Let’s name it blinky.go.\n\n// blinky.go\n\npackage main\n\nimport (\n    \"machine\"\n    \"time\"\n)\n\nfunc main() {\n    led := machine.LED\n    led.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n    })\n\n    for {\n        led.High()\n        time.Sleep(500 * time.Millisecond)\n        led.Low()\n        time.Sleep(500 * time.Millisecond)\n    }\n}\n\nFlash the program to your Pico using the tinygo flash command:\n\n   % tinygo flash -target=pico blinky.go\nYou should now see the onboard LED blink twice a second, i.e. at 2 Hz.\nYou have now set up TinyGo on your computer, as well as the TinyGo VSCode extension. The next steps are optional.",
-    "crumbs": [
-      "Embedded Systems",
-      "Set up your Pico with TinyGo and VScode"
-    ]
-  },
-  {
-    "objectID": "embedded/setting-up-tinygo.html#optional-install-a-reset-button",
-    "href": "embedded/setting-up-tinygo.html#optional-install-a-reset-button",
-    "title": "Set up your Pico with TinyGo and VScode",
-    "section": "(Optional) Install a Reset Button",
-    "text": "(Optional) Install a Reset Button\nI highly recommend this step since it makes the process of flashing new programs to your Pico significantly less tedious than unplugging and replugging the USB cable into the Pico while holding down the BOOTSEL button.\nDetailed instructions are available on the Raspberry Pi web site, but a summary is below.\nConnect a push button between the RUN pin (pin 30) on your Pico and ground. Refer to the image below from the Raspberry Pi web site.\n\nInstalling the reset button for the Pico\nTo load a new program, follow these steps:\n\nHold down the pushbutton and the BOOTSEL button.\nRelease the pushbutton.\nRelease the BOOTSEL button.\n\nYou’ll see the RPI-RP2 folder on your computer indicating your Pico is ready to be flashed with a new program.",
-    "crumbs": [
-      "Embedded Systems",
-      "Set up your Pico with TinyGo and VScode"
-    ]
-  },
-  {
-    "objectID": "embedded/setting-up-tinygo.html#optional-enable-serial-debugging",
-    "href": "embedded/setting-up-tinygo.html#optional-enable-serial-debugging",
-    "title": "Set up your Pico with TinyGo and VScode",
-    "section": "(Optional) Enable Serial Debugging",
-    "text": "(Optional) Enable Serial Debugging\nIn most microcontroller projects, it is easy (and common) to use the serial port for debugging. If you use MicroPython or CircuitPython, the serial messages are sent via the USB connection to your computer.\nUnfortunately, the RP2040 port of TinyGo does not support the printing of serial messages over the USB port. Consequently, you will have to use the UART on the Pico to send debugging messages.\nAs of TinyGo 0.25.0, USB is supported for debugging. So, this section is moot, but I have left it here in case someone wants to set up a UART connection to their computer.\n\nInstall a UART-to-USB Cable\nSince the UART cannot talk directly to USB, you will need a USB-to-Serial cable to convert the UART output to USB-compatible signals.\nThankfully, the fine folks at Adafruit have one such cable.\nPurchase one of these cables, and follow the instructions to install the drivers required for your OS. Then, plug in the individual leads of the cable into the appropriate UART ports of your Pico, and the USB connector into a USB port on your computer.\nIf you get the same cable that I did, the connections are as follows:\n\nBlack: GND\nWhite: UART0 TX (pin 1 - GP0 - on the Pico)\nGreen: UART0 RX (pin 2 - GP1 - on the Pico)\n\n\n\nInstall the Serial Monitor VSCode Extension\nSearch for, and install the Serial Monitor extension for VSCode.\n\nOnce the extension is installed, you’ll see a Serial Monitor tab in the terminal pane in VSCode. Click on that tab and configure the settings as shown in the image:\n\n\n\nVS Code Serial Monitor Settings\n\n\nYou can use the following program to test that your serial connection is successful.\n// serial.go\n\npackage main\n\nimport \"time\"\n\nfunc main() {\n    print(\"starting\")   // the command starts with lowercase \"p\"\n    print(\"program\\n\")  // the command starts with lowercase \"p\"\n\n    for {\n      println(\"hello, world\")   // the command starts with lowercase \"p\"\n      time.Sleep(time.Second)\n    }\n}\nOn the Serial Monitor, ensure you have the correct port selected, and press Start Monitoring.\nPut your Pico into BOOTSEL mode, and flash your program to the Pico.\n% tinygo flash -target=pico serial.go\n\nYou should see the text startingprogram printed out to the serial monitor followed by hello, world, every second. Here is a sample.\n---- Opened the serial port &#x2F;dev&#x2F;tty.usbserial-0001 ----\nstartingprogram\nhello, world\nhello, world\nhello, world\nhello, world\n---- Closed the serial port &#x2F;dev&#x2F;tty.usbserial-0001 ----\n\nPress Stop Monitoring on the Serial Monitor to stop monitoring the serial input.\nYou have now successfully set up serial debugging between your computer and the Pico for TinyGo.\nWhile the extension is great since it’s well integrated with VSCode, the font choice - which is as yet unchangeable - is terrible. Apparently, this issue has been fixed and will release with the next release of this extension, whenever that is.\nGrab a coffee or your drink of choice! You have earned it!",
-    "crumbs": [
-      "Embedded Systems",
-      "Set up your Pico with TinyGo and VScode"
-    ]
-  },
-  {
-    "objectID": "embedded/gpio-and-interrupts.html#objective",
-    "href": "embedded/gpio-and-interrupts.html#objective",
-    "title": "GPIO and Interrupts on the Pico",
-    "section": "Objective",
-    "text": "Objective\nWe need to create a program which continuously blinks an LED while awaiting input from a push button. When the push button is pressed, we light up another LED, and turn it off when the push button is released.",
-    "crumbs": [
-      "Embedded Systems",
-      "GPIO and Interrupts on the Pico"
-    ]
-  },
-  {
-    "objectID": "embedded/gpio-and-interrupts.html#circuit",
-    "href": "embedded/gpio-and-interrupts.html#circuit",
-    "title": "GPIO and Interrupts on the Pico",
-    "section": "Circuit",
-    "text": "Circuit\nThe circuit diagram below shows the necessary connections. A more detailed explanation of the circuit diagram appears below the image.\n\n\n\nCircuit Diagram\n\n\nFor this circuit, we connect one LED between GPIO16 and GND through a current-limiting 330\\(\\Omega\\) resistor. The other LED is connected between GPIO15 and GND with another 330\\(\\Omega\\) resistor. The push button is connected between GPIO17 and GND.",
-    "crumbs": [
-      "Embedded Systems",
-      "GPIO and Interrupts on the Pico"
-    ]
-  },
-  {
-    "objectID": "embedded/gpio-and-interrupts.html#the-program",
-    "href": "embedded/gpio-and-interrupts.html#the-program",
-    "title": "GPIO and Interrupts on the Pico",
+    "objectID": "embedded/concurrency-goroutines.html#the-program",
+    "href": "embedded/concurrency-goroutines.html#the-program",
+    "title": "Concurrency with Goroutines",
     "section": "The Program",
-    "text": "The Program\nAs we said above, the goal of our program is to keep an LED blinking every second while we monitor the button and flash the second LED when the button is pressed.\npackage main\n\nimport (\n        \"machine\"\n        \"time\"\n)\n\nfunc main() {\n        // Initialize Pin 16 and configure for output.\n        led := machine.GP16\n        led.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n        })\n\n        // Initialize pin 15 for the 2nd LED and configure for output.\n        led2 := machine.GP15\n        led2.Configure(machine.PinConfig{\n            Mode: machine.PinOutput,\n        })\n        \n        // Connect pushbutton to pin 17 and initialize for input with a pull-up.\n        btn := machine.GP17\n        btn.Configure(machine.PinConfig{\n            Mode: machine.PinInputPullup,\n        })\n        \n        // Register the Interrupt Service Routine (ISR)\n        btn.SetInterrupt(machine.PinFalling|machine.PinRising,\n            func(p machine.Pin) {\n                led.Set(!p.Get())\n            })\n\n        // Keep on looping while blinking the 2nd LED\n        for {\n            led2.High()\n            time.Sleep(500 * time.Millisecond)\n            led2.Low()\n            time.Sleep(500 * time.Millisecond)\n        }\n}\nThe most important part of the program is the following line in the code listing, and it involves registering an interrupt service routine (or ISR).\n        btn.SetInterrupt(machine.PinFalling|machine.PinRising,\n            func(p machine.Pin) {\n                led.Set(!p.Get())\n            })\nWhen the button is pressed, the change in state of GPIO17 results in an interrupt being triggered. We register an interest in both the rising and falling edges of the signal via the argument machine.PinRising|machine.PinFalling. If you were only interested in the interrupt service routine being called on the rising edge or the falling edge, you would only specify one of the parameters.\nWhen the interrupt is sensed, the program invokes the callback function (commonly called the “Interrupt Service Routine” or “ISR”) with one parameter, which is the pin which generated the interrupt.\nIn our case, the ISR is called with pin GPIO17 (which is connected to the push button).\nWe then read the state of the pin - which is pulled low when the button is pressed - and set the state of the LED to its inverse, i.e. high.\nled.Set(!p.Get())\n\n\n\n\n\n\nNote\n\n\n\nRemember to keep the time that the program spends in the ISR as low as possible. The idea is to be interrupted, do something quickly, and get back to executing the main program.\n\n\n\nEnsure input pins are not left “floating”\nOn lines 23 - 25, we see that we configure the input pin with a mode of machine.PinInputPullup.\nbtn.Configure(machine.PinConfig{\n        Mode: machine.PinInputPullup,\n})\n\nWhat does the mode PinInputPullup mean?\nWhen microcontroller pins are configured as inputs, they need to be either set to a logic high or a logic low. This is normally accomplished by means of a pullup or pulldown resistor, which connects the pin either to the positive voltage source of the microcontroller or ground.\nIf the pin is not pulled up or down, it is possible that the pin’s voltage will fluctuate depending on what is happening with other pins around it, electromagnetic interference, etc. This phenomenon is commonly called floating.\nOne might ask why the pin could not be connected to the positive or ground voltages without using a resistor. The reason a resistor is used is because when the pin’s input changes from, say, a high to a low (as is the case with our push button), a current flows from the high voltage source to ground. Obviously, we want to minimize this current flow because an unlimited current (or a large current) can damage the microcontroller and the rest of your circuit.\nThese pullup or pulldown resistors are typically high in value so as to really limit the current flow in the circuit.\nIn the case of the Pico, the microcontroller has internal pullup and pulldown resistors, of between 50k\\(\\Omega\\) and 80k\\(\\Omega\\). Using the mode PinInputPullup activates the pullup resistor in the RP2040, thereby not requiring us to connect an external resistor.",
+    "text": "The Program\nThe aim of our program is to do the following two things at once:\n\nBlink the onboard LED twice a second.\nPrint the phrase “hello concurrently” to the serial (UART) port.\n\nWe modify the blink.go program from the earlier tutorial to add:\n\nA function (named printHello) that prints “hello concurrently” in an infinite loop.\nA goroutine that spawns this function so that it runs concurrent to the main thread that is blinking the LED.\n\npackage main\n\nimport (\n    \"machine\"\n    \"time\"\n)\n\nfunc main() {\n    led := machine.LED\n    led.Configure(machine.PinConfig{\n            Mode: machine.PinOutput,\n    })\n        \n    go printHello()\n    \n    for {\n        led.High()\n        time.Sleep(500 * time.Millisecond)\n        led.Low()\n        time.Sleep(500 * time.Millisecond)\n    }\n}\n\nfunc printHello() {\n    for {\n        println(\"hello concurrently\")\n        time.Sleep(time.Second)\n    }\n}",
     "crumbs": [
       "Embedded Systems",
-      "GPIO and Interrupts on the Pico"
+      "Concurrency with Goroutines"
     ]
   },
   {
-    "objectID": "embedded/gpio-and-interrupts.html#testing-the-program",
-    "href": "embedded/gpio-and-interrupts.html#testing-the-program",
-    "title": "GPIO and Interrupts on the Pico",
+    "objectID": "embedded/concurrency-goroutines.html#testing-the-program",
+    "href": "embedded/concurrency-goroutines.html#testing-the-program",
+    "title": "Concurrency with Goroutines",
     "section": "Testing the Program",
-    "text": "Testing the Program\nWire up the circuit as shown in the diagram above. Then, flash the program to your pico:\n% tinygo flash -target=pico main.go\nYou should now see the LED connected to GPIO15 blinking every second. When you press the push button, the LED connected to GPIO16 should be illuminated, and it is extinguished when you release the push button.",
+    "text": "Testing the Program\nEnsure that your serial console is set up as described in my earlier tutorial on setting up the Pico for serial debugging.\nFlash the program to your pico:\n% tinygo flash -target=pico concurrentblink.go\nYou should see the onboard LED blinking, while the phrase “hello concurrently” is printed every second in the serial monitor.",
     "crumbs": [
       "Embedded Systems",
-      "GPIO and Interrupts on the Pico"
+      "Concurrency with Goroutines"
     ]
   },
   {
-    "objectID": "embedded/gpio-and-interrupts.html#summary",
-    "href": "embedded/gpio-and-interrupts.html#summary",
-    "title": "GPIO and Interrupts on the Pico",
-    "section": "Summary",
-    "text": "Summary\nIn this tutorial we learnt:\n\nHow to connect external LEDs and push buttons to the Raspberry Pi Pico.\nHow to write a program that uses an interrupt to determine the state of the push button and use that state to take an action - in this case illuminate an LED.",
-    "crumbs": [
-      "Embedded Systems",
-      "GPIO and Interrupts on the Pico"
-    ]
-  },
-  {
-    "objectID": "embedded/blinking-an-led.html#the-program",
-    "href": "embedded/blinking-an-led.html#the-program",
-    "title": "Blinking an LED with TinyGo",
-    "section": "The Program",
-    "text": "The Program\nThe program itself is simple - about 15 lines of code.\n// blink.go\n\npackage main\n\nimport (\n        \"machine\"\n        \"time\"\n)\n\nfunc main() {\n        led := machine.LED\n        led.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n        })\n        \n        for {\n            led.High()\n            time.Sleep(500 * time.Millisecond)\n            led.Low()\n            time.Sleep(500 * time.Millisecond)\n        }\n}",
-    "crumbs": [
-      "Embedded Systems",
-      "Blinking an LED with TinyGo"
-    ]
-  },
-  {
-    "objectID": "embedded/blinking-an-led.html#basic-steps-to-interact-with-gpio",
-    "href": "embedded/blinking-an-led.html#basic-steps-to-interact-with-gpio",
-    "title": "Blinking an LED with TinyGo",
-    "section": "Basic Steps to Interact with GPIO",
-    "text": "Basic Steps to Interact with GPIO\nThe basic steps for interacting with a General Purpose Input-Output (GPIO) pin on the Pico are the same:\n\nImport the machine package.\nCreate a variable that is an instance of the GPIO pin.\nConfigure the instance.\nLoop while doing something with the pin.\n\nLet us examine each of these steps in detail.\n\nImport the machine Package\nimport (\n        \"machine\"\n        ... // other imports\n)\nThe machine package provides an abstraction in Go to the underlying capabilities of the microcontroller target. It also defines some constants that make it easier when referring to the facilities of the microcontroller in Go. As an example, consider the machine.LED constant, which represents the onboard LED on the Pico.\n\n\nCreate an Instance of the Pin\nled := machine.LED\nCreating the variable and initializing it to an instance of Pin allows us to access the variable in other parts of the program.\nNote that the pin is not configured yet. That needs to be done in the next step.\n\n\nConfigure the Pin Instance\nled.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n})\nThe Configure function takes an instance of a type called PinConfig as its input. The PinConfig type is defined as below:\ntype PinConfig struct {\n        Mode PinMode\n}\nThe following Modes are accepted:\nconst (\n        PinOutput PinMode = iota\n        PinInput\n        PinInputPulldown\n        PinInputPullup\n        PinAnalog\n        PinUART\n        PinPWM\n        PinI2C\n        PinSPI\n)\nSince we want the LED to blink, but are not concerned about its input, we configure the pin as a PinOutput.\n\n\nLoop\nOnce the GPIO pins are initialized and configured, we loop while performing a set of tasks. This is typical of any microcontroller (or embedded) application.\nIn the case of this trivial “blink” program, we turn the LED on and off periodically inside the loop. For the purposes of this program, we use a time of 500 milliseconds between turning the LED on, and turning it off.\nfor {\n    led.High()\n    time.Sleep(500 * time.Millisecond)\n    led.Low()\n    time.Sleep(500 * time.Millisecond)\n}\nOutputting a High to the pin switches on the LED, while a Low turns it off. The time.sleep merely pauses the program so that the pin isn’t toggled so frequently that the LED never appears to turn off.",
-    "crumbs": [
-      "Embedded Systems",
-      "Blinking an LED with TinyGo"
-    ]
-  },
-  {
-    "objectID": "embedded/blinking-an-led.html#summary",
-    "href": "embedded/blinking-an-led.html#summary",
-    "title": "Blinking an LED with TinyGo",
-    "section": "Summary",
-    "text": "Summary\nIn this tutorial, we learnt to:\n\nInitialize and configure a single GPIO pin using TinyGo.\nOutput binary high or low values to the pin.\nRun our program endlessly.",
-    "crumbs": [
-      "Embedded Systems",
-      "Blinking an LED with TinyGo"
-    ]
-  },
-  {
-    "objectID": "embedded/blinking-an-led.html#references",
-    "href": "embedded/blinking-an-led.html#references",
-    "title": "Blinking an LED with TinyGo",
+    "objectID": "embedded/concurrency-goroutines.html#references",
+    "href": "embedded/concurrency-goroutines.html#references",
+    "title": "Concurrency with Goroutines",
     "section": "References",
-    "text": "References\n\nGitHub\nmachine package reference for Pico",
+    "text": "References\n\nRob Pike’s presentation on “Concurrency is not parallelism”.",
     "crumbs": [
       "Embedded Systems",
-      "Blinking an LED with TinyGo"
+      "Concurrency with Goroutines"
     ]
   },
   {
@@ -261,54 +194,198 @@
     ]
   },
   {
-    "objectID": "embedded/concurrency-goroutines.html",
-    "href": "embedded/concurrency-goroutines.html",
-    "title": "Concurrency with Goroutines",
-    "section": "",
-    "text": "Let us modify the simple blink program from our earlier tutorial to run multiple tasks simultaneously. This is what we call concurrency.\nGo has a number of primitives to help make programmers’ lives easier when they create concurrent programs. In this tutorial, we will look at one of them, namely Goroutines.",
-    "crumbs": [
-      "Embedded Systems",
-      "Concurrency with Goroutines"
-    ]
-  },
-  {
-    "objectID": "embedded/concurrency-goroutines.html#the-program",
-    "href": "embedded/concurrency-goroutines.html#the-program",
-    "title": "Concurrency with Goroutines",
+    "objectID": "embedded/blinking-an-led.html#the-program",
+    "href": "embedded/blinking-an-led.html#the-program",
+    "title": "Blinking an LED with TinyGo",
     "section": "The Program",
-    "text": "The Program\nThe aim of our program is to do the following two things at once:\n\nBlink the onboard LED twice a second.\nPrint the phrase “hello concurrently” to the serial (UART) port.\n\nWe modify the blink.go program from the earlier tutorial to add:\n\nA function (named printHello) that prints “hello concurrently” in an infinite loop.\nA goroutine that spawns this function so that it runs concurrent to the main thread that is blinking the LED.\n\npackage main\n\nimport (\n    \"machine\"\n    \"time\"\n)\n\nfunc main() {\n    led := machine.LED\n    led.Configure(machine.PinConfig{\n            Mode: machine.PinOutput,\n    })\n        \n    go printHello()\n    \n    for {\n        led.High()\n        time.Sleep(500 * time.Millisecond)\n        led.Low()\n        time.Sleep(500 * time.Millisecond)\n    }\n}\n\nfunc printHello() {\n    for {\n        println(\"hello concurrently\")\n        time.Sleep(time.Second)\n    }\n}",
+    "text": "The Program\nThe program itself is simple - about 15 lines of code.\n// blink.go\n\npackage main\n\nimport (\n        \"machine\"\n        \"time\"\n)\n\nfunc main() {\n        led := machine.LED\n        led.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n        })\n        \n        for {\n            led.High()\n            time.Sleep(500 * time.Millisecond)\n            led.Low()\n            time.Sleep(500 * time.Millisecond)\n        }\n}",
     "crumbs": [
       "Embedded Systems",
-      "Concurrency with Goroutines"
+      "Blinking an LED with TinyGo"
     ]
   },
   {
-    "objectID": "embedded/concurrency-goroutines.html#testing-the-program",
-    "href": "embedded/concurrency-goroutines.html#testing-the-program",
-    "title": "Concurrency with Goroutines",
-    "section": "Testing the Program",
-    "text": "Testing the Program\nEnsure that your serial console is set up as described in my earlier tutorial on setting up the Pico for serial debugging.\nFlash the program to your pico:\n% tinygo flash -target=pico concurrentblink.go\nYou should see the onboard LED blinking, while the phrase “hello concurrently” is printed every second in the serial monitor.",
+    "objectID": "embedded/blinking-an-led.html#basic-steps-to-interact-with-gpio",
+    "href": "embedded/blinking-an-led.html#basic-steps-to-interact-with-gpio",
+    "title": "Blinking an LED with TinyGo",
+    "section": "Basic Steps to Interact with GPIO",
+    "text": "Basic Steps to Interact with GPIO\nThe basic steps for interacting with a General Purpose Input-Output (GPIO) pin on the Pico are the same:\n\nImport the machine package.\nCreate a variable that is an instance of the GPIO pin.\nConfigure the instance.\nLoop while doing something with the pin.\n\nLet us examine each of these steps in detail.\n\nImport the machine Package\nimport (\n        \"machine\"\n        ... // other imports\n)\nThe machine package provides an abstraction in Go to the underlying capabilities of the microcontroller target. It also defines some constants that make it easier when referring to the facilities of the microcontroller in Go. As an example, consider the machine.LED constant, which represents the onboard LED on the Pico.\n\n\nCreate an Instance of the Pin\nled := machine.LED\nCreating the variable and initializing it to an instance of Pin allows us to access the variable in other parts of the program.\nNote that the pin is not configured yet. That needs to be done in the next step.\n\n\nConfigure the Pin Instance\nled.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n})\nThe Configure function takes an instance of a type called PinConfig as its input. The PinConfig type is defined as below:\ntype PinConfig struct {\n        Mode PinMode\n}\nThe following Modes are accepted:\nconst (\n        PinOutput PinMode = iota\n        PinInput\n        PinInputPulldown\n        PinInputPullup\n        PinAnalog\n        PinUART\n        PinPWM\n        PinI2C\n        PinSPI\n)\nSince we want the LED to blink, but are not concerned about its input, we configure the pin as a PinOutput.\n\n\nLoop\nOnce the GPIO pins are initialized and configured, we loop while performing a set of tasks. This is typical of any microcontroller (or embedded) application.\nIn the case of this trivial “blink” program, we turn the LED on and off periodically inside the loop. For the purposes of this program, we use a time of 500 milliseconds between turning the LED on, and turning it off.\nfor {\n    led.High()\n    time.Sleep(500 * time.Millisecond)\n    led.Low()\n    time.Sleep(500 * time.Millisecond)\n}\nOutputting a High to the pin switches on the LED, while a Low turns it off. The time.sleep merely pauses the program so that the pin isn’t toggled so frequently that the LED never appears to turn off.",
     "crumbs": [
       "Embedded Systems",
-      "Concurrency with Goroutines"
+      "Blinking an LED with TinyGo"
     ]
   },
   {
-    "objectID": "embedded/concurrency-goroutines.html#references",
-    "href": "embedded/concurrency-goroutines.html#references",
-    "title": "Concurrency with Goroutines",
+    "objectID": "embedded/blinking-an-led.html#summary",
+    "href": "embedded/blinking-an-led.html#summary",
+    "title": "Blinking an LED with TinyGo",
+    "section": "Summary",
+    "text": "Summary\nIn this tutorial, we learnt to:\n\nInitialize and configure a single GPIO pin using TinyGo.\nOutput binary high or low values to the pin.\nRun our program endlessly.",
+    "crumbs": [
+      "Embedded Systems",
+      "Blinking an LED with TinyGo"
+    ]
+  },
+  {
+    "objectID": "embedded/blinking-an-led.html#references",
+    "href": "embedded/blinking-an-led.html#references",
+    "title": "Blinking an LED with TinyGo",
     "section": "References",
-    "text": "References\n\nRob Pike’s presentation on “Concurrency is not parallelism”.",
+    "text": "References\n\nGitHub\nmachine package reference for Pico",
     "crumbs": [
       "Embedded Systems",
-      "Concurrency with Goroutines"
+      "Blinking an LED with TinyGo"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Recent Articles",
+    "objectID": "embedded/gpio-and-interrupts.html#objective",
+    "href": "embedded/gpio-and-interrupts.html#objective",
+    "title": "GPIO and Interrupts on the Pico",
+    "section": "Objective",
+    "text": "Objective\nWe need to create a program which continuously blinks an LED while awaiting input from a push button. When the push button is pressed, we light up another LED, and turn it off when the push button is released.",
+    "crumbs": [
+      "Embedded Systems",
+      "GPIO and Interrupts on the Pico"
+    ]
+  },
+  {
+    "objectID": "embedded/gpio-and-interrupts.html#circuit",
+    "href": "embedded/gpio-and-interrupts.html#circuit",
+    "title": "GPIO and Interrupts on the Pico",
+    "section": "Circuit",
+    "text": "Circuit\nThe circuit diagram below shows the necessary connections. A more detailed explanation of the circuit diagram appears below the image.\n\n\n\nCircuit Diagram\n\n\nFor this circuit, we connect one LED between GPIO16 and GND through a current-limiting 330\\(\\Omega\\) resistor. The other LED is connected between GPIO15 and GND with another 330\\(\\Omega\\) resistor. The push button is connected between GPIO17 and GND.",
+    "crumbs": [
+      "Embedded Systems",
+      "GPIO and Interrupts on the Pico"
+    ]
+  },
+  {
+    "objectID": "embedded/gpio-and-interrupts.html#the-program",
+    "href": "embedded/gpio-and-interrupts.html#the-program",
+    "title": "GPIO and Interrupts on the Pico",
+    "section": "The Program",
+    "text": "The Program\nAs we said above, the goal of our program is to keep an LED blinking every second while we monitor the button and flash the second LED when the button is pressed.\npackage main\n\nimport (\n        \"machine\"\n        \"time\"\n)\n\nfunc main() {\n        // Initialize Pin 16 and configure for output.\n        led := machine.GP16\n        led.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n        })\n\n        // Initialize pin 15 for the 2nd LED and configure for output.\n        led2 := machine.GP15\n        led2.Configure(machine.PinConfig{\n            Mode: machine.PinOutput,\n        })\n        \n        // Connect pushbutton to pin 17 and initialize for input with a pull-up.\n        btn := machine.GP17\n        btn.Configure(machine.PinConfig{\n            Mode: machine.PinInputPullup,\n        })\n        \n        // Register the Interrupt Service Routine (ISR)\n        btn.SetInterrupt(machine.PinFalling|machine.PinRising,\n            func(p machine.Pin) {\n                led.Set(!p.Get())\n            })\n\n        // Keep on looping while blinking the 2nd LED\n        for {\n            led2.High()\n            time.Sleep(500 * time.Millisecond)\n            led2.Low()\n            time.Sleep(500 * time.Millisecond)\n        }\n}\nThe most important part of the program is the following line in the code listing, and it involves registering an interrupt service routine (or ISR).\n        btn.SetInterrupt(machine.PinFalling|machine.PinRising,\n            func(p machine.Pin) {\n                led.Set(!p.Get())\n            })\nWhen the button is pressed, the change in state of GPIO17 results in an interrupt being triggered. We register an interest in both the rising and falling edges of the signal via the argument machine.PinRising|machine.PinFalling. If you were only interested in the interrupt service routine being called on the rising edge or the falling edge, you would only specify one of the parameters.\nWhen the interrupt is sensed, the program invokes the callback function (commonly called the “Interrupt Service Routine” or “ISR”) with one parameter, which is the pin which generated the interrupt.\nIn our case, the ISR is called with pin GPIO17 (which is connected to the push button).\nWe then read the state of the pin - which is pulled low when the button is pressed - and set the state of the LED to its inverse, i.e. high.\nled.Set(!p.Get())\n\n\n\n\n\n\nNote\n\n\n\nRemember to keep the time that the program spends in the ISR as low as possible. The idea is to be interrupted, do something quickly, and get back to executing the main program.\n\n\n\nEnsure input pins are not left “floating”\nOn lines 23 - 25, we see that we configure the input pin with a mode of machine.PinInputPullup.\nbtn.Configure(machine.PinConfig{\n        Mode: machine.PinInputPullup,\n})\n\nWhat does the mode PinInputPullup mean?\nWhen microcontroller pins are configured as inputs, they need to be either set to a logic high or a logic low. This is normally accomplished by means of a pullup or pulldown resistor, which connects the pin either to the positive voltage source of the microcontroller or ground.\nIf the pin is not pulled up or down, it is possible that the pin’s voltage will fluctuate depending on what is happening with other pins around it, electromagnetic interference, etc. This phenomenon is commonly called floating.\nOne might ask why the pin could not be connected to the positive or ground voltages without using a resistor. The reason a resistor is used is because when the pin’s input changes from, say, a high to a low (as is the case with our push button), a current flows from the high voltage source to ground. Obviously, we want to minimize this current flow because an unlimited current (or a large current) can damage the microcontroller and the rest of your circuit.\nThese pullup or pulldown resistors are typically high in value so as to really limit the current flow in the circuit.\nIn the case of the Pico, the microcontroller has internal pullup and pulldown resistors, of between 50k\\(\\Omega\\) and 80k\\(\\Omega\\). Using the mode PinInputPullup activates the pullup resistor in the RP2040, thereby not requiring us to connect an external resistor.",
+    "crumbs": [
+      "Embedded Systems",
+      "GPIO and Interrupts on the Pico"
+    ]
+  },
+  {
+    "objectID": "embedded/gpio-and-interrupts.html#testing-the-program",
+    "href": "embedded/gpio-and-interrupts.html#testing-the-program",
+    "title": "GPIO and Interrupts on the Pico",
+    "section": "Testing the Program",
+    "text": "Testing the Program\nWire up the circuit as shown in the diagram above. Then, flash the program to your pico:\n% tinygo flash -target=pico main.go\nYou should now see the LED connected to GPIO15 blinking every second. When you press the push button, the LED connected to GPIO16 should be illuminated, and it is extinguished when you release the push button.",
+    "crumbs": [
+      "Embedded Systems",
+      "GPIO and Interrupts on the Pico"
+    ]
+  },
+  {
+    "objectID": "embedded/gpio-and-interrupts.html#summary",
+    "href": "embedded/gpio-and-interrupts.html#summary",
+    "title": "GPIO and Interrupts on the Pico",
+    "section": "Summary",
+    "text": "Summary\nIn this tutorial we learnt:\n\nHow to connect external LEDs and push buttons to the Raspberry Pi Pico.\nHow to write a program that uses an interrupt to determine the state of the push button and use that state to take an action - in this case illuminate an LED.",
+    "crumbs": [
+      "Embedded Systems",
+      "GPIO and Interrupts on the Pico"
+    ]
+  },
+  {
+    "objectID": "embedded/setting-up-tinygo.html",
+    "href": "embedded/setting-up-tinygo.html",
+    "title": "Set up your Pico with TinyGo and VScode",
     "section": "",
-    "text": "Welcome to pragmatik.tech. This is a site dedicated to technology, specifically the following:\n\nEmbedded programming in TinyGo and Micropython, with an emphasis on the Raspberry Pi Pico.\nGenerative AI programming in Java (using LangChain4J) and Python.\nMachine learning (coming soon).\n\n\nRecent Articles\n\n\n\n\n\n\n\n\n\n\nTinyGo Channels on the Pico\n\n\nConcurrency via channels.\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 31, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nGPIO and Interrupts on the Pico\n\n\nStop interrupting me!\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 13, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nConcurrency with Goroutines\n\n\nDoing multiple things at once.\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlinking an LED with TinyGo\n\n\nYour first program.\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 4, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nSet up your Pico with TinyGo and VScode\n\n\nLet the fun begin!\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 1, 2022\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n Back to top"
+    "text": "The TinyGo web site has a detailed installation guide for various operating systems. So, the steps below are just for your quick reference. When in doubt, refer to the TinyGo web site.",
+    "crumbs": [
+      "Embedded Systems",
+      "Set up your Pico with TinyGo and VScode"
+    ]
+  },
+  {
+    "objectID": "embedded/setting-up-tinygo.html#prerequisites",
+    "href": "embedded/setting-up-tinygo.html#prerequisites",
+    "title": "Set up your Pico with TinyGo and VScode",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nGo version 1.20 or greater.\nVisual Studio Code: I currently run VSCode 1.98.2.",
+    "crumbs": [
+      "Embedded Systems",
+      "Set up your Pico with TinyGo and VScode"
+    ]
+  },
+  {
+    "objectID": "embedded/setting-up-tinygo.html#install-tinygo-using-homebrew",
+    "href": "embedded/setting-up-tinygo.html#install-tinygo-using-homebrew",
+    "title": "Set up your Pico with TinyGo and VScode",
+    "section": "Install TinyGo using Homebrew",
+    "text": "Install TinyGo using Homebrew\nRun the following commands:\n% brew tap tinygo-org/tools\n% brew install tinygo\nVerify that the installation was successful by running this command, which should give you the output that is shown below it.\n% tinygo version\ntinygo version 0.25.0 darwin/amd64 (using go version go1.18.5 and LLVM version 14.0.0)",
+    "crumbs": [
+      "Embedded Systems",
+      "Set up your Pico with TinyGo and VScode"
+    ]
+  },
+  {
+    "objectID": "embedded/setting-up-tinygo.html#install-the-tinygo-vscode-extension",
+    "href": "embedded/setting-up-tinygo.html#install-the-tinygo-vscode-extension",
+    "title": "Set up your Pico with TinyGo and VScode",
+    "section": "Install the TinyGo VSCode Extension",
+    "text": "Install the TinyGo VSCode Extension\nInside VSCode, search for the TinyGo VSCode extension and install it.\n\nThis extension requires the VSCode Go extension to be installed. If not already installed, the Go extension is installed as a dependency by the TinyGo extension’s installer.\n\nTesting the VSCode Installation\n\nPut the Pico into Bootsel mode by holding down the BOOTSEL button on the Pico while plugging in the USB cable.\nRelease the BOOTSEL button. You should now see a drive named RPI-RP2 on your Desktop.\nGo to the VSCode Command Window (Cmd-Shift-P on Mac, Ctrl-Shift-P on Windows) and run the TinyGo target command. Select pico for the board. The command will run and create a .vscode/settings.json file in your workspace home directory. This provides the appropriate type hints for Intellisense to work correctly.\nStart a new Go program in VSCode. Let’s name it blinky.go.\n\n// blinky.go\n\npackage main\n\nimport (\n    \"machine\"\n    \"time\"\n)\n\nfunc main() {\n    led := machine.LED\n    led.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n    })\n\n    for {\n        led.High()\n        time.Sleep(500 * time.Millisecond)\n        led.Low()\n        time.Sleep(500 * time.Millisecond)\n    }\n}\n\nFlash the program to your Pico using the tinygo flash command:\n\n   % tinygo flash -target=pico blinky.go\nYou should now see the onboard LED blink twice a second, i.e. at 2 Hz.\nYou have now set up TinyGo on your computer, as well as the TinyGo VSCode extension. The next steps are optional.",
+    "crumbs": [
+      "Embedded Systems",
+      "Set up your Pico with TinyGo and VScode"
+    ]
+  },
+  {
+    "objectID": "embedded/setting-up-tinygo.html#optional-install-a-reset-button",
+    "href": "embedded/setting-up-tinygo.html#optional-install-a-reset-button",
+    "title": "Set up your Pico with TinyGo and VScode",
+    "section": "(Optional) Install a Reset Button",
+    "text": "(Optional) Install a Reset Button\nI highly recommend this step since it makes the process of flashing new programs to your Pico significantly less tedious than unplugging and replugging the USB cable into the Pico while holding down the BOOTSEL button.\nDetailed instructions are available on the Raspberry Pi web site, but a summary is below.\nConnect a push button between the RUN pin (pin 30) on your Pico and ground. Refer to the image below from the Raspberry Pi web site.\n\nInstalling the reset button for the Pico\nTo load a new program, follow these steps:\n\nHold down the pushbutton and the BOOTSEL button.\nRelease the pushbutton.\nRelease the BOOTSEL button.\n\nYou’ll see the RPI-RP2 folder on your computer indicating your Pico is ready to be flashed with a new program.",
+    "crumbs": [
+      "Embedded Systems",
+      "Set up your Pico with TinyGo and VScode"
+    ]
+  },
+  {
+    "objectID": "embedded/setting-up-tinygo.html#optional-enable-serial-debugging",
+    "href": "embedded/setting-up-tinygo.html#optional-enable-serial-debugging",
+    "title": "Set up your Pico with TinyGo and VScode",
+    "section": "(Optional) Enable Serial Debugging",
+    "text": "(Optional) Enable Serial Debugging\nIn most microcontroller projects, it is easy (and common) to use the serial port for debugging. If you use MicroPython or CircuitPython, the serial messages are sent via the USB connection to your computer.\nUnfortunately, the RP2040 port of TinyGo does not support the printing of serial messages over the USB port. Consequently, you will have to use the UART on the Pico to send debugging messages.\nAs of TinyGo 0.25.0, USB is supported for debugging. So, this section is moot, but I have left it here in case someone wants to set up a UART connection to their computer.\n\nInstall a UART-to-USB Cable\nSince the UART cannot talk directly to USB, you will need a USB-to-Serial cable to convert the UART output to USB-compatible signals.\nThankfully, the fine folks at Adafruit have one such cable.\nPurchase one of these cables, and follow the instructions to install the drivers required for your OS. Then, plug in the individual leads of the cable into the appropriate UART ports of your Pico, and the USB connector into a USB port on your computer.\nIf you get the same cable that I did, the connections are as follows:\n\nBlack: GND\nWhite: UART0 TX (pin 1 - GP0 - on the Pico)\nGreen: UART0 RX (pin 2 - GP1 - on the Pico)\n\n\n\nInstall the Serial Monitor VSCode Extension\nSearch for, and install the Serial Monitor extension for VSCode.\n\nOnce the extension is installed, you’ll see a Serial Monitor tab in the terminal pane in VSCode. Click on that tab and configure the settings as shown in the image:\n\n\n\nVS Code Serial Monitor Settings\n\n\nYou can use the following program to test that your serial connection is successful.\n// serial.go\n\npackage main\n\nimport \"time\"\n\nfunc main() {\n    print(\"starting\")   // the command starts with lowercase \"p\"\n    print(\"program\\n\")  // the command starts with lowercase \"p\"\n\n    for {\n      println(\"hello, world\")   // the command starts with lowercase \"p\"\n      time.Sleep(time.Second)\n    }\n}\nOn the Serial Monitor, ensure you have the correct port selected, and press Start Monitoring.\nPut your Pico into BOOTSEL mode, and flash your program to the Pico.\n% tinygo flash -target=pico serial.go\n\nYou should see the text startingprogram printed out to the serial monitor followed by hello, world, every second. Here is a sample.\n---- Opened the serial port &#x2F;dev&#x2F;tty.usbserial-0001 ----\nstartingprogram\nhello, world\nhello, world\nhello, world\nhello, world\n---- Closed the serial port &#x2F;dev&#x2F;tty.usbserial-0001 ----\n\nPress Stop Monitoring on the Serial Monitor to stop monitoring the serial input.\nYou have now successfully set up serial debugging between your computer and the Pico for TinyGo.\nWhile the extension is great since it’s well integrated with VSCode, the font choice - which is as yet unchangeable - is terrible. Apparently, this issue has been fixed and will release with the next release of this extension, whenever that is.\nGrab a coffee or your drink of choice! You have earned it!",
+    "crumbs": [
+      "Embedded Systems",
+      "Set up your Pico with TinyGo and VScode"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Charath Ranganathan is the CTO at CoreStory, where they are revolutionizing the software development lifecycle (SDLC) through their AI-based code-to-spec system.\nCharath has been an avid coder for over 4 decades, having started with BASIC on a Casio Handheld computer and then on a Sinclair ZX Spectrum in the early 1980s. He is a polyglot programmer with experience in a wide range of programming languages from COBOL and FORTRAN, through Java and Python, to Go.\nCharath is also very interested in embedded systems programming, especially in TinyGo and Micropython. You can view his tutorials on YouTube.\nWhen he is not working or coding, Charath can be found at his local airport, where he is an FAA-certified flight instructor with the Caltech/JPL Flying Club.",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#experience-partial",
+    "href": "about.html#experience-partial",
+    "title": "About",
+    "section": "Experience (partial)",
+    "text": "Experience (partial)\nCoreStoryCTOMarch 2025 - present\nCrowdboticsCTODecember 2018 - March 2025\nPlaytika Santa MonicaVP - EngineeringApril 2012 - April 2016\nSun Microsystems, Inc.Multiple engineering management rolesSeptember 2002 - March 2009\nSIP TechnologiesCo-founderJuly 1996 - September 2002",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nTexas A&M University, College Station, TX M.S. in Electrical Engineering  1990 - 1993\nCollege of Engineering, Anna University, Chennai, India B.E. in Electrical and Electronics Engineering 1986 - 1990",
+    "crumbs": [
+      "About"
+    ]
   }
 ]

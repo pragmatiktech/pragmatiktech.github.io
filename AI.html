@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Pragmatik.tech</title>
+<title>ai – Pragmatik.tech</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href=".//favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -71,68 +69,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listings .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listings'] = new List('listing-listings', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&amp;family=Fira+Code:wght@300..700&amp;family=Space+Grotesk:wght@300..700&amp;display=swap" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -227,200 +167,239 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="RW1iZWRkZWQlMjBTeXN0ZW1z">Embedded Systems <span class="quarto-category-count">(5)</span></div><div class="category" data-category="VGlueUdv">TinyGo <span class="quarto-category-count">(5)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#ai.md---project-documentation-and-maintenance-notes" id="toc-ai.md---project-documentation-and-maintenance-notes" class="nav-link active" data-scroll-target="#ai.md---project-documentation-and-maintenance-notes">AI.md - Project Documentation and Maintenance Notes</a>
+  <ul class="collapse">
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#technical-stack" id="toc-technical-stack" class="nav-link" data-scroll-target="#technical-stack">Technical Stack</a></li>
+  <li><a href="#project-structure" id="toc-project-structure" class="nav-link" data-scroll-target="#project-structure">Project Structure</a></li>
+  <li><a href="#key-configuration-details" id="toc-key-configuration-details" class="nav-link" data-scroll-target="#key-configuration-details">Key Configuration Details</a>
+  <ul class="collapse">
+  <li><a href="#website-configuration" id="toc-website-configuration" class="nav-link" data-scroll-target="#website-configuration">Website Configuration</a></li>
+  <li><a href="#content-organization" id="toc-content-organization" class="nav-link" data-scroll-target="#content-organization">Content Organization</a></li>
+  <li><a href="#branding" id="toc-branding" class="nav-link" data-scroll-target="#branding">Branding</a></li>
+  </ul></li>
+  <li><a href="#author-information" id="toc-author-information" class="nav-link" data-scroll-target="#author-information">Author Information</a></li>
+  <li><a href="#development-workflow" id="toc-development-workflow" class="nav-link" data-scroll-target="#development-workflow">Development Workflow</a>
+  <ul class="collapse">
+  <li><a href="#adding-new-articles" id="toc-adding-new-articles" class="nav-link" data-scroll-target="#adding-new-articles">Adding New Articles</a></li>
+  <li><a href="#maintenance-tasks" id="toc-maintenance-tasks" class="nav-link" data-scroll-target="#maintenance-tasks">Maintenance Tasks</a></li>
+  </ul></li>
+  <li><a href="#technical-notes" id="toc-technical-notes" class="nav-link" data-scroll-target="#technical-notes">Technical Notes</a>
+  <ul class="collapse">
+  <li><a href="#quarto-features-used" id="toc-quarto-features-used" class="nav-link" data-scroll-target="#quarto-features-used">Quarto Features Used</a></li>
+  <li><a href="#performance-considerations" id="toc-performance-considerations" class="nav-link" data-scroll-target="#performance-considerations">Performance Considerations</a></li>
+  <li><a href="#seo-accessibility" id="toc-seo-accessibility" class="nav-link" data-scroll-target="#seo-accessibility">SEO &amp; Accessibility</a></li>
+  </ul></li>
+  <li><a href="#future-enhancements" id="toc-future-enhancements" class="nav-link" data-scroll-target="#future-enhancements">Future Enhancements</a></li>
+  <li><a href="#deployment" id="toc-deployment" class="nav-link" data-scroll-target="#deployment">Deployment</a>
+  <ul class="collapse">
+  <li><a href="#key-configuration-files" id="toc-key-configuration-files" class="nav-link" data-scroll-target="#key-configuration-files">Key Configuration Files</a></li>
+  </ul></li>
+  <li><a href="#key-files-to-monitor" id="toc-key-files-to-monitor" class="nav-link" data-scroll-target="#key-files-to-monitor">Key Files to Monitor</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<p>Welcome to <code>pragmatik.tech</code>. This is a site dedicated to technology, specifically the following:</p>
+<section id="ai.md---project-documentation-and-maintenance-notes" class="level1">
+<h1>AI.md - Project Documentation and Maintenance Notes</h1>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p><strong>pragmatik.tech</strong> is a technical blog/website built with Quarto, focused on: - Embedded systems programming (TinyGo, MicroPython, Raspberry Pi Pico) - Generative AI programming (Java with LangChain4J, Python) - Machine learning (planned content)</p>
+</section>
+<section id="technical-stack" class="level2">
+<h2 class="anchored" data-anchor-id="technical-stack">Technical Stack</h2>
 <ul>
-<li>Embedded programming in TinyGo and Micropython, with an emphasis on the Raspberry Pi Pico.</li>
-<li>Generative AI programming in Java (using LangChain4J) and Python.</li>
-<li>Machine learning (coming soon).</li>
+<li><strong>Framework</strong>: Quarto (static site generator)</li>
+<li><strong>Hosting</strong>: GitHub Pages (pragmatiktech.github.io)</li>
+<li><strong>Domain</strong>: pragmatik.tech</li>
+<li><strong>Content</strong>: Markdown/QMD files</li>
+<li><strong>Theme</strong>: United theme with custom CSS</li>
+<li><strong>Fonts</strong>: Space Grotesk (main), Fira Code (code blocks)</li>
 </ul>
-<section id="recent-articles" class="level1">
-<h1>Recent Articles</h1>
-<div id="listing-listings" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1765752165993" data-listing-reading-time-sort="4" data-listing-word-count-sort="636">
-<a href="./AI.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title" data-anchor-id="recent-articles">
-AI.md - Project Documentation and Maintenance Notes
-</h5>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="RW1iZWRkZWQlMjBTeXN0ZW1zJTJDVGlueUdv" data-listing-date-sort="1659225600000" data-listing-file-modified-sort="1765752165993" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="923">
-<a href="./embedded/channels.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./static/images/embedded/channels.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-TinyGo Channels on the Pico
-</h5>
-<div class="card-subtitle listing-subtitle">
-Concurrency via channels.
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW1iZWRkZWQlMjBTeXN0ZW1z'); return false;">Embedded Systems</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGlueUdv'); return false;">TinyGo</div>
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charath Ranganathan
-</div>
-<div class="listing-date">
-Jul 31, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="RW1iZWRkZWQlMjBTeXN0ZW1zJTJDVGlueUdv" data-listing-date-sort="1657670400000" data-listing-file-modified-sort="1765752165993" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="813">
-<a href="./embedded/gpio-and-interrupts.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./static/images/embedded/interrupts.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-GPIO and Interrupts on the Pico
-</h5>
-<div class="card-subtitle listing-subtitle">
-Stop interrupting me!
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW1iZWRkZWQlMjBTeXN0ZW1z'); return false;">Embedded Systems</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGlueUdv'); return false;">TinyGo</div>
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charath Ranganathan
-</div>
-<div class="listing-date">
-Jul 13, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="RW1iZWRkZWQlMjBTeXN0ZW1zJTJDVGlueUdv" data-listing-date-sort="1657411200000" data-listing-file-modified-sort="1765752165993" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="203">
-<a href="./embedded/concurrency-goroutines.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./static/images/embedded/concurrency.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Concurrency with Goroutines
-</h5>
-<div class="card-subtitle listing-subtitle">
-Doing multiple things at once.
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW1iZWRkZWQlMjBTeXN0ZW1z'); return false;">Embedded Systems</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGlueUdv'); return false;">TinyGo</div>
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charath Ranganathan
-</div>
-<div class="listing-date">
-Jul 10, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="RW1iZWRkZWQlMjBTeXN0ZW1zJTJDVGlueUdv" data-listing-date-sort="1656892800000" data-listing-file-modified-sort="1765752165993" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="383">
-<a href="./embedded/blinking-an-led.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./static/images/embedded/leds.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Blinking an LED with TinyGo
-</h5>
-<div class="card-subtitle listing-subtitle">
-Your first program.
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW1iZWRkZWQlMjBTeXN0ZW1z'); return false;">Embedded Systems</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGlueUdv'); return false;">TinyGo</div>
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charath Ranganathan
-</div>
-<div class="listing-date">
-Jul 4, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="RW1iZWRkZWQlMjBTeXN0ZW1zJTJDVGlueUdv" data-listing-date-sort="1656633600000" data-listing-file-modified-sort="1765752165993" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="950">
-<a href="./embedded/setting-up-tinygo.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./static/images/embedded/setup-tinygo.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Set up your Pico with TinyGo and VScode
-</h5>
-<div class="card-subtitle listing-subtitle">
-Let the fun begin!
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW1iZWRkZWQlMjBTeXN0ZW1z'); return false;">Embedded Systems</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGlueUdv'); return false;">TinyGo</div>
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charath Ranganathan
-</div>
-<div class="listing-date">
-Jul 1, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+</section>
+<section id="project-structure" class="level2">
+<h2 class="anchored" data-anchor-id="project-structure">Project Structure</h2>
+<pre><code>pragmatiktech.github.io/
+├── _quarto.yml          # Main Quarto configuration
+├── _publish.yml         # Publishing configuration
+├── index.qmd           # Homepage with article listings
+├── about.qmd           # About page
+├── styles.css          # Custom CSS styles
+├── embedded/           # Embedded systems articles
+│   ├── setting-up-tinygo.qmd
+│   ├── blinking-an-led.md
+│   ├── gpio-and-interrupts.qmd
+│   ├── channels.qmd
+│   └── concurrency-goroutines.md
+├── static/             # Static assets (images, etc.)
+├── .github/            # GitHub Actions workflows
+└── _site/              # Generated site (auto-generated)</code></pre>
+</section>
+<section id="key-configuration-details" class="level2">
+<h2 class="anchored" data-anchor-id="key-configuration-details">Key Configuration Details</h2>
+<section id="website-configuration" class="level3">
+<h3 class="anchored" data-anchor-id="website-configuration">Website Configuration</h3>
+<ul>
+<li>Site URL: https://pragmatik.tech</li>
+<li>Preview port: 2805</li>
+<li>Navbar: Dark theme with logo, social links (YouTube, GitHub, LinkedIn)</li>
+<li>Sidebar: Floating style with embedded systems section</li>
+<li>Footer: Copyright, Creative Commons license, social links</li>
+</ul>
+</section>
+<section id="content-organization" class="level3">
+<h3 class="anchored" data-anchor-id="content-organization">Content Organization</h3>
+<ul>
+<li>Articles are organized by topic (embedded/, future: ai/, ml/)</li>
+<li>Homepage shows recent articles in grid format (2 columns, max 10 items)</li>
+<li>Automatic listing generation from QMD/MD files</li>
+<li>Categories and tags supported</li>
+</ul>
+</section>
+<section id="branding" class="level3">
+<h3 class="anchored" data-anchor-id="branding">Branding</h3>
+<ul>
+<li>Logo: <code>/static/images/pragmatik-logo-inverse.png</code></li>
+<li>Profile image: <code>/static/images/profile.png</code></li>
+<li>Favicon: <code>/favicon.ico</code></li>
+<li>Color scheme: Dark navbar, custom CSS theming</li>
+</ul>
+</section>
+</section>
+<section id="author-information" class="level2">
+<h2 class="anchored" data-anchor-id="author-information">Author Information</h2>
+<ul>
+<li><strong>Name</strong>: Charath Ranganathan</li>
+<li><strong>Role</strong>: CTO at CoreStory</li>
+<li><strong>Background</strong>: 4+ decades of programming experience</li>
+<li><strong>Interests</strong>: Embedded systems, AI/ML, flight instruction</li>
+<li><strong>Social</strong>:
+<ul>
+<li>YouTube: <span class="citation" data-cites="pragmatiktech">@pragmatiktech</span></li>
+<li>LinkedIn: /in/charath</li>
+<li>GitHub: pragmatiktech</li>
+</ul></li>
+</ul>
+</section>
+<section id="development-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="development-workflow">Development Workflow</h2>
+<section id="adding-new-articles" class="level3">
+<h3 class="anchored" data-anchor-id="adding-new-articles">Adding New Articles</h3>
+<ol type="1">
+<li>Create <code>.qmd</code> or <code>.md</code> file in appropriate directory</li>
+<li>Include frontmatter with title, date, categories</li>
+<li>Content automatically appears in listings</li>
+<li>Build with <code>quarto render</code></li>
+<li>Publish to GitHub Pages</li>
+</ol>
+</section>
+<section id="maintenance-tasks" class="level3">
+<h3 class="anchored" data-anchor-id="maintenance-tasks">Maintenance Tasks</h3>
+<ul>
+<li>Keep embedded systems content current with TinyGo/MicroPython updates</li>
+<li>Add new AI/ML content as planned</li>
+<li>Monitor and update dependencies</li>
+<li>Ensure social links remain active</li>
+</ul>
+</section>
+</section>
+<section id="technical-notes" class="level2">
+<h2 class="anchored" data-anchor-id="technical-notes">Technical Notes</h2>
+<section id="quarto-features-used" class="level3">
+<h3 class="anchored" data-anchor-id="quarto-features-used">Quarto Features Used</h3>
+<ul>
+<li>Website project type</li>
+<li>Automatic listings</li>
+<li>Custom CSS theming</li>
+<li>Code syntax highlighting</li>
+<li>Social media integration</li>
+<li>Creative Commons licensing</li>
+</ul>
+</section>
+<section id="performance-considerations" class="level3">
+<h3 class="anchored" data-anchor-id="performance-considerations">Performance Considerations</h3>
+<ul>
+<li>Static site generation for fast loading</li>
+<li>Optimized Google Fonts loading</li>
+<li>Efficient CSS organization</li>
+<li>Image optimization in static assets</li>
+</ul>
+</section>
+<section id="seo-accessibility" class="level3">
+<h3 class="anchored" data-anchor-id="seo-accessibility">SEO &amp; Accessibility</h3>
+<ul>
+<li>Proper heading structure</li>
+<li>Alt text for images</li>
+<li>Semantic HTML from Quarto</li>
+<li>Mobile-responsive design</li>
+<li>External links open in new windows</li>
+</ul>
+</section>
+</section>
+<section id="future-enhancements" class="level2">
+<h2 class="anchored" data-anchor-id="future-enhancements">Future Enhancements</h2>
+<ol type="1">
+<li>Add AI/ML content sections</li>
+<li>Implement search functionality</li>
+<li>Add RSS feed</li>
+<li>Enhance social sharing</li>
+<li>Add comment system</li>
+<li>Create video embedding for YouTube content</li>
+<li>Add newsletter signup</li>
+<li>Implement analytics</li>
+</ol>
+</section>
+<section id="deployment" class="level2">
+<h2 class="anchored" data-anchor-id="deployment">Deployment</h2>
+<p>The site uses a two-stage deployment process following the <a href="https://quarto.org/docs/publishing/netlify.html#github-action">Quarto Netlify GitHub Action workflow</a>:</p>
+<ol type="1">
+<li><strong>GitHub Actions</strong>: Renders the site and publishes to <code>gh-pages</code> branch
+<ul>
+<li>Triggered on push to <code>main</code> branch or manual workflow dispatch</li>
+<li>Uses <code>quarto-dev/quarto-actions/publish@v2</code> with <code>target: gh-pages</code></li>
+<li>Requires <code>GITHUB_TOKEN</code> secret (automatically provided)</li>
+</ul></li>
+<li><strong>Netlify</strong>: Deploys the <code>gh-pages</code> branch content
+<ul>
+<li>Netlify is connected to the <code>gh-pages</code> branch of the repository</li>
+<li>Custom domain (pragmatik.tech) configured via CNAME</li>
+<li>Uses Netlify’s build plugin for Quarto: <code>@quarto/netlify-plugin-quarto</code></li>
+</ul></li>
+</ol>
+<section id="key-configuration-files" class="level3">
+<h3 class="anchored" data-anchor-id="key-configuration-files">Key Configuration Files</h3>
+<ul>
+<li><code>.github/workflows/publish.yml</code> - GitHub Action workflow</li>
+<li><code>netlify.toml</code> - Netlify build plugin configuration<br>
+</li>
+<li><code>package.json</code> - Netlify plugin dependency</li>
+<li><code>CNAME</code> - Custom domain configuration</li>
+</ul>
+</section>
+</section>
+<section id="key-files-to-monitor" class="level2">
+<h2 class="anchored" data-anchor-id="key-files-to-monitor">Key Files to Monitor</h2>
+<ul>
+<li><code>_quarto.yml</code> - Main configuration</li>
+<li><code>index.qmd</code> - Homepage content and listings</li>
+<li><code>about.qmd</code> - Author information</li>
+<li><code>styles.css</code> - Custom styling</li>
+<li>Articles in <code>embedded/</code> directory</li>
+</ul>
+<p>Last updated: 2024</p>
 
 
-
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
