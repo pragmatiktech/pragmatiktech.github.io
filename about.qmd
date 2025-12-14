@@ -15,7 +15,7 @@ about:
       href: https://github.com/pragmatiktech
 ---
 
-Charath Ranganathan is the CTO at Crowdbotics, where they are revolutionizing the software development lifecycle (SDLC) through their AI-based code-to-spec system.
+Charath Ranganathan is the CTO at CoreStory, where they are revolutionizing the software development lifecycle (SDLC) through their AI-based code-to-spec system.
 
 Charath has been an avid coder for over 4 decades, having started with BASIC on a Casio Handheld computer and then on a Sinclair ZX Spectrum in the early 1980s. He is a polyglot programmer with experience in a wide range of programming languages from COBOL and FORTRAN, through Java and Python, to Go.
 

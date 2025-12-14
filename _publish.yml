@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 7b2db02e-60cf-4dc0-9279-75f12f593d78
+      url: https://dreamy-pegasus-7f94be.netlify.app
