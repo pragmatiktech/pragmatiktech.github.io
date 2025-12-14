@@ -2,7 +2,6 @@
   {
     "listing": "/index.html",
     "items": [
-      "/AI.html",
       "/embedded/channels.html",
       "/embedded/gpio-and-interrupts.html",
       "/embedded/concurrency-goroutines.html",

@@ -1,295 +1,32 @@
 [
   {
-    "objectID": "AI.html",
-    "href": "AI.html",
-    "title": "AI.md - Project Documentation and Maintenance Notes",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "pragmatik.tech is a technical blog/website built with Quarto, focused on: - Embedded systems programming (TinyGo, MicroPython, Raspberry Pi Pico) - Generative AI programming (Java with LangChain4J, Python) - Machine learning (planned content)\n\n\n\n\nFramework: Quarto (static site generator)\nHosting: GitHub Pages (pragmatiktech.github.io)\nDomain: pragmatik.tech\nContent: Markdown/QMD files\nTheme: United theme with custom CSS\nFonts: Space Grotesk (main), Fira Code (code blocks)\n\n\n\n\npragmatiktech.github.io/\n├── _quarto.yml          # Main Quarto configuration\n├── _publish.yml         # Publishing configuration\n├── index.qmd           # Homepage with article listings\n├── about.qmd           # About page\n├── styles.css          # Custom CSS styles\n├── embedded/           # Embedded systems articles\n│   ├── setting-up-tinygo.qmd\n│   ├── blinking-an-led.md\n│   ├── gpio-and-interrupts.qmd\n│   ├── channels.qmd\n│   └── concurrency-goroutines.md\n├── static/             # Static assets (images, etc.)\n├── .github/            # GitHub Actions workflows\n└── _site/              # Generated site (auto-generated)\n\n\n\n\n\n\nSite URL: https://pragmatik.tech\nPreview port: 2805\nNavbar: Dark theme with logo, social links (YouTube, GitHub, LinkedIn)\nSidebar: Floating style with embedded systems section\nFooter: Copyright, Creative Commons license, social links\n\n\n\n\n\nArticles are organized by topic (embedded/, future: ai/, ml/)\nHomepage shows recent articles in grid format (2 columns, max 10 items)\nAutomatic listing generation from QMD/MD files\nCategories and tags supported\n\n\n\n\n\nLogo: /static/images/pragmatik-logo-inverse.png\nProfile image: /static/images/profile.png\nFavicon: /favicon.ico\nColor scheme: Dark navbar, custom CSS theming\n\n\n\n\n\n\nName: Charath Ranganathan\nRole: CTO at CoreStory\nBackground: 4+ decades of programming experience\nInterests: Embedded systems, AI/ML, flight instruction\nSocial:\n\nYouTube: @pragmatiktech\nLinkedIn: /in/charath\nGitHub: pragmatiktech\n\n\n\n\n\n\n\n\nCreate .qmd or .md file in appropriate directory\nInclude frontmatter with title, date, categories\nContent automatically appears in listings\nBuild with quarto render\nPublish to GitHub Pages\n\n\n\n\n\nKeep embedded systems content current with TinyGo/MicroPython updates\nAdd new AI/ML content as planned\nMonitor and update dependencies\nEnsure social links remain active\n\n\n\n\n\n\n\n\nWebsite project type\nAutomatic listings\nCustom CSS theming\nCode syntax highlighting\nSocial media integration\nCreative Commons licensing\n\n\n\n\n\nStatic site generation for fast loading\nOptimized Google Fonts loading\nEfficient CSS organization\nImage optimization in static assets\n\n\n\n\n\nProper heading structure\nAlt text for images\nSemantic HTML from Quarto\nMobile-responsive design\nExternal links open in new windows\n\n\n\n\n\n\nAdd AI/ML content sections\nImplement search functionality\nAdd RSS feed\nEnhance social sharing\nAdd comment system\nCreate video embedding for YouTube content\nAdd newsletter signup\nImplement analytics\n\n\n\n\nThe site uses a two-stage deployment process following the Quarto Netlify GitHub Action workflow:\n\nGitHub Actions: Renders the site and publishes to gh-pages branch\n\nTriggered on push to main branch or manual workflow dispatch\nUses quarto-dev/quarto-actions/publish@v2 with target: gh-pages\nRequires GITHUB_TOKEN secret (automatically provided)\n\nNetlify: Deploys the gh-pages branch content\n\nNetlify is connected to the gh-pages branch of the repository\nCustom domain (pragmatik.tech) configured via CNAME\nUses Netlify’s build plugin for Quarto: @quarto/netlify-plugin-quarto\n\n\n\n\n\n.github/workflows/publish.yml - GitHub Action workflow\nnetlify.toml - Netlify build plugin configuration\n\npackage.json - Netlify plugin dependency\nCNAME - Custom domain configuration\n\n\n\n\n\n\n_quarto.yml - Main configuration\nindex.qmd - Homepage content and listings\nabout.qmd - Author information\nstyles.css - Custom styling\nArticles in embedded/ directory\n\nLast updated: 2024"
-  },
-  {
-    "objectID": "AI.html#project-overview",
-    "href": "AI.html#project-overview",
-    "title": "AI.md - Project Documentation and Maintenance Notes",
-    "section": "",
-    "text": "pragmatik.tech is a technical blog/website built with Quarto, focused on: - Embedded systems programming (TinyGo, MicroPython, Raspberry Pi Pico) - Generative AI programming (Java with LangChain4J, Python) - Machine learning (planned content)"
-  },
-  {
-    "objectID": "AI.html#technical-stack",
-    "href": "AI.html#technical-stack",
-    "title": "AI.md - Project Documentation and Maintenance Notes",
-    "section": "",
-    "text": "Framework: Quarto (static site generator)\nHosting: GitHub Pages (pragmatiktech.github.io)\nDomain: pragmatik.tech\nContent: Markdown/QMD files\nTheme: United theme with custom CSS\nFonts: Space Grotesk (main), Fira Code (code blocks)"
-  },
-  {
-    "objectID": "AI.html#project-structure",
-    "href": "AI.html#project-structure",
-    "title": "AI.md - Project Documentation and Maintenance Notes",
-    "section": "",
-    "text": "pragmatiktech.github.io/\n├── _quarto.yml          # Main Quarto configuration\n├── _publish.yml         # Publishing configuration\n├── index.qmd           # Homepage with article listings\n├── about.qmd           # About page\n├── styles.css          # Custom CSS styles\n├── embedded/           # Embedded systems articles\n│   ├── setting-up-tinygo.qmd\n│   ├── blinking-an-led.md\n│   ├── gpio-and-interrupts.qmd\n│   ├── channels.qmd\n│   └── concurrency-goroutines.md\n├── static/             # Static assets (images, etc.)\n├── .github/            # GitHub Actions workflows\n└── _site/              # Generated site (auto-generated)"
-  },
-  {
-    "objectID": "AI.html#key-configuration-details",
-    "href": "AI.html#key-configuration-details",
-    "title": "AI.md - Project Documentation and Maintenance Notes",
-    "section": "",
-    "text": "Site URL: https://pragmatik.tech\nPreview port: 2805\nNavbar: Dark theme with logo, social links (YouTube, GitHub, LinkedIn)\nSidebar: Floating style with embedded systems section\nFooter: Copyright, Creative Commons license, social links\n\n\n\n\n\nArticles are organized by topic (embedded/, future: ai/, ml/)\nHomepage shows recent articles in grid format (2 columns, max 10 items)\nAutomatic listing generation from QMD/MD files\nCategories and tags supported\n\n\n\n\n\nLogo: /static/images/pragmatik-logo-inverse.png\nProfile image: /static/images/profile.png\nFavicon: /favicon.ico\nColor scheme: Dark navbar, custom CSS theming"
-  },
-  {
-    "objectID": "AI.html#author-information",
-    "href": "AI.html#author-information",
-    "title": "AI.md - Project Documentation and Maintenance Notes",
-    "section": "",
-    "text": "Name: Charath Ranganathan\nRole: CTO at CoreStory\nBackground: 4+ decades of programming experience\nInterests: Embedded systems, AI/ML, flight instruction\nSocial:\n\nYouTube: @pragmatiktech\nLinkedIn: /in/charath\nGitHub: pragmatiktech"
-  },
-  {
-    "objectID": "AI.html#development-workflow",
-    "href": "AI.html#development-workflow",
-    "title": "AI.md - Project Documentation and Maintenance Notes",
-    "section": "",
-    "text": "Create .qmd or .md file in appropriate directory\nInclude frontmatter with title, date, categories\nContent automatically appears in listings\nBuild with quarto render\nPublish to GitHub Pages\n\n\n\n\n\nKeep embedded systems content current with TinyGo/MicroPython updates\nAdd new AI/ML content as planned\nMonitor and update dependencies\nEnsure social links remain active"
-  },
-  {
-    "objectID": "AI.html#technical-notes",
-    "href": "AI.html#technical-notes",
-    "title": "AI.md - Project Documentation and Maintenance Notes",
-    "section": "",
-    "text": "Website project type\nAutomatic listings\nCustom CSS theming\nCode syntax highlighting\nSocial media integration\nCreative Commons licensing\n\n\n\n\n\nStatic site generation for fast loading\nOptimized Google Fonts loading\nEfficient CSS organization\nImage optimization in static assets\n\n\n\n\n\nProper heading structure\nAlt text for images\nSemantic HTML from Quarto\nMobile-responsive design\nExternal links open in new windows"
-  },
-  {
-    "objectID": "AI.html#future-enhancements",
-    "href": "AI.html#future-enhancements",
-    "title": "AI.md - Project Documentation and Maintenance Notes",
-    "section": "",
-    "text": "Add AI/ML content sections\nImplement search functionality\nAdd RSS feed\nEnhance social sharing\nAdd comment system\nCreate video embedding for YouTube content\nAdd newsletter signup\nImplement analytics"
-  },
-  {
-    "objectID": "AI.html#deployment",
-    "href": "AI.html#deployment",
-    "title": "AI.md - Project Documentation and Maintenance Notes",
-    "section": "",
-    "text": "The site uses a two-stage deployment process following the Quarto Netlify GitHub Action workflow:\n\nGitHub Actions: Renders the site and publishes to gh-pages branch\n\nTriggered on push to main branch or manual workflow dispatch\nUses quarto-dev/quarto-actions/publish@v2 with target: gh-pages\nRequires GITHUB_TOKEN secret (automatically provided)\n\nNetlify: Deploys the gh-pages branch content\n\nNetlify is connected to the gh-pages branch of the repository\nCustom domain (pragmatik.tech) configured via CNAME\nUses Netlify’s build plugin for Quarto: @quarto/netlify-plugin-quarto\n\n\n\n\n\n.github/workflows/publish.yml - GitHub Action workflow\nnetlify.toml - Netlify build plugin configuration\n\npackage.json - Netlify plugin dependency\nCNAME - Custom domain configuration"
-  },
-  {
-    "objectID": "AI.html#key-files-to-monitor",
-    "href": "AI.html#key-files-to-monitor",
-    "title": "AI.md - Project Documentation and Maintenance Notes",
-    "section": "",
-    "text": "_quarto.yml - Main configuration\nindex.qmd - Homepage content and listings\nabout.qmd - Author information\nstyles.css - Custom styling\nArticles in embedded/ directory\n\nLast updated: 2024"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Recent Articles",
-    "section": "",
-    "text": "Welcome to pragmatik.tech. This is a site dedicated to technology, specifically the following:\n\nEmbedded programming in TinyGo and Micropython, with an emphasis on the Raspberry Pi Pico.\nGenerative AI programming in Java (using LangChain4J) and Python.\nMachine learning (coming soon).\n\n\nRecent Articles\n\n\n\n\n\n\n\n\nAI.md - Project Documentation and Maintenance Notes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTinyGo Channels on the Pico\n\n\nConcurrency via channels.\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 31, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nGPIO and Interrupts on the Pico\n\n\nStop interrupting me!\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 13, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nConcurrency with Goroutines\n\n\nDoing multiple things at once.\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlinking an LED with TinyGo\n\n\nYour first program.\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 4, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nSet up your Pico with TinyGo and VScode\n\n\nLet the fun begin!\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 1, 2022\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "embedded/concurrency-goroutines.html",
-    "href": "embedded/concurrency-goroutines.html",
-    "title": "Concurrency with Goroutines",
-    "section": "",
-    "text": "Let us modify the simple blink program from our earlier tutorial to run multiple tasks simultaneously. This is what we call concurrency.\nGo has a number of primitives to help make programmers’ lives easier when they create concurrent programs. In this tutorial, we will look at one of them, namely Goroutines.",
+    "text": "Charath Ranganathan is the CTO at CoreStory, where they are revolutionizing the software development lifecycle (SDLC) through their AI-based code-to-spec system.\nCharath has been an avid coder for over 4 decades, having started with BASIC on a Casio Handheld computer and then on a Sinclair ZX Spectrum in the early 1980s. He is a polyglot programmer with experience in a wide range of programming languages from COBOL and FORTRAN, through Java and Python, to Go.\nCharath is also very interested in embedded systems programming, especially in TinyGo and Micropython. You can view his tutorials on YouTube.\nWhen he is not working or coding, Charath can be found at his local airport, where he is an FAA-certified flight instructor with the Caltech/JPL Flying Club.",
     "crumbs": [
-      "Embedded Systems",
-      "Concurrency with Goroutines"
+      "About"
     ]
   },
   {
-    "objectID": "embedded/concurrency-goroutines.html#the-program",
-    "href": "embedded/concurrency-goroutines.html#the-program",
-    "title": "Concurrency with Goroutines",
-    "section": "The Program",
-    "text": "The Program\nThe aim of our program is to do the following two things at once:\n\nBlink the onboard LED twice a second.\nPrint the phrase “hello concurrently” to the serial (UART) port.\n\nWe modify the blink.go program from the earlier tutorial to add:\n\nA function (named printHello) that prints “hello concurrently” in an infinite loop.\nA goroutine that spawns this function so that it runs concurrent to the main thread that is blinking the LED.\n\npackage main\n\nimport (\n    \"machine\"\n    \"time\"\n)\n\nfunc main() {\n    led := machine.LED\n    led.Configure(machine.PinConfig{\n            Mode: machine.PinOutput,\n    })\n        \n    go printHello()\n    \n    for {\n        led.High()\n        time.Sleep(500 * time.Millisecond)\n        led.Low()\n        time.Sleep(500 * time.Millisecond)\n    }\n}\n\nfunc printHello() {\n    for {\n        println(\"hello concurrently\")\n        time.Sleep(time.Second)\n    }\n}",
+    "objectID": "about.html#experience-partial",
+    "href": "about.html#experience-partial",
+    "title": "About",
+    "section": "Experience (partial)",
+    "text": "Experience (partial)\nCoreStoryCTOMarch 2025 - present\nCrowdboticsCTODecember 2018 - March 2025\nPlaytika Santa MonicaVP - EngineeringApril 2012 - April 2016\nSun Microsystems, Inc.Multiple engineering management rolesSeptember 2002 - March 2009\nSIP TechnologiesCo-founderJuly 1996 - September 2002",
     "crumbs": [
-      "Embedded Systems",
-      "Concurrency with Goroutines"
+      "About"
     ]
   },
   {
-    "objectID": "embedded/concurrency-goroutines.html#testing-the-program",
-    "href": "embedded/concurrency-goroutines.html#testing-the-program",
-    "title": "Concurrency with Goroutines",
-    "section": "Testing the Program",
-    "text": "Testing the Program\nEnsure that your serial console is set up as described in my earlier tutorial on setting up the Pico for serial debugging.\nFlash the program to your pico:\n% tinygo flash -target=pico concurrentblink.go\nYou should see the onboard LED blinking, while the phrase “hello concurrently” is printed every second in the serial monitor.",
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nTexas A&M University, College Station, TX M.S. in Electrical Engineering  1990 - 1993\nCollege of Engineering, Anna University, Chennai, India B.E. in Electrical and Electronics Engineering 1986 - 1990",
     "crumbs": [
-      "Embedded Systems",
-      "Concurrency with Goroutines"
-    ]
-  },
-  {
-    "objectID": "embedded/concurrency-goroutines.html#references",
-    "href": "embedded/concurrency-goroutines.html#references",
-    "title": "Concurrency with Goroutines",
-    "section": "References",
-    "text": "References\n\nRob Pike’s presentation on “Concurrency is not parallelism”.",
-    "crumbs": [
-      "Embedded Systems",
-      "Concurrency with Goroutines"
-    ]
-  },
-  {
-    "objectID": "embedded/channels.html",
-    "href": "embedded/channels.html",
-    "title": "TinyGo Channels on the Pico",
-    "section": "",
-    "text": "One of our earlier tutorials covered GoRoutines, which are one of the most common concurrency primitives in TinyGo (and Go). In this tutorial, we look at how goroutines can communicate with one another using what are called “channels”.",
-    "crumbs": [
-      "Embedded Systems",
-      "TinyGo Channels on the Pico"
-    ]
-  },
-  {
-    "objectID": "embedded/channels.html#objective",
-    "href": "embedded/channels.html#objective",
-    "title": "TinyGo Channels on the Pico",
-    "section": "Objective",
-    "text": "Objective\nLet us create a program which allows two goroutines to communicate. The main goroutine should send a message to another goroutine (we’ll call it blinkGreen) with a random number of times to blink an LED. That goroutine blinks that LED that many times, and then returns a random number to the main goroutine, which proceeds to flash another LED that many times.\nIt is a very simple program that illustrates how messages can be easily passed between two goroutines.",
-    "crumbs": [
-      "Embedded Systems",
-      "TinyGo Channels on the Pico"
-    ]
-  },
-  {
-    "objectID": "embedded/channels.html#circuit",
-    "href": "embedded/channels.html#circuit",
-    "title": "TinyGo Channels on the Pico",
-    "section": "Circuit",
-    "text": "Circuit\nThe circuit diagram below shows the necessary connections. A more detailed explanation of the circuit diagram appears below the image.\n\n\n\nCircuit Diagram\n\n\nFor this circuit, we connect one LED between GPIO16 and GND through a current-limiting 330\\(\\Omega\\) resistor. The other LED is connected between GPIO15 and GND with another 330\\(\\Omega\\) resistor.",
-    "crumbs": [
-      "Embedded Systems",
-      "TinyGo Channels on the Pico"
-    ]
-  },
-  {
-    "objectID": "embedded/channels.html#the-program",
-    "href": "embedded/channels.html#the-program",
-    "title": "TinyGo Channels on the Pico",
-    "section": "The Program",
-    "text": "The Program\nThe goal of our program is to allow two goroutines to communicate with each other through a shared channel. The message that is passed between the goroutines is a randomly-generated int which instructs the goroutine on how many times to blink the LED associated with that goroutine.\nA more detailed explanation of the key parts of the program appears below the code listing.\n// channels.go\n\npackage main\n\nimport (\n        \"machine\"\n        \"math/rand\"\n        \"time\"\n)\n\nconst (\n        yellowLed = machine.GP16\n        greenLed  = machine.GP15\n)\n\nfunc configure() {\n        yellowLed.Configure(machine.PinConfig{Mode: machine.PinOutput})\n        greenLed.Configure(machine.PinConfig{Mode: machine.PinOutput})\n}\n\n// Blinks an LED twice a second for a specified number of times.\nfunc blink(p machine.Pin, n int) {\n        for i := 0; i &lt; n; i++ {\n                p.High()\n                time.Sleep(250 * time.Millisecond)\n                p.Low()\n                time.Sleep(250 * time.Millisecond)\n        }\n}\n\n// This goroutine blinks the green LED `numBlinks` times, where\n// numBlinks is specified by the message it receives via the channel.\nfunc blinkGreen(c chan int) {\n        for {\n                // block until you receive a value via the channel\n                numBlinks := &lt;-c\n\n            // then, blink the green LED that many times\n            blink(greenLed, numBlinks)\n        \n            // return a random value to the `main` goroutine so that it blinks\n            // the yellow LED as many times as this random value.\n            numBlinks = rand.Intn(5-1) + 1\n            c &lt;- numBlinks\n        }\n}\n\nfunc main() {\n        // Create an unbuffered channel of ints.\n        c := make(chan int)\n        \n        // Initialize the random seed\n        rand.Seed(time.Now().UnixNano())\n        \n        // Generate a random number between 1 and 5\n        n := rand.Intn(5-1) + 1\n        \n        configure()\n        \n        // Start the blinkGreen goroutine\n        go blinkGreen(c)\n        \n        for {\n            // First blink the yellow LED `n` times\n            blink(yellowLed, n)\n        \n            // then, generate a random number between 1 and 5\n            n = rand.Intn(5-1) + 1\n        \n            // send that random number via the channel to `blinkGreen`\n            // so that it blinks the green LED that many times\n            c &lt;- n\n        \n            // wait for `blinkGreen` to return a random number to you\n            n = &lt;-c\n        } // and repeat indefinitely\n}\nIn the main function, we first create a channel of type int. Channels can transmit many Go types such as ints, strings, bools, and structs. In this case, we choose an int.\nc := make(chan int)\nThe channel is unbuffered because we don’t specify a second argument to the make keyword. If we had specified a second argument to make, the channel would be a buffered channel with a capacity equal to that second argument.\nFor example,\nc := make(chan int, 5)\nwould create a buffered channel of ints with a capacity of 5.\nCreating an unbuffered channel forces any goroutines that receive the values from that channel to block until a value is received via the channel. This is a nice way for us to pause execution of a goroutine until we signal it to start running via a message that we pass to it.\nWe then start up the blinkGreen goroutine which blinks the green LED. The number of times that it blinks the green LED depends on the value it receives via the channel, c.\nThe following line in blinkGreen blocks until a message is received via the channel. The syntax &lt;-c indicates that numBlinks is being assigned the value out of the channel. The easiest way to figure out the syntax is to note the direction of the arrow. In this case, the arrow originates in the channel (as evidenced by where its tail starts).\nnumBlinks := &lt;-c\nOnce the message is received, the blinkGreen goroutine is unblocked. It, then, blinks the green LED numBlinks times.\nblink(greenLed, numBlinks)\nFinally, the goroutine generates a random integer between 1 and 5 and sends that back to the main goroutine via the same channel.\nnumBlinks = rand.Intn(5-1) + 1\nc &lt;- numBlinks\nNotice how in line 42, the channel receives the value because the arrow originates in numBlinks and terminates in the channel.\nWhile all this has been going on, the main goroutine waits for a message back on the channel.\nn = &lt;-c\nWhen it receives the random number from the channel (which was sent from blinkGreen in line 42), the main goroutine is unblocked and blinks the yellow LED n times.\nThis sequence repeats indefinitely.",
-    "crumbs": [
-      "Embedded Systems",
-      "TinyGo Channels on the Pico"
-    ]
-  },
-  {
-    "objectID": "embedded/channels.html#testing-the-program",
-    "href": "embedded/channels.html#testing-the-program",
-    "title": "TinyGo Channels on the Pico",
-    "section": "Testing the Program",
-    "text": "Testing the Program\nWire up the circuit as shown in the diagram above. Then, flash the program to your pico:\n% tinygo flash -target=pico channels.go\nYou will notice that the yellow LED blinks a certain number of times, followed by the green LED, and over and over again. The number of times each LED blinks is random.",
-    "crumbs": [
-      "Embedded Systems",
-      "TinyGo Channels on the Pico"
-    ]
-  },
-  {
-    "objectID": "embedded/channels.html#summary",
-    "href": "embedded/channels.html#summary",
-    "title": "TinyGo Channels on the Pico",
-    "section": "Summary",
-    "text": "Summary\nIn this tutorial we learnt how to use Go channels as a mechanism for communication between goroutines.",
-    "crumbs": [
-      "Embedded Systems",
-      "TinyGo Channels on the Pico"
-    ]
-  },
-  {
-    "objectID": "embedded/blinking-an-led.html#the-program",
-    "href": "embedded/blinking-an-led.html#the-program",
-    "title": "Blinking an LED with TinyGo",
-    "section": "The Program",
-    "text": "The Program\nThe program itself is simple - about 15 lines of code.\n// blink.go\n\npackage main\n\nimport (\n        \"machine\"\n        \"time\"\n)\n\nfunc main() {\n        led := machine.LED\n        led.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n        })\n        \n        for {\n            led.High()\n            time.Sleep(500 * time.Millisecond)\n            led.Low()\n            time.Sleep(500 * time.Millisecond)\n        }\n}",
-    "crumbs": [
-      "Embedded Systems",
-      "Blinking an LED with TinyGo"
-    ]
-  },
-  {
-    "objectID": "embedded/blinking-an-led.html#basic-steps-to-interact-with-gpio",
-    "href": "embedded/blinking-an-led.html#basic-steps-to-interact-with-gpio",
-    "title": "Blinking an LED with TinyGo",
-    "section": "Basic Steps to Interact with GPIO",
-    "text": "Basic Steps to Interact with GPIO\nThe basic steps for interacting with a General Purpose Input-Output (GPIO) pin on the Pico are the same:\n\nImport the machine package.\nCreate a variable that is an instance of the GPIO pin.\nConfigure the instance.\nLoop while doing something with the pin.\n\nLet us examine each of these steps in detail.\n\nImport the machine Package\nimport (\n        \"machine\"\n        ... // other imports\n)\nThe machine package provides an abstraction in Go to the underlying capabilities of the microcontroller target. It also defines some constants that make it easier when referring to the facilities of the microcontroller in Go. As an example, consider the machine.LED constant, which represents the onboard LED on the Pico.\n\n\nCreate an Instance of the Pin\nled := machine.LED\nCreating the variable and initializing it to an instance of Pin allows us to access the variable in other parts of the program.\nNote that the pin is not configured yet. That needs to be done in the next step.\n\n\nConfigure the Pin Instance\nled.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n})\nThe Configure function takes an instance of a type called PinConfig as its input. The PinConfig type is defined as below:\ntype PinConfig struct {\n        Mode PinMode\n}\nThe following Modes are accepted:\nconst (\n        PinOutput PinMode = iota\n        PinInput\n        PinInputPulldown\n        PinInputPullup\n        PinAnalog\n        PinUART\n        PinPWM\n        PinI2C\n        PinSPI\n)\nSince we want the LED to blink, but are not concerned about its input, we configure the pin as a PinOutput.\n\n\nLoop\nOnce the GPIO pins are initialized and configured, we loop while performing a set of tasks. This is typical of any microcontroller (or embedded) application.\nIn the case of this trivial “blink” program, we turn the LED on and off periodically inside the loop. For the purposes of this program, we use a time of 500 milliseconds between turning the LED on, and turning it off.\nfor {\n    led.High()\n    time.Sleep(500 * time.Millisecond)\n    led.Low()\n    time.Sleep(500 * time.Millisecond)\n}\nOutputting a High to the pin switches on the LED, while a Low turns it off. The time.sleep merely pauses the program so that the pin isn’t toggled so frequently that the LED never appears to turn off.",
-    "crumbs": [
-      "Embedded Systems",
-      "Blinking an LED with TinyGo"
-    ]
-  },
-  {
-    "objectID": "embedded/blinking-an-led.html#summary",
-    "href": "embedded/blinking-an-led.html#summary",
-    "title": "Blinking an LED with TinyGo",
-    "section": "Summary",
-    "text": "Summary\nIn this tutorial, we learnt to:\n\nInitialize and configure a single GPIO pin using TinyGo.\nOutput binary high or low values to the pin.\nRun our program endlessly.",
-    "crumbs": [
-      "Embedded Systems",
-      "Blinking an LED with TinyGo"
-    ]
-  },
-  {
-    "objectID": "embedded/blinking-an-led.html#references",
-    "href": "embedded/blinking-an-led.html#references",
-    "title": "Blinking an LED with TinyGo",
-    "section": "References",
-    "text": "References\n\nGitHub\nmachine package reference for Pico",
-    "crumbs": [
-      "Embedded Systems",
-      "Blinking an LED with TinyGo"
-    ]
-  },
-  {
-    "objectID": "embedded/gpio-and-interrupts.html#objective",
-    "href": "embedded/gpio-and-interrupts.html#objective",
-    "title": "GPIO and Interrupts on the Pico",
-    "section": "Objective",
-    "text": "Objective\nWe need to create a program which continuously blinks an LED while awaiting input from a push button. When the push button is pressed, we light up another LED, and turn it off when the push button is released.",
-    "crumbs": [
-      "Embedded Systems",
-      "GPIO and Interrupts on the Pico"
-    ]
-  },
-  {
-    "objectID": "embedded/gpio-and-interrupts.html#circuit",
-    "href": "embedded/gpio-and-interrupts.html#circuit",
-    "title": "GPIO and Interrupts on the Pico",
-    "section": "Circuit",
-    "text": "Circuit\nThe circuit diagram below shows the necessary connections. A more detailed explanation of the circuit diagram appears below the image.\n\n\n\nCircuit Diagram\n\n\nFor this circuit, we connect one LED between GPIO16 and GND through a current-limiting 330\\(\\Omega\\) resistor. The other LED is connected between GPIO15 and GND with another 330\\(\\Omega\\) resistor. The push button is connected between GPIO17 and GND.",
-    "crumbs": [
-      "Embedded Systems",
-      "GPIO and Interrupts on the Pico"
-    ]
-  },
-  {
-    "objectID": "embedded/gpio-and-interrupts.html#the-program",
-    "href": "embedded/gpio-and-interrupts.html#the-program",
-    "title": "GPIO and Interrupts on the Pico",
-    "section": "The Program",
-    "text": "The Program\nAs we said above, the goal of our program is to keep an LED blinking every second while we monitor the button and flash the second LED when the button is pressed.\npackage main\n\nimport (\n        \"machine\"\n        \"time\"\n)\n\nfunc main() {\n        // Initialize Pin 16 and configure for output.\n        led := machine.GP16\n        led.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n        })\n\n        // Initialize pin 15 for the 2nd LED and configure for output.\n        led2 := machine.GP15\n        led2.Configure(machine.PinConfig{\n            Mode: machine.PinOutput,\n        })\n        \n        // Connect pushbutton to pin 17 and initialize for input with a pull-up.\n        btn := machine.GP17\n        btn.Configure(machine.PinConfig{\n            Mode: machine.PinInputPullup,\n        })\n        \n        // Register the Interrupt Service Routine (ISR)\n        btn.SetInterrupt(machine.PinFalling|machine.PinRising,\n            func(p machine.Pin) {\n                led.Set(!p.Get())\n            })\n\n        // Keep on looping while blinking the 2nd LED\n        for {\n            led2.High()\n            time.Sleep(500 * time.Millisecond)\n            led2.Low()\n            time.Sleep(500 * time.Millisecond)\n        }\n}\nThe most important part of the program is the following line in the code listing, and it involves registering an interrupt service routine (or ISR).\n        btn.SetInterrupt(machine.PinFalling|machine.PinRising,\n            func(p machine.Pin) {\n                led.Set(!p.Get())\n            })\nWhen the button is pressed, the change in state of GPIO17 results in an interrupt being triggered. We register an interest in both the rising and falling edges of the signal via the argument machine.PinRising|machine.PinFalling. If you were only interested in the interrupt service routine being called on the rising edge or the falling edge, you would only specify one of the parameters.\nWhen the interrupt is sensed, the program invokes the callback function (commonly called the “Interrupt Service Routine” or “ISR”) with one parameter, which is the pin which generated the interrupt.\nIn our case, the ISR is called with pin GPIO17 (which is connected to the push button).\nWe then read the state of the pin - which is pulled low when the button is pressed - and set the state of the LED to its inverse, i.e. high.\nled.Set(!p.Get())\n\n\n\n\n\n\nNote\n\n\n\nRemember to keep the time that the program spends in the ISR as low as possible. The idea is to be interrupted, do something quickly, and get back to executing the main program.\n\n\n\nEnsure input pins are not left “floating”\nOn lines 23 - 25, we see that we configure the input pin with a mode of machine.PinInputPullup.\nbtn.Configure(machine.PinConfig{\n        Mode: machine.PinInputPullup,\n})\n\nWhat does the mode PinInputPullup mean?\nWhen microcontroller pins are configured as inputs, they need to be either set to a logic high or a logic low. This is normally accomplished by means of a pullup or pulldown resistor, which connects the pin either to the positive voltage source of the microcontroller or ground.\nIf the pin is not pulled up or down, it is possible that the pin’s voltage will fluctuate depending on what is happening with other pins around it, electromagnetic interference, etc. This phenomenon is commonly called floating.\nOne might ask why the pin could not be connected to the positive or ground voltages without using a resistor. The reason a resistor is used is because when the pin’s input changes from, say, a high to a low (as is the case with our push button), a current flows from the high voltage source to ground. Obviously, we want to minimize this current flow because an unlimited current (or a large current) can damage the microcontroller and the rest of your circuit.\nThese pullup or pulldown resistors are typically high in value so as to really limit the current flow in the circuit.\nIn the case of the Pico, the microcontroller has internal pullup and pulldown resistors, of between 50k\\(\\Omega\\) and 80k\\(\\Omega\\). Using the mode PinInputPullup activates the pullup resistor in the RP2040, thereby not requiring us to connect an external resistor.",
-    "crumbs": [
-      "Embedded Systems",
-      "GPIO and Interrupts on the Pico"
-    ]
-  },
-  {
-    "objectID": "embedded/gpio-and-interrupts.html#testing-the-program",
-    "href": "embedded/gpio-and-interrupts.html#testing-the-program",
-    "title": "GPIO and Interrupts on the Pico",
-    "section": "Testing the Program",
-    "text": "Testing the Program\nWire up the circuit as shown in the diagram above. Then, flash the program to your pico:\n% tinygo flash -target=pico main.go\nYou should now see the LED connected to GPIO15 blinking every second. When you press the push button, the LED connected to GPIO16 should be illuminated, and it is extinguished when you release the push button.",
-    "crumbs": [
-      "Embedded Systems",
-      "GPIO and Interrupts on the Pico"
-    ]
-  },
-  {
-    "objectID": "embedded/gpio-and-interrupts.html#summary",
-    "href": "embedded/gpio-and-interrupts.html#summary",
-    "title": "GPIO and Interrupts on the Pico",
-    "section": "Summary",
-    "text": "Summary\nIn this tutorial we learnt:\n\nHow to connect external LEDs and push buttons to the Raspberry Pi Pico.\nHow to write a program that uses an interrupt to determine the state of the push button and use that state to take an action - in this case illuminate an LED.",
-    "crumbs": [
-      "Embedded Systems",
-      "GPIO and Interrupts on the Pico"
+      "About"
     ]
   },
   {
@@ -359,33 +96,219 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "embedded/gpio-and-interrupts.html#objective",
+    "href": "embedded/gpio-and-interrupts.html#objective",
+    "title": "GPIO and Interrupts on the Pico",
+    "section": "Objective",
+    "text": "Objective\nWe need to create a program which continuously blinks an LED while awaiting input from a push button. When the push button is pressed, we light up another LED, and turn it off when the push button is released.",
+    "crumbs": [
+      "Embedded Systems",
+      "GPIO and Interrupts on the Pico"
+    ]
+  },
+  {
+    "objectID": "embedded/gpio-and-interrupts.html#circuit",
+    "href": "embedded/gpio-and-interrupts.html#circuit",
+    "title": "GPIO and Interrupts on the Pico",
+    "section": "Circuit",
+    "text": "Circuit\nThe circuit diagram below shows the necessary connections. A more detailed explanation of the circuit diagram appears below the image.\n\n\n\nCircuit Diagram\n\n\nFor this circuit, we connect one LED between GPIO16 and GND through a current-limiting 330\\(\\Omega\\) resistor. The other LED is connected between GPIO15 and GND with another 330\\(\\Omega\\) resistor. The push button is connected between GPIO17 and GND.",
+    "crumbs": [
+      "Embedded Systems",
+      "GPIO and Interrupts on the Pico"
+    ]
+  },
+  {
+    "objectID": "embedded/gpio-and-interrupts.html#the-program",
+    "href": "embedded/gpio-and-interrupts.html#the-program",
+    "title": "GPIO and Interrupts on the Pico",
+    "section": "The Program",
+    "text": "The Program\nAs we said above, the goal of our program is to keep an LED blinking every second while we monitor the button and flash the second LED when the button is pressed.\npackage main\n\nimport (\n        \"machine\"\n        \"time\"\n)\n\nfunc main() {\n        // Initialize Pin 16 and configure for output.\n        led := machine.GP16\n        led.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n        })\n\n        // Initialize pin 15 for the 2nd LED and configure for output.\n        led2 := machine.GP15\n        led2.Configure(machine.PinConfig{\n            Mode: machine.PinOutput,\n        })\n        \n        // Connect pushbutton to pin 17 and initialize for input with a pull-up.\n        btn := machine.GP17\n        btn.Configure(machine.PinConfig{\n            Mode: machine.PinInputPullup,\n        })\n        \n        // Register the Interrupt Service Routine (ISR)\n        btn.SetInterrupt(machine.PinFalling|machine.PinRising,\n            func(p machine.Pin) {\n                led.Set(!p.Get())\n            })\n\n        // Keep on looping while blinking the 2nd LED\n        for {\n            led2.High()\n            time.Sleep(500 * time.Millisecond)\n            led2.Low()\n            time.Sleep(500 * time.Millisecond)\n        }\n}\nThe most important part of the program is the following line in the code listing, and it involves registering an interrupt service routine (or ISR).\n        btn.SetInterrupt(machine.PinFalling|machine.PinRising,\n            func(p machine.Pin) {\n                led.Set(!p.Get())\n            })\nWhen the button is pressed, the change in state of GPIO17 results in an interrupt being triggered. We register an interest in both the rising and falling edges of the signal via the argument machine.PinRising|machine.PinFalling. If you were only interested in the interrupt service routine being called on the rising edge or the falling edge, you would only specify one of the parameters.\nWhen the interrupt is sensed, the program invokes the callback function (commonly called the “Interrupt Service Routine” or “ISR”) with one parameter, which is the pin which generated the interrupt.\nIn our case, the ISR is called with pin GPIO17 (which is connected to the push button).\nWe then read the state of the pin - which is pulled low when the button is pressed - and set the state of the LED to its inverse, i.e. high.\nled.Set(!p.Get())\n\n\n\n\n\n\nNote\n\n\n\nRemember to keep the time that the program spends in the ISR as low as possible. The idea is to be interrupted, do something quickly, and get back to executing the main program.\n\n\n\nEnsure input pins are not left “floating”\nOn lines 23 - 25, we see that we configure the input pin with a mode of machine.PinInputPullup.\nbtn.Configure(machine.PinConfig{\n        Mode: machine.PinInputPullup,\n})\n\nWhat does the mode PinInputPullup mean?\nWhen microcontroller pins are configured as inputs, they need to be either set to a logic high or a logic low. This is normally accomplished by means of a pullup or pulldown resistor, which connects the pin either to the positive voltage source of the microcontroller or ground.\nIf the pin is not pulled up or down, it is possible that the pin’s voltage will fluctuate depending on what is happening with other pins around it, electromagnetic interference, etc. This phenomenon is commonly called floating.\nOne might ask why the pin could not be connected to the positive or ground voltages without using a resistor. The reason a resistor is used is because when the pin’s input changes from, say, a high to a low (as is the case with our push button), a current flows from the high voltage source to ground. Obviously, we want to minimize this current flow because an unlimited current (or a large current) can damage the microcontroller and the rest of your circuit.\nThese pullup or pulldown resistors are typically high in value so as to really limit the current flow in the circuit.\nIn the case of the Pico, the microcontroller has internal pullup and pulldown resistors, of between 50k\\(\\Omega\\) and 80k\\(\\Omega\\). Using the mode PinInputPullup activates the pullup resistor in the RP2040, thereby not requiring us to connect an external resistor.",
+    "crumbs": [
+      "Embedded Systems",
+      "GPIO and Interrupts on the Pico"
+    ]
+  },
+  {
+    "objectID": "embedded/gpio-and-interrupts.html#testing-the-program",
+    "href": "embedded/gpio-and-interrupts.html#testing-the-program",
+    "title": "GPIO and Interrupts on the Pico",
+    "section": "Testing the Program",
+    "text": "Testing the Program\nWire up the circuit as shown in the diagram above. Then, flash the program to your pico:\n% tinygo flash -target=pico main.go\nYou should now see the LED connected to GPIO15 blinking every second. When you press the push button, the LED connected to GPIO16 should be illuminated, and it is extinguished when you release the push button.",
+    "crumbs": [
+      "Embedded Systems",
+      "GPIO and Interrupts on the Pico"
+    ]
+  },
+  {
+    "objectID": "embedded/gpio-and-interrupts.html#summary",
+    "href": "embedded/gpio-and-interrupts.html#summary",
+    "title": "GPIO and Interrupts on the Pico",
+    "section": "Summary",
+    "text": "Summary\nIn this tutorial we learnt:\n\nHow to connect external LEDs and push buttons to the Raspberry Pi Pico.\nHow to write a program that uses an interrupt to determine the state of the push button and use that state to take an action - in this case illuminate an LED.",
+    "crumbs": [
+      "Embedded Systems",
+      "GPIO and Interrupts on the Pico"
+    ]
+  },
+  {
+    "objectID": "embedded/blinking-an-led.html#the-program",
+    "href": "embedded/blinking-an-led.html#the-program",
+    "title": "Blinking an LED with TinyGo",
+    "section": "The Program",
+    "text": "The Program\nThe program itself is simple - about 15 lines of code.\n// blink.go\n\npackage main\n\nimport (\n        \"machine\"\n        \"time\"\n)\n\nfunc main() {\n        led := machine.LED\n        led.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n        })\n        \n        for {\n            led.High()\n            time.Sleep(500 * time.Millisecond)\n            led.Low()\n            time.Sleep(500 * time.Millisecond)\n        }\n}",
+    "crumbs": [
+      "Embedded Systems",
+      "Blinking an LED with TinyGo"
+    ]
+  },
+  {
+    "objectID": "embedded/blinking-an-led.html#basic-steps-to-interact-with-gpio",
+    "href": "embedded/blinking-an-led.html#basic-steps-to-interact-with-gpio",
+    "title": "Blinking an LED with TinyGo",
+    "section": "Basic Steps to Interact with GPIO",
+    "text": "Basic Steps to Interact with GPIO\nThe basic steps for interacting with a General Purpose Input-Output (GPIO) pin on the Pico are the same:\n\nImport the machine package.\nCreate a variable that is an instance of the GPIO pin.\nConfigure the instance.\nLoop while doing something with the pin.\n\nLet us examine each of these steps in detail.\n\nImport the machine Package\nimport (\n        \"machine\"\n        ... // other imports\n)\nThe machine package provides an abstraction in Go to the underlying capabilities of the microcontroller target. It also defines some constants that make it easier when referring to the facilities of the microcontroller in Go. As an example, consider the machine.LED constant, which represents the onboard LED on the Pico.\n\n\nCreate an Instance of the Pin\nled := machine.LED\nCreating the variable and initializing it to an instance of Pin allows us to access the variable in other parts of the program.\nNote that the pin is not configured yet. That needs to be done in the next step.\n\n\nConfigure the Pin Instance\nled.Configure(machine.PinConfig{\n        Mode: machine.PinOutput,\n})\nThe Configure function takes an instance of a type called PinConfig as its input. The PinConfig type is defined as below:\ntype PinConfig struct {\n        Mode PinMode\n}\nThe following Modes are accepted:\nconst (\n        PinOutput PinMode = iota\n        PinInput\n        PinInputPulldown\n        PinInputPullup\n        PinAnalog\n        PinUART\n        PinPWM\n        PinI2C\n        PinSPI\n)\nSince we want the LED to blink, but are not concerned about its input, we configure the pin as a PinOutput.\n\n\nLoop\nOnce the GPIO pins are initialized and configured, we loop while performing a set of tasks. This is typical of any microcontroller (or embedded) application.\nIn the case of this trivial “blink” program, we turn the LED on and off periodically inside the loop. For the purposes of this program, we use a time of 500 milliseconds between turning the LED on, and turning it off.\nfor {\n    led.High()\n    time.Sleep(500 * time.Millisecond)\n    led.Low()\n    time.Sleep(500 * time.Millisecond)\n}\nOutputting a High to the pin switches on the LED, while a Low turns it off. The time.sleep merely pauses the program so that the pin isn’t toggled so frequently that the LED never appears to turn off.",
+    "crumbs": [
+      "Embedded Systems",
+      "Blinking an LED with TinyGo"
+    ]
+  },
+  {
+    "objectID": "embedded/blinking-an-led.html#summary",
+    "href": "embedded/blinking-an-led.html#summary",
+    "title": "Blinking an LED with TinyGo",
+    "section": "Summary",
+    "text": "Summary\nIn this tutorial, we learnt to:\n\nInitialize and configure a single GPIO pin using TinyGo.\nOutput binary high or low values to the pin.\nRun our program endlessly.",
+    "crumbs": [
+      "Embedded Systems",
+      "Blinking an LED with TinyGo"
+    ]
+  },
+  {
+    "objectID": "embedded/blinking-an-led.html#references",
+    "href": "embedded/blinking-an-led.html#references",
+    "title": "Blinking an LED with TinyGo",
+    "section": "References",
+    "text": "References\n\nGitHub\nmachine package reference for Pico",
+    "crumbs": [
+      "Embedded Systems",
+      "Blinking an LED with TinyGo"
+    ]
+  },
+  {
+    "objectID": "embedded/channels.html",
+    "href": "embedded/channels.html",
+    "title": "TinyGo Channels on the Pico",
     "section": "",
-    "text": "Charath Ranganathan is the CTO at CoreStory, where they are revolutionizing the software development lifecycle (SDLC) through their AI-based code-to-spec system.\nCharath has been an avid coder for over 4 decades, having started with BASIC on a Casio Handheld computer and then on a Sinclair ZX Spectrum in the early 1980s. He is a polyglot programmer with experience in a wide range of programming languages from COBOL and FORTRAN, through Java and Python, to Go.\nCharath is also very interested in embedded systems programming, especially in TinyGo and Micropython. You can view his tutorials on YouTube.\nWhen he is not working or coding, Charath can be found at his local airport, where he is an FAA-certified flight instructor with the Caltech/JPL Flying Club.",
+    "text": "One of our earlier tutorials covered GoRoutines, which are one of the most common concurrency primitives in TinyGo (and Go). In this tutorial, we look at how goroutines can communicate with one another using what are called “channels”.",
     "crumbs": [
-      "About"
+      "Embedded Systems",
+      "TinyGo Channels on the Pico"
     ]
   },
   {
-    "objectID": "about.html#experience-partial",
-    "href": "about.html#experience-partial",
-    "title": "About",
-    "section": "Experience (partial)",
-    "text": "Experience (partial)\nCoreStoryCTOMarch 2025 - present\nCrowdboticsCTODecember 2018 - March 2025\nPlaytika Santa MonicaVP - EngineeringApril 2012 - April 2016\nSun Microsystems, Inc.Multiple engineering management rolesSeptember 2002 - March 2009\nSIP TechnologiesCo-founderJuly 1996 - September 2002",
+    "objectID": "embedded/channels.html#objective",
+    "href": "embedded/channels.html#objective",
+    "title": "TinyGo Channels on the Pico",
+    "section": "Objective",
+    "text": "Objective\nLet us create a program which allows two goroutines to communicate. The main goroutine should send a message to another goroutine (we’ll call it blinkGreen) with a random number of times to blink an LED. That goroutine blinks that LED that many times, and then returns a random number to the main goroutine, which proceeds to flash another LED that many times.\nIt is a very simple program that illustrates how messages can be easily passed between two goroutines.",
     "crumbs": [
-      "About"
+      "Embedded Systems",
+      "TinyGo Channels on the Pico"
     ]
   },
   {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About",
-    "section": "Education",
-    "text": "Education\nTexas A&M University, College Station, TX M.S. in Electrical Engineering  1990 - 1993\nCollege of Engineering, Anna University, Chennai, India B.E. in Electrical and Electronics Engineering 1986 - 1990",
+    "objectID": "embedded/channels.html#circuit",
+    "href": "embedded/channels.html#circuit",
+    "title": "TinyGo Channels on the Pico",
+    "section": "Circuit",
+    "text": "Circuit\nThe circuit diagram below shows the necessary connections. A more detailed explanation of the circuit diagram appears below the image.\n\n\n\nCircuit Diagram\n\n\nFor this circuit, we connect one LED between GPIO16 and GND through a current-limiting 330\\(\\Omega\\) resistor. The other LED is connected between GPIO15 and GND with another 330\\(\\Omega\\) resistor.",
     "crumbs": [
-      "About"
+      "Embedded Systems",
+      "TinyGo Channels on the Pico"
     ]
+  },
+  {
+    "objectID": "embedded/channels.html#the-program",
+    "href": "embedded/channels.html#the-program",
+    "title": "TinyGo Channels on the Pico",
+    "section": "The Program",
+    "text": "The Program\nThe goal of our program is to allow two goroutines to communicate with each other through a shared channel. The message that is passed between the goroutines is a randomly-generated int which instructs the goroutine on how many times to blink the LED associated with that goroutine.\nA more detailed explanation of the key parts of the program appears below the code listing.\n// channels.go\n\npackage main\n\nimport (\n        \"machine\"\n        \"math/rand\"\n        \"time\"\n)\n\nconst (\n        yellowLed = machine.GP16\n        greenLed  = machine.GP15\n)\n\nfunc configure() {\n        yellowLed.Configure(machine.PinConfig{Mode: machine.PinOutput})\n        greenLed.Configure(machine.PinConfig{Mode: machine.PinOutput})\n}\n\n// Blinks an LED twice a second for a specified number of times.\nfunc blink(p machine.Pin, n int) {\n        for i := 0; i &lt; n; i++ {\n                p.High()\n                time.Sleep(250 * time.Millisecond)\n                p.Low()\n                time.Sleep(250 * time.Millisecond)\n        }\n}\n\n// This goroutine blinks the green LED `numBlinks` times, where\n// numBlinks is specified by the message it receives via the channel.\nfunc blinkGreen(c chan int) {\n        for {\n                // block until you receive a value via the channel\n                numBlinks := &lt;-c\n\n            // then, blink the green LED that many times\n            blink(greenLed, numBlinks)\n        \n            // return a random value to the `main` goroutine so that it blinks\n            // the yellow LED as many times as this random value.\n            numBlinks = rand.Intn(5-1) + 1\n            c &lt;- numBlinks\n        }\n}\n\nfunc main() {\n        // Create an unbuffered channel of ints.\n        c := make(chan int)\n        \n        // Initialize the random seed\n        rand.Seed(time.Now().UnixNano())\n        \n        // Generate a random number between 1 and 5\n        n := rand.Intn(5-1) + 1\n        \n        configure()\n        \n        // Start the blinkGreen goroutine\n        go blinkGreen(c)\n        \n        for {\n            // First blink the yellow LED `n` times\n            blink(yellowLed, n)\n        \n            // then, generate a random number between 1 and 5\n            n = rand.Intn(5-1) + 1\n        \n            // send that random number via the channel to `blinkGreen`\n            // so that it blinks the green LED that many times\n            c &lt;- n\n        \n            // wait for `blinkGreen` to return a random number to you\n            n = &lt;-c\n        } // and repeat indefinitely\n}\nIn the main function, we first create a channel of type int. Channels can transmit many Go types such as ints, strings, bools, and structs. In this case, we choose an int.\nc := make(chan int)\nThe channel is unbuffered because we don’t specify a second argument to the make keyword. If we had specified a second argument to make, the channel would be a buffered channel with a capacity equal to that second argument.\nFor example,\nc := make(chan int, 5)\nwould create a buffered channel of ints with a capacity of 5.\nCreating an unbuffered channel forces any goroutines that receive the values from that channel to block until a value is received via the channel. This is a nice way for us to pause execution of a goroutine until we signal it to start running via a message that we pass to it.\nWe then start up the blinkGreen goroutine which blinks the green LED. The number of times that it blinks the green LED depends on the value it receives via the channel, c.\nThe following line in blinkGreen blocks until a message is received via the channel. The syntax &lt;-c indicates that numBlinks is being assigned the value out of the channel. The easiest way to figure out the syntax is to note the direction of the arrow. In this case, the arrow originates in the channel (as evidenced by where its tail starts).\nnumBlinks := &lt;-c\nOnce the message is received, the blinkGreen goroutine is unblocked. It, then, blinks the green LED numBlinks times.\nblink(greenLed, numBlinks)\nFinally, the goroutine generates a random integer between 1 and 5 and sends that back to the main goroutine via the same channel.\nnumBlinks = rand.Intn(5-1) + 1\nc &lt;- numBlinks\nNotice how in line 42, the channel receives the value because the arrow originates in numBlinks and terminates in the channel.\nWhile all this has been going on, the main goroutine waits for a message back on the channel.\nn = &lt;-c\nWhen it receives the random number from the channel (which was sent from blinkGreen in line 42), the main goroutine is unblocked and blinks the yellow LED n times.\nThis sequence repeats indefinitely.",
+    "crumbs": [
+      "Embedded Systems",
+      "TinyGo Channels on the Pico"
+    ]
+  },
+  {
+    "objectID": "embedded/channels.html#testing-the-program",
+    "href": "embedded/channels.html#testing-the-program",
+    "title": "TinyGo Channels on the Pico",
+    "section": "Testing the Program",
+    "text": "Testing the Program\nWire up the circuit as shown in the diagram above. Then, flash the program to your pico:\n% tinygo flash -target=pico channels.go\nYou will notice that the yellow LED blinks a certain number of times, followed by the green LED, and over and over again. The number of times each LED blinks is random.",
+    "crumbs": [
+      "Embedded Systems",
+      "TinyGo Channels on the Pico"
+    ]
+  },
+  {
+    "objectID": "embedded/channels.html#summary",
+    "href": "embedded/channels.html#summary",
+    "title": "TinyGo Channels on the Pico",
+    "section": "Summary",
+    "text": "Summary\nIn this tutorial we learnt how to use Go channels as a mechanism for communication between goroutines.",
+    "crumbs": [
+      "Embedded Systems",
+      "TinyGo Channels on the Pico"
+    ]
+  },
+  {
+    "objectID": "embedded/concurrency-goroutines.html",
+    "href": "embedded/concurrency-goroutines.html",
+    "title": "Concurrency with Goroutines",
+    "section": "",
+    "text": "Let us modify the simple blink program from our earlier tutorial to run multiple tasks simultaneously. This is what we call concurrency.\nGo has a number of primitives to help make programmers’ lives easier when they create concurrent programs. In this tutorial, we will look at one of them, namely Goroutines.",
+    "crumbs": [
+      "Embedded Systems",
+      "Concurrency with Goroutines"
+    ]
+  },
+  {
+    "objectID": "embedded/concurrency-goroutines.html#the-program",
+    "href": "embedded/concurrency-goroutines.html#the-program",
+    "title": "Concurrency with Goroutines",
+    "section": "The Program",
+    "text": "The Program\nThe aim of our program is to do the following two things at once:\n\nBlink the onboard LED twice a second.\nPrint the phrase “hello concurrently” to the serial (UART) port.\n\nWe modify the blink.go program from the earlier tutorial to add:\n\nA function (named printHello) that prints “hello concurrently” in an infinite loop.\nA goroutine that spawns this function so that it runs concurrent to the main thread that is blinking the LED.\n\npackage main\n\nimport (\n    \"machine\"\n    \"time\"\n)\n\nfunc main() {\n    led := machine.LED\n    led.Configure(machine.PinConfig{\n            Mode: machine.PinOutput,\n    })\n        \n    go printHello()\n    \n    for {\n        led.High()\n        time.Sleep(500 * time.Millisecond)\n        led.Low()\n        time.Sleep(500 * time.Millisecond)\n    }\n}\n\nfunc printHello() {\n    for {\n        println(\"hello concurrently\")\n        time.Sleep(time.Second)\n    }\n}",
+    "crumbs": [
+      "Embedded Systems",
+      "Concurrency with Goroutines"
+    ]
+  },
+  {
+    "objectID": "embedded/concurrency-goroutines.html#testing-the-program",
+    "href": "embedded/concurrency-goroutines.html#testing-the-program",
+    "title": "Concurrency with Goroutines",
+    "section": "Testing the Program",
+    "text": "Testing the Program\nEnsure that your serial console is set up as described in my earlier tutorial on setting up the Pico for serial debugging.\nFlash the program to your pico:\n% tinygo flash -target=pico concurrentblink.go\nYou should see the onboard LED blinking, while the phrase “hello concurrently” is printed every second in the serial monitor.",
+    "crumbs": [
+      "Embedded Systems",
+      "Concurrency with Goroutines"
+    ]
+  },
+  {
+    "objectID": "embedded/concurrency-goroutines.html#references",
+    "href": "embedded/concurrency-goroutines.html#references",
+    "title": "Concurrency with Goroutines",
+    "section": "References",
+    "text": "References\n\nRob Pike’s presentation on “Concurrency is not parallelism”.",
+    "crumbs": [
+      "Embedded Systems",
+      "Concurrency with Goroutines"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Recent Articles",
+    "section": "",
+    "text": "Welcome to pragmatik.tech. This is a site dedicated to technology, specifically the following:\n\nEmbedded programming in TinyGo and Micropython, with an emphasis on the Raspberry Pi Pico.\nGenerative AI programming in Java (using LangChain4J) and Python.\nMachine learning (coming soon).\n\n\nRecent Articles\n\n\n\n\n\n\n\n\n\n\nTinyGo Channels on the Pico\n\n\nConcurrency via channels.\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 31, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nGPIO and Interrupts on the Pico\n\n\nStop interrupting me!\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 13, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nConcurrency with Goroutines\n\n\nDoing multiple things at once.\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlinking an LED with TinyGo\n\n\nYour first program.\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 4, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nSet up your Pico with TinyGo and VScode\n\n\nLet the fun begin!\n\n\n\nEmbedded Systems\n\nTinyGo\n\n\n\n\nCharath Ranganathan\n\n\nJul 1, 2022\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n Back to top"
   }
 ]
